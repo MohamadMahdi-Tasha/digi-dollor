@@ -123,9 +123,15 @@ section, footer {display: none;}
     color: white;
 }
 
+.dv-on-mobile-logo {
+    display: none;
+    margin-left: 1rem;
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-header-left-side {width: 100%;}
     .dv-on-mobile-nav-toggle {display: flex;}
+    .dv-on-mobile-logo {display: block;}
 }
