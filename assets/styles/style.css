@@ -568,7 +568,7 @@ footer > :first-child{
 .dv-bottom-side-btns > button:last-of-type {margin-right: 1rem;}
 .dv-w-100 {width: 100%;}
 .dv-w-15 {width: 15%;}
-.dv-rounded-2 {border-radius: 2rem}
+.dv-rounded-2 {border-radius: 2rem !important;}
 
 .dv-main-top {
     text-align: center;
