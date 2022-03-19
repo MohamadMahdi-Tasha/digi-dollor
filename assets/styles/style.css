@@ -104,4 +104,8 @@ section, footer {display: none;}
     padding-right: 1rem;
 }
 
-/*Just For Now*/
+/*Media Query*/
+@media (max-width: 1021px) {
+    .dv-header-right-side {width: 90%;}
+    .dv-header-left-side {display: none;}
+}
