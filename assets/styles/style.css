@@ -78,13 +78,17 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin-left: 1rem;}
 .dv-sect-2-buy-and-sell-btns.sell {background-color: var(--orange);}
 .dv-sect-2-buy-and-sell-btns.buy {background-color: var(--blue);}
-.dv-sect-2-buy-and-sell-btns.buy:hover {background-color: var(--blue-darker);}
-.dv-sect-2-buy-and-sell-btns.buy:active {background-color: var(--blue-darkest);}
+.dv-sect-2-buy-and-sell-btns.buy:hover, .dv-sect-4-tutorial-btn:hover {background-color: var(--blue-darker);}
+.dv-sect-2-buy-and-sell-btns.buy:active, .dv-sect-4-tutorial-btn:active {background-color: var(--blue-darkest);}
 .dv-sect-2-top-btn-holder > button:hover {background-color: #d5d5d5;}
 .dv-sect-2-top-btn-holder > button:active {background-color: #b4b4b4;}
 .dv-sect-2-top-btn-holder > button.active:hover {background-color: #efefef;}
 .dv-sect-2-top-btn-holder > button.active:active {background-color: #dbdbdb;}
 .dv-sect-2-bottom-see-all > a{color: var(--blue) !important;}
+.dv-sect-3-card > img{margin-bottom: 2rem;}
+.dv-sect-4-blog-continue-reading {color: var(--blue);}
+.dv-sect-4-blog-bottom-side-left-side > img {margin-right: 1rem;}
+.dv-sect-4-blog-img {margin-left: 1rem;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -433,8 +437,126 @@ th, td {
     color: white;
 }
 
-.dv-sect-3-card > img{
+/*Fourth Section*/
+.dv-sect-4 {
+    background-color: white;
+    padding: 2rem;
+}
+
+.dv-sect-4-top-side {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.dv-sect-4-top-title {
+    font-size: 29px;
+    margin-bottom: 1rem;
+}
+
+.dv-sect-4-top-paragraph {
+    color: #68696C;
     margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.dv-sect-4-tutorial-btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 15%;
+    font-size: 14px;
+    color: white;
+    background-color: var(--blue);
+    border: none;
+    transition: .3s;
+}
+
+.dv-sect-4-middle-side {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.dv-sect-4-tutorials-watched {
+    font-size: 20px;
+    color: #68696C;
+}
+
+.dv-sect-4-media-link-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv-sect-4-tutorials-watched > span {color: var(--blue);}
+.dv-sect-4-media-link {
+    width: 70%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding: 1rem;
+    border-bottom: 1.5px solid #D4D4D4;
+    margin-bottom: 2rem;
+}
+
+
+.dv-sect-4-blogs-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.dv-sect-4-blog {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.dv-sect-4-blog-details {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dv-sect-4-blog-title {
+    font-size: 18px;
+    color: #68696C;
+    margin-bottom: 1rem;
+}
+
+.dv-sect-4-blog-paragraph {
+    font-size: 12px;
+    color: #68696C;
+    margin-bottom: .5rem;
+}
+
+.dv-sect-4-blog-bottom-side {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.dv-sect-4-blog-bottom-side {
+    display: inline-flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.dv-sect-4-blog-bottom-side-right-side {
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+}
+
+.dv-sect-4-blog-bottom-side-right-side > h5 {
+    color: #68696C;
+    margin-right: 1rem;
+}
+
+.dv-sect-4-blog-bottom-side-left-side {
+    display: inline-flex;
+    align-items: center;
 }
 
 /*Media Query*/
