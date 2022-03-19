@@ -75,8 +75,10 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin-left: 1rem;}
 .dv-sect-2-buy-and-sell-btns.sell {background-color: var(--orange);}
 .dv-sect-2-buy-and-sell-btns.buy {background-color: var(--blue);}
-.buy:hover, .dv-sect-4-tutorial-btn:hover {background-color: var(--blue-darker);}
-.buy:active, .dv-sect-4-tutorial-btn:active {background-color: var(--blue-darkest);}
+.buy:hover, .dv-sect-4-tutorial-btn:hover, .bg-blue:hover {background-color: var(--blue-darker);}
+.buy:active, .dv-sect-4-tutorial-btn:active, .bg-blue:active {background-color: var(--blue-darkest);}
+.sell:hover {background-color: var(--darker-orange);}
+.sell:active {background-color: var(--darkest-orange);}
 .dv-sect-2-top-btn-holder > button:hover {background-color: #d5d5d5;}
 .dv-sect-2-top-btn-holder > button:active {background-color: #b4b4b4;}
 .dv-sect-2-top-btn-holder > button.active:hover {background-color: #efefef;}
@@ -92,6 +94,26 @@ th {color: #A3A5A8 !important;}
 .dv-footer-bottom-side > p > span {color: var(--diamond);}
 .dv-footer-bottom-side > h3 > span {color: var(--orange);}
 .dv-footer-top-side-left-side-btn-holder:first-of-type {margin-left: 1rem;}
+.dv-header-links-item.no-margin{margin: 0 !important;}
+.dv-header.rounded {
+    border-radius: 1rem;
+    position: static;
+}
+
+.dv-header-holder {
+    width: 100%;
+    padding: 2rem;
+}
+
+.bg-blue {
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    border: none;
+    transition: .3s;
+    background-color: var(--blue);
+}
+
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -287,7 +309,7 @@ th {color: #A3A5A8 !important;}
     white-space: nowrap;
 }
 
-.dv-sect-1-top-btn.bg-orange {
+.bg-orange {
     background-color: var(--orange);
     color: white;
     border: none;
