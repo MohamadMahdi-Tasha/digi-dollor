@@ -84,6 +84,7 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-top-btn-holder > button:active {background-color: #b4b4b4;}
 .dv-sect-2-top-btn-holder > button.active:hover {background-color: #efefef;}
 .dv-sect-2-top-btn-holder > button.active:active {background-color: #dbdbdb;}
+.dv-sect-2-bottom-see-all > a{color: var(--blue) !important;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -361,8 +362,17 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-table {
     background-color: white;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
     box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+
+.dv-sect-2-bottom-see-all {
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 th, td {
