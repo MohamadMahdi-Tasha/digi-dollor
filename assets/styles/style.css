@@ -60,9 +60,7 @@ sub, .dv-portfolio-txt {color: var(--gray);}
 .dv-portfolio-txt-money,.dv-sect-1-bottom-card > :first-child > h3 {font-weight: bold;}
 .dv-sect-1-bottom-card:hover {background-color: #d9d9d9;}
 .dv-sect-1-bottom-card-bottom-side {text-align: left;}
-section:not(.dv-sect-1) {
-    display: none;
-}
+section:not(.dv-sect-1) {display: none;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -247,6 +245,7 @@ section:not(.dv-sect-1) {
     font-size: 20px;
     border-radius: 2rem;
     transition: .3s;
+    white-space: nowrap;
 }
 
 .dv-sect-1-top-btn.bg-orange {
@@ -265,6 +264,7 @@ section:not(.dv-sect-1) {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 
 .dv-sect-1-bottom-card {
@@ -309,4 +309,13 @@ section:not(.dv-sect-1) {
     .dv-header-left-side {width: 100%;}
     .dv-on-mobile-nav-toggle {display: flex;}
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
+    .dv-sect-1-top-btns-holder > a {width: 50%;}
+}
+
+@media (max-width: 863px) {
+    .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
+    .dv-sect-1-content {
+        width: 90%;
+        height: auto;
+    }
 }
