@@ -89,6 +89,9 @@ th {color: #A3A5A8 !important;}
 .dv-sect-4-blog-author {color: #68696C;}
 .dv-sect-4-blog:hover {background-color: #e2e2e2;}
 .dv-sect-4-blog:active {background-color: #bababa;}
+.dv-footer-bottom-side > p > span {color: var(--diamond);}
+.dv-footer-bottom-side > h3 > span {color: var(--orange);}
+.dv-footer-top-side-left-side-btn-holder:first-of-type {margin-left: 1rem;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -503,6 +506,7 @@ th, td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    padding: 3rem 0 3rem 0;
 }
 
 .dv-sect-4-blog {
@@ -588,16 +592,13 @@ footer > :first-child{
     margin-bottom: 2rem;
 }
 
-.dv-footer-top-side-left-side-btn-holder:first-of-type {
-    margin-left: 1rem;
-}
-
 .dv-footer-top-side-left-side-btn-holder > a > button {
     width: 100%;
     font-size: 18px;
     border-radius: 2rem;
     transition: .3s;
     padding: .5rem;
+    white-space: nowrap;
 }
 
 .dv-footer-list-holder {
@@ -623,9 +624,6 @@ footer > :first-child{
     color: white;
 }
 
-.dv-footer-bottom-side > p > span {color: var(--diamond);}
-.dv-footer-bottom-side > h3 > span {color: var(--orange);}
-
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
@@ -637,11 +635,12 @@ footer > :first-child{
     .dv-sect-4-media-link {grid-template-columns: repeat(3, 1fr)}
     .dv-sect-4-blogs-holder {grid-template-columns: repeat(1,1fr);}
     .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
+    .dv-footer-list-holder {grid-template-columns: repeat(2, 1fr);}
+    .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 50%;}
 }
 
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
-    .dv-sect-1 > :only-child {background-image: none;}
     .dv-sect-2-td-d-inline-flex.w-100 {display: flex;flex-direction: column;}
     .dv-sect-2-td-d-inline-flex.w-100 > a {width: 100%;}
     .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin: 0 0 1rem 0;}
@@ -649,9 +648,31 @@ footer > :first-child{
     .dv-sect-3-cards {grid-template-columns: repeat(2, 1fr);}
     .dv-sect-4-tutorial-btn {width: 50%;}
     .dv-sect-4-middle-side > img {width: 100%;}
+    .dv-footer-bottom-side > p{margin-bottom: 1rem;}
+
+    .dv-footer-bottom-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
     .dv-sect-1-content {
         width: 100%;
         height: auto;
+    }
+}
+
+@media (max-width: 577px) {
+    .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 100%;}
+    .dv-footer-top-side-right-side > img,
+    .dv-footer-top-side{margin-bottom: 1rem;}
+    .dv-footer-list-holder {grid-template-columns: repeat(1, 1fr);gap: 2rem;}
+    .dv-footer-top-side {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
     }
 }
 
