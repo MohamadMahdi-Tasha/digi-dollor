@@ -90,6 +90,8 @@ th {color: #A3A5A8 !important;}
 .dv-sect-4-blog-bottom-side-left-side > img {margin-right: 1rem;}
 .dv-sect-4-blog-img {margin-left: 1rem;}
 .dv-sect-4-blog-author {color: #68696C;}
+.dv-sect-4-blog:hover {background-color: #e2e2e2;}
+.dv-sect-4-blog:active {background-color: #bababa;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -510,6 +512,8 @@ th, td {
     background-color: white;
     padding: 1rem;
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    border-radius: .5rem;
+    transition: .3s;
 }
 
 .dv-sect-4-blog-details {
