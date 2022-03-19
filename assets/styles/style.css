@@ -144,16 +144,20 @@ section, footer {display: none;}
     height: 100%;
     background-color: rgba(0,0,0,.5);
     left: 100%;
+    transition: .3s;
+    display: none;
 }
 
 #dv-mobile-nav {
     position: fixed;
     width: 70%;
     height: 100%;
-    background-color: var(--indigo);
+    background-color: var(--high-dark-indigo);
     box-shadow: 0 0 30px rgba(0,0,0,.2);
     overflow: scroll;
     left: 100%;
+    transition: .3s;
+    display: none;
 }
 
 .dv-mobile-nav-top {
@@ -185,5 +189,5 @@ section, footer {display: none;}
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-header-left-side {width: 100%;}
     .dv-on-mobile-nav-toggle {display: flex;}
-    .dv-on-mobile-logo {display: block;}
+    .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
 }
