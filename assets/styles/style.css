@@ -454,6 +454,7 @@ th, td {
     .dv-sect-2-td-d-inline-flex.w-100 > a {width: 100%;}
     .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin: 0 0 1rem 0;}
     .dv-sect-2-td-d-inline-flex  {margin-top: 2rem;}
+    .dv-sect-3-cards {grid-template-columns: repeat(2, 1fr);}
     .dv-sect-1-content {
         width: 100%;
         height: auto;
@@ -462,4 +463,6 @@ th, td {
 
 @media (max-width: 480px) {
     .dv-sect-2 {display: none;}
+    .dv-sect-3 {padding: 2rem;}
+    .dv-sect-3-cards {grid-template-columns: repeat(1, 1fr);}
 }
