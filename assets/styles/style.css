@@ -205,13 +205,22 @@ section:not(.dv-sect-1) {display: none;}
 /*First Section*/
 .dv-sect-1 {
     min-height: 100vh;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dv-sect-1 > :only-child {
     background-image: url("../img/home/section-1/img-bg.jpg");
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dv-sect-1-content {
@@ -315,7 +324,7 @@ section:not(.dv-sect-1) {display: none;}
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
 
-    .dv-sect-1 {
+    .dv-sect-1 > :only-child {
         background-image: none;
         padding: 1rem;
     }
