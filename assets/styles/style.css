@@ -568,6 +568,9 @@ th, td {
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
     .dv-sect-1-top-btns-holder > a {width: 50%;}
     .dv-sect-2-top-btn-holder > button {width: 25%;}
+    .dv-sect-4-media-link {grid-template-columns: repeat(3, 1fr)}
+    .dv-sect-4-blogs-holder {grid-template-columns: repeat(1,1fr);}
+    .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
 }
 
 @media (max-width: 863px) {
@@ -578,6 +581,8 @@ th, td {
     .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin: 0 0 1rem 0;}
     .dv-sect-2-td-d-inline-flex  {margin-top: 2rem;}
     .dv-sect-3-cards {grid-template-columns: repeat(2, 1fr);}
+    .dv-sect-4-tutorial-btn {width: 50%;}
+    .dv-sect-4-middle-side > img {width: 100%;}
     .dv-sect-1-content {
         width: 100%;
         height: auto;
@@ -586,6 +591,6 @@ th, td {
 
 @media (max-width: 480px) {
     .dv-sect-2 {display: none;}
-    .dv-sect-3 {padding: 2rem;}
     .dv-sect-3-cards {grid-template-columns: repeat(1, 1fr);}
+    .dv-sect-4-media-link {grid-template-columns: repeat(2, 1fr)}
 }
