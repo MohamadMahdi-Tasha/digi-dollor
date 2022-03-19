@@ -16,6 +16,9 @@
     --darker-orange: #d48719;
     --darkest-orange: #af6f14;
     --gray: #707070;
+    --blue: #185ADB;
+    --blue-darker: #154fc1;
+    --blue-darkest: #113f99;
 }
 
 /*Default Styles*/
@@ -26,6 +29,7 @@ button {cursor: pointer;}
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: #ECECEC;
 }
 
 * {
@@ -33,6 +37,7 @@ body {
     margin: 0;
     font-family: 'Vazirmatn UI', sans-serif;
     font-weight: normal;
+    box-sizing: border-box;
 }
 
 /*Styles*/
@@ -43,8 +48,10 @@ footer {display: none;}
 .dv-header-left-side-btn-holder {width: 40%;}
 .dv-header-left-side-btn.no-bg:hover {background-color: var(--indigo);}
 .dv-header-left-side-btn.no-bg:active {background-color: var(--daker-indigo);}
-.dv-header-left-side-btn.bg-orange:hover, .dv-sect-1-top-btn.bg-orange:hover {background-color: var(--darker-orange);}
-.dv-header-left-side-btn.bg-orange:active, .dv-sect-1-top-btn.bg-orange:active {background-color: var(--darkest-orange);}
+.dv-header-left-side-btn.bg-orange:hover, .dv-sect-1-top-btn.bg-orange:hover,
+.dv-sect-2-buy-and-sell-btns.sell:hover{background-color: var(--darker-orange);}
+.dv-header-left-side-btn.bg-orange:active, .dv-sect-1-top-btn.bg-orange:active,
+.dv-sect-2-buy-and-sell-btns.buy:active{background-color: var(--darkest-orange);}
 .dv-header-left-side-btn-holder:first-of-type {margin-left: 1rem;}
 .dv-header-links > .dv-header-links-item:first-child,.dv-on-mobile-logo {margin-top: 1rem;}
 .dv-mobile-nav-top > a {margin-left: 5rem;}
@@ -56,11 +63,27 @@ footer {display: none;}
 .dv-sect-1-top-btn.border-diamond:active {background-color: var(--diamond-darker);}
 .dv-sect-1-bottom-cards-holder > a {color: black;}
 .dv-sect-1-bottom-card-top-img {margin-right: 1rem;}
-sub, .dv-portfolio-txt {color: var(--gray);}
+sub, .dv-portfolio-txt {color: var(--gray);,}
 .dv-portfolio-txt-money,.dv-sect-1-bottom-card > :first-child > h3 {font-weight: bold;}
 .dv-sect-1-bottom-card:hover {background-color: #d9d9d9;}
 .dv-sect-1-bottom-card-bottom-side {text-align: left;}
-section:not(.dv-sect-1) {display: none;}
+.dv-sect-2-td-d-inline-flex > span:last-of-type {color: #A3A5A8;}
+.dv-sect-2-td-d-inline-flex > img {margin-left: 1rem;}
+th {color: #A3A5A8 !important;}
+.dv-sect-2-tr-striped {background-color: #F5F5F5;}
+.dv-sect-2-td-number-red {color: #F6465D;font-weight: bold;}
+.dv-sect-2-td-number-green {color: var(--diamond);font-weight: bold;}
+.dv-sect-2-td-d-inline-flex.w-100 {width: 100%;}
+.dv-sect-2-td-d-inline-flex.w-100 > a {width: 50%;}
+.dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin-left: 1rem;}
+.dv-sect-2-buy-and-sell-btns.sell {background-color: var(--orange);}
+.dv-sect-2-buy-and-sell-btns.buy {background-color: var(--blue);}
+.dv-sect-2-buy-and-sell-btns.buy:hover {background-color: var(--blue-darker);}
+.dv-sect-2-buy-and-sell-btns.buy:active {background-color: var(--blue-darkest);}
+.dv-sect-2-top-btn-holder > button:hover {background-color: #d5d5d5;}
+.dv-sect-2-top-btn-holder > button:active {background-color: #b4b4b4;}
+.dv-sect-2-top-btn-holder > button.active:hover {background-color: #efefef;}
+.dv-sect-2-top-btn-holder > button.active:active {background-color: #dbdbdb;}
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -309,6 +332,62 @@ section:not(.dv-sect-1) {display: none;}
 .dv-sect-1-bottom-card-bottom-side-bottom > :first-child > :last-child {
     margin-top: -.4rem;
     margin-right: .5rem;
+}
+
+/*Second Section*/
+.dv-sect-2 {padding: 2rem;}
+.dv-sect-2-top-btn-holder {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.dv-sect-2-top-btn-holder > button{
+    width: 5%;
+    padding: 1rem;
+    background-color: #F3F3F3;
+    color: var(--gray);
+    border: none;
+    border-radius: .5rem .5rem 0 0;
+    transition: .3s;
+}
+
+.dv-sect-2-top-btn-holder > button.active{
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.dv-sect-2-table {
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+
+th, td {
+    text-align: right;
+    padding: 1rem;
+}
+
+.dv-sect-2-td-d-inline-flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.dv-sect-2-td-d-inline-flex > span:first-of-type {
+    font-weight: bold;
+    color: black;
+    margin-left: 1rem;
+}
+
+.dv-sect-2-buy-and-sell-btns {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    border: none;
+    transition: .3s;
 }
 
 /*Media Query*/
