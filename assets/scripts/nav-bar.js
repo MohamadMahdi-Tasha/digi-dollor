@@ -7,12 +7,14 @@ const on_mobile_nav_toggle = document.getElementById('dv-on-mobile-nav-toggle');
 function show_nav() {
     mobile_nav.style.left = '30%';
     mobile_nav_bg.style.left = '0';
+    mobile_nav.setAttribute('data-opened', true);
 }
 
 // A Function That Closes Nav Bar
 function close_nav() {
     mobile_nav.style.left = '100%';
     mobile_nav_bg.style.left = '100%';
+    mobile_nav.setAttribute('data-opened', false);
 }
 
 // Adding Event Listener That Listens To Click On Mobile Nav Bar Toggler And Shows Nav Bar
