@@ -1,6 +1,8 @@
-/*Importing Fonts*/
+/*Importing Part*/
 @import "../fonts/font-vazir/Vazirmatn-UI-font-face.css";
 @import "../fonts/font-yekan-bakh/Yekan Bakh Regular.css";
+@import "buttons.css";
+
 
 /*Variables*/
 :root {
@@ -45,10 +47,6 @@ body {
 /*Header Section*/
 .dv-header-right-side {width: 60%;}
 .dv-header-left-side-btn-holder {width: 40%;}
-.dv-header-left-side-btn.no-bg:hover {background-color: var(--indigo);}
-.dv-header-left-side-btn.no-bg:active {background-color: var(--daker-indigo);}
-.bg-orange:hover, .sell:hover{background-color: var(--darker-orange);}
-.bg-orange:active, .buy:active{background-color: var(--darkest-orange);}
 .dv-header-left-side-btn-holder:first-of-type {margin-left: 1rem;}
 .dv-header-links > .dv-header-links-item:first-child,.dv-on-mobile-logo {margin-top: 1rem;}
 .dv-mobile-nav-top > a {margin-left: 5rem;}
@@ -56,8 +54,6 @@ body {
 #dv-mobile-nav::-webkit-scrollbar {display: none;}
 .dv-sect-1-top-btns-holder > a {width: 25%;}
 .dv-sect-1-top-btns-holder > :last-child {margin-right: 1rem;}
-.border-diamond:hover {background-color: var(--diamond);color: white;}
-.border-diamond:active {background-color: var(--diamond-darker);}
 .dv-sect-1-bottom-cards-holder > a {color: black;}
 .dv-sect-1-bottom-card-top-img {margin-right: 1rem;}
 sub, .dv-portfolio-txt {color: var(--gray);,}
@@ -73,16 +69,6 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-td-d-inline-flex.w-100 {width: 100%;}
 .dv-sect-2-td-d-inline-flex.w-100 > a {width: 50%;}
 .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin-left: 1rem;}
-.dv-sect-2-buy-and-sell-btns.sell {background-color: var(--orange);}
-.dv-sect-2-buy-and-sell-btns.buy {background-color: var(--blue);}
-.buy:hover, .dv-sect-4-tutorial-btn:hover, .bg-blue:hover {background-color: var(--blue-darker);}
-.buy:active, .dv-sect-4-tutorial-btn:active, .bg-blue:active {background-color: var(--blue-darkest);}
-.sell:hover {background-color: var(--darker-orange);}
-.sell:active {background-color: var(--darkest-orange);}
-.dv-sect-2-top-btn-holder > button:hover {background-color: #d5d5d5;}
-.dv-sect-2-top-btn-holder > button:active {background-color: #b4b4b4;}
-.dv-sect-2-top-btn-holder > button.active:hover {background-color: #efefef;}
-.dv-sect-2-top-btn-holder > button.active:active {background-color: #dbdbdb;}
 .dv-sect-2-bottom-see-all > a{color: var(--blue) !important;}
 .dv-sect-3-card > img{margin-bottom: 2rem;}
 .dv-sect-4-blog-continue-reading {color: var(--blue);}
@@ -154,29 +140,6 @@ th {color: #A3A5A8 !important;}
     justify-content: end;
     margin-right: 2rem;
     margin-left: 2rem;
-}
-
-.dv-header-left-side-btn {
-    width: 100%;
-    padding: 1rem;
-    font-size: 16px;
-}
-
-
-.bg-orange {
-    transition: .3s;
-    background-color: var(--orange);
-    border-radius: 2rem;
-    border: none;
-    color: white;
-}
-
-.dv-header-left-side-btn.no-bg {
-    background-color: unset;
-    border: none;
-    transition: .3s;
-    border-radius: 2rem;
-    color: white;
 }
 
 .dv-header-left-side > :nth-child(2) {
@@ -302,27 +265,6 @@ th {color: #A3A5A8 !important;}
     margin-bottom: 3rem;
 }
 
-.dv-sect-1-top-btn {
-    width: 100%;
-    padding: .75rem;
-    font-size: 20px;
-    border-radius: 2rem;
-    transition: .3s;
-    white-space: nowrap;
-}
-
-.bg-orange {
-    background-color: var(--orange);
-    color: white;
-    border: none;
-}
-
-.border-diamond {
-    background: unset;
-    border: 1px solid var(--diamond);
-    color: var(--diamond);
-}
-
 .dv-sect-1-bottom-cards-holder {
     display: grid;
     gap: 2rem;
@@ -421,14 +363,6 @@ th, td {
     margin-left: 1rem;
 }
 
-.dv-sect-2-buy-and-sell-btns {
-    width: 100%;
-    padding: 1rem;
-    border-radius: 2rem;
-    color: white;
-    border: none;
-    transition: .3s;
-}
 /*Third Section*/
 .dv-sect-3 {
     text-align: center;
@@ -484,17 +418,6 @@ th, td {
     color: #68696C;
     margin-bottom: 2rem;
     font-size: 18px;
-}
-
-.dv-sect-4-tutorial-btn {
-    padding: 1rem;
-    border-radius: 2rem;
-    width: 15%;
-    font-size: 14px;
-    color: white;
-    background-color: var(--blue);
-    border: none;
-    transition: .3s;
 }
 
 .dv-sect-4-middle-side {
@@ -792,6 +715,10 @@ footer > :first-child{
     font-size: 16px;
 }
 
+.dv-w-100 {width: 100%;}
+.dv-w-15 {width: 15%;}
+.dv-rounded-2 {border-radius: 2rem}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
@@ -841,7 +768,7 @@ footer > :first-child{
         width: 100%;
         padding: 3rem;
     }
-    
+
     .dv-footer-top-side {
         display: flex;
         flex-direction: column;
