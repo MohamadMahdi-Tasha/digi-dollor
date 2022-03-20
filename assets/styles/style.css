@@ -728,6 +728,7 @@ footer > :first-child{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 3rem;
 }
 
 .dv-about-us-sect-1-inner {
@@ -773,6 +774,24 @@ footer > :first-child{
     .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
     .dv-footer-list-holder {grid-template-columns: repeat(2, 1fr);}
     .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 50%;}
+    .dv-about-us-sect-2-right-side, .dv-about-us-sect-2-left-side,
+    .dv-about-us-sect-3-right-side, .dv-about-us-sect-3-left-side{width: 100%;}
+    .dv-about-us-sect-3-right-side > img {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .dv-about-us-sect-2-left-side > img {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .dv-about-us-sect-2, .dv-about-us-sect-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
 }
 
 @media (max-width: 863px) {
@@ -786,6 +805,7 @@ footer > :first-child{
     .dv-sect-4-middle-side > img {width: 100%;}
     .dv-footer-bottom-side > p{margin-bottom: 1rem;}
     .dv-media-863-w-50 {width: 50%;}
+    .dv-about-us-sect-1-inner {width: 100%;}
 
     .dv-footer-bottom-side {
         display: flex;
