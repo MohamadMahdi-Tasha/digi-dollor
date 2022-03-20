@@ -1003,6 +1003,7 @@ textarea {resize: none;}
     .dv-contact-us-section-1-inner {padding: 0;}
     .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
     .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 2rem;}
+    .dv-log-in-form {width: 70%;}
 
     .dv-contact-us-form {
         width: 100%;
@@ -1069,6 +1070,19 @@ textarea {resize: none;}
     .dv-contact-us-section-1-cards-holder {grid-template-columns: repeat(1, 1fr);}
     .dv-contact-section-1-card:nth-of-type(2) {margin: 0 !important;}
     .dv-main-inner-holder {width: 100%;}
+    .dv-body-log-in {padding: 0;}
+    .dv-log-in-mid {width: 100%;}
+
+    .dv-log-in-form {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .dv-footer-top-side {
         display: flex;
         flex-direction: column;
