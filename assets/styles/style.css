@@ -709,6 +709,9 @@ footer > :first-child{
 
 /*About Us Page*/
 .dv-body-about-us {background-color: white;}
+.dv-about-us-sect-3-left-side {width: 50%;}
+.dv-about-us-sect-3-right-side {margin-left: 1rem;}
+
 .dv-title {
     font-size: 22px;
     margin-bottom: 3rem;
@@ -738,19 +741,19 @@ footer > :first-child{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.dv-about-us-sect-2 {
+.dv-about-us-sect-2, .dv-about-us-sect-3 {
     display: inline-flex;
     align-items: center;
     width: 100%;
     padding: 3rem;
 }
 
-.dv-about-us-sect-2-right-side {
+.dv-about-us-sect-2-right-side{
     margin-left: 1rem;
     width: 50%;
 }
 
-.dv-about-us-sect-2-left-side {
+.dv-about-us-sect-2-left-side,.dv-about-us-sect-3-right-side {
     width: 50%;
     display: flex;
     justify-content: center;
