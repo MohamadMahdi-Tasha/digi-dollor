@@ -707,6 +707,36 @@ footer > :first-child{
     margin-bottom: 1rem;
 }
 
+/*About Us Page*/
+.dv-title {
+    font-size: 22px;
+    margin-bottom: 3rem;
+}
+
+.dv-paragraph {
+    color: #868D94;
+    font-size: 18px;
+    margin-bottom: 4rem;
+}
+
+.dv-about-us-sect-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dv-about-us-sect-1-inner {
+    width: 50%;
+    text-align:  center;
+    margin-top: 10rem;
+}
+
+.dv-about-us-sect-1-cards-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
