@@ -70,6 +70,17 @@ button {
     transition: .3s;
 }
 
+.dv-btn-log-in {
+    border-radius: .5rem;
+    background-color: var(--form-btn);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+}
+
 /*Active And Hovers*/
 .dv-btn-bg-none:hover {background-color: var(--blue);}
 .dv-btn-bg-none:active {background-color: var(--blue-darker);}
@@ -84,6 +95,8 @@ button {
 .dv-tab-btn.active:active {background-color: #bbbbbb;}
 .dv-circle-btn:hover {background-color: #DBDBDB;}
 .dv-circle-btn:active {background-color: #bababa;}
+.dv-btn-log-in:hover {background-color: var(--form-btn-darker);}
+.dv-btn-log-in:active {background-color: var(--form-btn-darkest);}
 
 .dv-btn-border-diamond:hover {
     background-color: var(--diamond);

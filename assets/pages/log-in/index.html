@@ -19,47 +19,47 @@
     <!--Title Of Page-->
     <title>دیجی دلار | ورود</title>
 </head>
-<body dir="rtl">
+<body dir="rtl" class="dv-body-log-in">
 <!--Form Section-->
-<form action="#">
+<form action="#" class="dv-log-in-form">
     <!--Top Side Of Form Section-->
-    <div>
-        <h1>وارد شوید</h1>
-        <h3>اگر حساب کاربری ندارید
+    <div class="dv-log-in-top-side">
+        <h1 class="dv-form-title">وارد شوید</h1>
+        <h3 class="dv-form-subtitle">اگر حساب کاربری ندارید
             <span>ثبت نام</span>
             کنید
         </h3>
     </div>
     <!--Middle Side Of Form Section-->
-    <div>
+    <div class="dv-log-in-mid">
         <a href="#">
-            <button type="button">
+            <button type="button" class="dv-btn-log-in">
                 <img src="../../img/log-in/img-google-logo.svg" alt="Logo Google">
                 با گوگل وارد شوید
             </button>
         </a>
-        <a href="#"><button type="button">با شماره وارد شوید</button></a>
+        <a href="#"><button type="button" class="dv-btn-log-in">با شماره وارد شوید</button></a>
     </div>
     <!--Separator-->
-    <div>
-        <div></div>
-        <h1>ورود با ایمیل</h1>
-        <div></div>
+    <div class="dv-seprator">
+        <div class="dv-seprator-item"></div>
+        <h1 class="dv-sepator-title">ورود با ایمیل</h1>
+        <div class="dv-seprator-item"></div>
     </div>
     <!--Log In-->
     <div>
-        <input type="email" placeholder="ایمیل">
-        <input type="password" placeholder="رمز عبور">
-        <button type="submit">ورود</button>
+        <input required class="dv-form-input" type="email" placeholder="ایمیل">
+        <input required class="dv-form-input" type="password" placeholder="رمز عبور">
+        <button class="dv-btn-bg-blue dv-w-100 dv-mb-1" type="submit">ورود</button>
         <!--Options-->
-        <div>
+        <div class="dv-form-options">
             <!--Right Side-->
-            <div>
-                <input id="save-data" type="checkbox">
+            <div class="dv-form-options-right">
+                <input id="save-data" type="checkbox" >
                 <label for="save-data">اطلاعات من را ذخیره کن</label>
             </div>
             <!--Left Side-->
-            <div><a href="#">فراموشی رمز عبور</a></div>
+            <div class="dv-form-options-left"><a href="#">فراموشی رمز عبور</a></div>
         </div>
     </div>
 </form>

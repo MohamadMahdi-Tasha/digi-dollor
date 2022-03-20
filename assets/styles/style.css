@@ -21,6 +21,10 @@
     --blue: #185ADB;
     --blue-darker: #154fc1;
     --blue-darkest: #113f99;
+    --seprator: #9B9B9B;
+    --form-btn: #5D6469;
+    --form-btn-darker: #4b5155;
+    --form-btn-darkest: #393d40;
 }
 
 /*Default Styles*/
@@ -877,6 +881,106 @@ textarea {resize: none;}
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+}
+
+/*Log in Page*/
+.dv-log-in-mid > :first-of-type > :only-child > img {margin-left: 1rem;}
+.dv-log-in-mid > a > button:first-of-type {margin-bottom: 1rem;}
+.dv-form-subtitle > span {color: var(--blue);}
+.dv-form-input:hover {background-color: var(--form-btn-darker);}
+.dv-form-input::placeholder {color: white;}
+.dv-form-options-right > input[type='checkbox'] {margin-left: 1rem;}
+.dv-form-options-left > a,
+.dv-form-options-right{color: var(--seprator);}
+
+.dv-body-log-in {
+    background-image: url("../img/log-in/img-body-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv-log-in-form {
+    border-radius: 1rem;
+    width: 30%;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur( 40px );
+    -webkit-backdrop-filter: blur( 40px );
+    padding: 2rem;
+}
+
+.dv-log-in-top-side {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.dv-form-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.dv-form-subtitle {
+    color: #9C9C9B;
+    font-size: 15px;
+}
+
+.dv-seprator {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dv-seprator-item {
+    width: 25%;
+    border-bottom: 1px solid var(--seprator);
+}
+
+.dv-sepator-title {
+    width: 50%;
+    text-align: center;
+    white-space: nowrap;
+    color: var(--seprator);
+    font-size: 14px;
+}
+
+.dv-form-input {
+    background-color: var(--form-btn);
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    transition: .3s;
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+}
+
+.dv-form-input:focus {
+    border-color: var(--indigo);
+    background-color: var(--form-btn-darker);
+}
+
+.dv-form-options {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dv-form-options-right {
+    display: inline-flex;
+    width: 50%;
     align-items: center;
 }
 
