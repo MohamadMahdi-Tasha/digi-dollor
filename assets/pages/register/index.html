@@ -17,16 +17,16 @@
     <!--Linking Our Css File-->
     <link rel="stylesheet" href="../../styles/style.css">
     <!--Title Of Page-->
-    <title>دیجی دلار | ورود</title>
+    <title>دیجی دلار | ثبت نام</title>
 </head>
 <body dir="rtl" class="dv-body-log-in">
 <!--Form Section-->
 <form action="#" class="dv-log-in-form">
     <!--Top Side Of Form Section-->
     <div class="dv-log-in-top-side">
-        <h1 class="dv-form-title">وارد شوید</h1>
-        <h3 class="dv-form-subtitle">اگر حساب کاربری ندارید
-            <a href="#">ثبت نام</a>
+        <h1 class="dv-form-title">ثبت نام کنید</h1>
+        <h3 class="dv-form-subtitle">اگر حساب کاربری دارید
+            <a href="#">وارد شوید</a>
             کنید
         </h3>
     </div>
@@ -38,28 +38,30 @@
                 با گوگل وارد شوید
             </button>
         </a>
-        <a href="#"><button type="button" class="dv-btn-log-in">با شماره وارد شوید</button></a>
     </div>
     <!--Separator-->
     <div class="dv-seprator">
         <div class="dv-seprator-item"></div>
-        <h1 class="dv-sepator-title">ورود با ایمیل</h1>
+        <h1 class="dv-sepator-title">ثبت نام با ایمیل</h1>
         <div class="dv-seprator-item"></div>
     </div>
     <!--Log In-->
     <div>
         <input required class="dv-form-input" type="email" placeholder="ایمیل">
+        <input required class="dv-form-input" type="tel" placeholder="شماره تماس">
         <input required class="dv-form-input" type="password" placeholder="رمز عبور">
-        <button class="dv-btn-bg-blue dv-w-100 dv-mb-1" type="submit">ورود</button>
+        <input required class="dv-form-input" type="password" placeholder="تکرار رمز عبور">
+        <button class="dv-btn-bg-blue dv-w-100 dv-mb-1" type="submit">ثبت نام کنید</button>
         <!--Options-->
         <div class="dv-form-options">
             <!--Right Side-->
-            <div class="dv-form-options-right">
+            <div class="dv-form-options-right dv-w-100">
                 <input id="save-data" type="checkbox" >
-                <label for="save-data">اطلاعات من را ذخیره کن</label>
+                <label for="save-data">
+                    <a href="#">قوانین</a>
+                    رو مطالعه کردم و قبول دارم
+                </label>
             </div>
-            <!--Left Side-->
-            <div class="dv-form-options-left"><a href="#">فراموشی رمز عبور</a></div>
         </div>
     </div>
 </form>

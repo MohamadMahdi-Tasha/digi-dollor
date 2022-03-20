@@ -570,7 +570,7 @@ footer > :first-child{
 .dv-currency-btn:focus {border-color: var(--indigo);}
 .dv-bottom-side-btn:first-of-type {margin-left: 1rem;}
 .dv-bottom-side-btns > button:last-of-type {margin-right: 1rem;}
-.dv-w-100 {width: 100%;}
+.dv-w-100 {width: 100% !important;}
 .dv-w-15 {width: 15%;}
 .dv-rounded-2 {border-radius: 2rem !important;}
 
@@ -887,7 +887,7 @@ textarea {resize: none;}
 /*Log in Page*/
 .dv-log-in-mid > :first-of-type > :only-child > img {margin-left: 1rem;}
 .dv-log-in-mid > a > button:first-of-type {margin-bottom: 1rem;}
-.dv-form-subtitle > span {color: var(--blue);}
+.dv-form-subtitle > a {color: var(--blue);}
 .dv-form-input:hover {background-color: var(--form-btn-darker);}
 .dv-form-input::placeholder {color: white;}
 .dv-form-options-right > input[type='checkbox'] {margin-left: 1rem;}
