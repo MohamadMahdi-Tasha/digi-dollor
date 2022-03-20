@@ -761,6 +761,14 @@ footer > :first-child{
     align-items: center;
 }
 
+.dv-about-us-sect-2-right-side-bottom-btn-holder,
+.dv-about-us-sect-3-right-side-bottom-btn-holder{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
