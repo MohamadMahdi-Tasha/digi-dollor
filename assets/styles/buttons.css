@@ -58,6 +58,18 @@ button {
     box-shadow: 0 0 30px rgba(0,0,0,.1);
 }
 
+.dv-circle-btn {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: unset;
+    transition: .3s;
+}
+
 /*Active And Hovers*/
 .dv-btn-bg-none:hover {background-color: var(--blue);}
 .dv-btn-bg-none:active {background-color: var(--blue-darker);}
@@ -70,6 +82,8 @@ button {
 .dv-tab-btn:active {background-color: #b8b8b8;}
 .dv-tab-btn.active:hover {background-color: #dcdcdc;}
 .dv-tab-btn.active:active {background-color: #bbbbbb;}
+.dv-circle-btn:hover {background-color: #DBDBDB;}
+.dv-circle-btn:active {background-color: #bababa;}
 
 .dv-btn-border-diamond:hover {
     background-color: var(--diamond);

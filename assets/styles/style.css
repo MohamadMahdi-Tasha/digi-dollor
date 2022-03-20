@@ -823,6 +823,62 @@ footer > :first-child{
     margin-bottom: -3rem;
 }
 
+.dv-contact-us-section-2 {
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv-contact-us-form {
+    background-color: white;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    border-radius: .5rem;
+    margin-top: -10rem;
+    text-align: center;
+}
+
+.dv-contact-us-form > div {
+    display: inline-flex;
+    width: 100%;
+}
+
+.dv-contact-us-form > div > div {width: 50%;}
+.dv-contact-us-form > div > div:last-of-type {margin: 0;}
+textarea {resize: none;}
+.dv-mb-1 {margin-bottom: 1rem;}
+.dv-contact-us-form-left-side-bottom-btn-holder {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.dv-label {
+    font-size: 16px;
+    color: #68696C;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.dv-contact-us-form > div > div:first-of-type,
+.dv-contact-us-form > div > div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    margin-left: 2rem;
+}
+
+.dv-contact-form-right-side-socials {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
