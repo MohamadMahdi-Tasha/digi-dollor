@@ -298,110 +298,280 @@
         </div>
         <!--Bottom Side-->
         <div>
+            <!--Right Side-->
             <div>
-                <!--Top Side-->
-                <div><h3>وضعیت سبد</h3></div>
-                <!--Bottom Side-->
                 <div>
-                    <!--Charts Side-->
+                    <!--Top Side-->
+                    <div><h3>وضعیت سبد</h3></div>
+                    <!--Bottom Side-->
                     <div>
-                        <canvas id="doughnut-chart" width="5rem" height="5rem"></canvas>
+                        <!--Charts Side-->
+                        <div>
+                            <canvas id="doughnut-chart" width="5rem" height="5rem"></canvas>
+                        </div>
+                        <div>
+                            <h3>اطلاعات خرید</h3>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <!--Right Side-->
+                                        <div>
+                                            <img src="../../img/dashboard/bottom-side/img-wallet.png" alt="کیف پول">
+                                            <h3>خرید از کیف پول</h3>
+                                        </div>
+                                        <!--Left Side-->
+                                        <div>
+                                            <h5>+25</h5>
+                                            <h3>0.0002 btc</h3>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <!--Right Side-->
+                                        <div>
+                                            <img src="../../img/dashboard/bottom-side/img-wallet.png" alt="کیف پول">
+                                            <h3>خرید از کیف پول</h3>
+                                        </div>
+                                        <!--Left Side-->
+                                        <div>
+                                            <h5>+0.5</h5>
+                                            <h3>0.0005 btc</h3>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+                <div>
+                    <div><canvas id="line-chart" width="5rem" height="5rem"></canvas></div>
+                    <div><p>نمودار پیشرفت شما بر اساس سود</p></div>
+                </div>
+                <div>
+                    <!--Top Side-->
+                    <div><h3>لیست معاملات</h3></div>
+                    <!--Bottom Side-->
                     <div>
-                        <h3>اطلاعات خرید</h3>
-                        <ul>
-                            <li>
-                                <div>
-                                    <!--Right Side-->
-                                    <div>
-                                        <img src="../../img/dashboard/bottom-side/img-wallet.png" alt="کیف پول">
-                                        <h3>خرید از کیف پول</h3>
-                                    </div>
-                                    <!--Left Side-->
-                                    <div>
-                                        <h5>+25</h5>
-                                        <h3>0.0002 btc</h3>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <!--Right Side-->
-                                    <div>
-                                        <img src="../../img/dashboard/bottom-side/img-wallet.png" alt="کیف پول">
-                                        <h3>خرید از کیف پول</h3>
-                                    </div>
-                                    <!--Left Side-->
-                                    <div>
-                                        <h5>+0.5</h5>
-                                        <h3>0.0005 btc</h3>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                        <!--Top Side Tabs-->
+                        <div>
+                            <button>لیست کل معاملات</button>
+                            <button>لیست آخرین معاملات</button>
+                            <button>لیست خرید</button>
+                            <button>لیست فروش</button>
+                        </div>
+                        <!--Bottom Side Tabs-->
+                        <table>
+                            <tr>
+                                <th>عملیات</th>
+                                <th>نوع ارز</th>
+                                <th>زمان</th>
+                                <th>حجم معامله</th>
+                                <th>قیمت معامله</th>
+                                <th>قیمت معامله</th>
+                            </tr>
+                            <tr>
+                                <td>خرید</td>
+                                <td>بیتکوین</td>
+                                <td>۱۴۰۰-۰۵-۱۷  ۲۲:۰۰</td>
+                                <td>٠.٠٠٠٢١٥</td>
+                                <td>٣٩٠٠٠ دلار</td>
+                                <td>٣٩٠٠٠ دلار</td>
+                            </tr>
+                            <tr>
+                                <td>خرید</td>
+                                <td>بیتکوین</td>
+                                <td>۱۴۰۰-۰۵-۱۷  ۲۳:۲۰</td>
+                                <td>٠.٠٠٠٢١٥</td>
+                                <td>٣٩٠٠٠ دلار</td>
+                                <td>٣٩٠٠٠ دلار</td>
+                            </tr>
+                            <tr>
+                                <td>فروش</td>
+                                <td>اتریوم</td>
+                                <td>۱۴۰۰-۰۵-۱۸  ۱۷:۴۳</td>
+                                <td>٠.٠٥٤٨٧٤</td>
+                                <td>٤٥٠٠ دلار</td>
+                                <td>٤٥٠٠ دلار</td>
+                            </tr>
+                            <tr>
+                                <td>خرید</td>
+                                <td>دوج کوین</td>
+                                <td>۱۴۰۰-۰۵-۱۹ ۱۷:۲۸</td>
+                                <td>٠.٠٠٠٥٤٧</td>
+                                <td>٤٣٠٠٠ دلار</td>
+                                <td>٤٣٠٠٠ دلار</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
+            <!--Left Side-->
             <div>
-                <div><canvas id="line-chart" width="5rem" height="5rem"></canvas></div>
-                <div><p>نمودار پیشرفت شما بر اساس سود</p></div>
-            </div>
-            <div>
-                <!--Top Side-->
-                <div><h3>لیست معاملات</h3></div>
-                <!--Bottom Side-->
-                <div>
-                    <!--Top Side Tabs-->
-                    <div>
-                        <button>لیست کل معاملات</button>
-                        <button>لیست آخرین معاملات</button>
-                        <button>لیست خرید</button>
-                        <button>لیست فروش</button>
-                    </div>
-                    <!--Bottom Side Tabs-->
-                    <table>
-                        <tr>
-                            <th>عملیات</th>
-                            <th>نوع ارز</th>
-                            <th>زمان</th>
-                            <th>حجم معامله</th>
-                            <th>قیمت معامله</th>
-                            <th>قیمت معامله</th>
-                        </tr>
-                        <tr>
-                            <td>خرید</td>
-                            <td>بیتکوین</td>
-                            <td>۱۴۰۰-۰۵-۱۷  ۲۲:۰۰</td>
-                            <td>٠.٠٠٠٢١٥</td>
-                            <td>٣٩٠٠٠ دلار</td>
-                            <td>٣٩٠٠٠ دلار</td>
-                        </tr>
-                        <tr>
-                            <td>خرید</td>
-                            <td>بیتکوین</td>
-                            <td>۱۴۰۰-۰۵-۱۷  ۲۳:۲۰</td>
-                            <td>٠.٠٠٠٢١٥</td>
-                            <td>٣٩٠٠٠ دلار</td>
-                            <td>٣٩٠٠٠ دلار</td>
-                        </tr>
-                        <tr>
-                            <td>فروش</td>
-                            <td>اتریوم</td>
-                            <td>۱۴۰۰-۰۵-۱۸  ۱۷:۴۳</td>
-                            <td>٠.٠٥٤٨٧٤</td>
-                            <td>٤٥٠٠ دلار</td>
-                            <td>٤٥٠٠ دلار</td>
-                        </tr>
-                        <tr>
-                            <td>خرید</td>
-                            <td>دوج کوین</td>
-                            <td>۱۴۰۰-۰۵-۱۹ ۱۷:۲۸</td>
-                            <td>٠.٠٠٠٥٤٧</td>
-                            <td>٤٣٠٠٠ دلار</td>
-                            <td>٤٣٠٠٠ دلار</td>
-                        </tr>
-                    </table>
-                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bitcoin.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-etherium.png" alt="اتریوم">
+                                <h3>اتریوم</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bit2.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bit.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bit3.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bitcoin.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-etherium.png" alt="اتریوم">
+                                <h3>اتریوم</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bit2.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="../../img/dashboard/bottom-side/currency-icons/img-bit.png" alt="بیتکوین">
+                                <h3>بیتکوین</h3>
+                                <div>
+                                    <div>
+                                        <h5>قیمت</h5>
+                                        <h5>$45.691</h5>
+                                    </div>
+                                    <div>
+                                        <h5>حجم</h5>
+                                        <h5>628 M</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
