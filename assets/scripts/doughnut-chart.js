@@ -2,7 +2,7 @@ const ctx = document.getElementById('doughnut-chart').getContext('2d');
 const myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: ['orange', 'indigo', 'diamond', 'white'],
+        labels: ['orange', 'indigo', 'diamond', 'purple'],
         datasets: [{
             label: '# of Votes',
             data: [25, 25, 10, 40],
@@ -10,11 +10,12 @@ const myChart = new Chart(ctx, {
                 '#FCA120',
                 '#185ADB',
                 '#5FC8A5',
-                '#fff'
+                'purple'
             ],
         }]
     },
     options: {
+        plugins: {legend: {display: false,}},
         responsive: true,
         scales: {
             y: {

@@ -81,6 +81,24 @@ button {
     width: 100%;
 }
 
+.dv-tab-btn-2 {
+    border-radius: 0;
+    background-color: unset;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid #E8E8E8;
+    color: #1C2A3A;
+    font-size: 12px;
+}
+
+.dv-tab-btn-2.active {
+    border-right-color: #E8E8E8;
+    border-left-color: #E8E8E8;
+    border-bottom: none;
+    border-top-color: var(--indigo);
+}
+
 /*Active And Hovers*/
 .dv-btn-bg-none:hover {background-color: var(--blue);}
 .dv-btn-bg-none:active {background-color: var(--blue-darker);}
@@ -97,6 +115,8 @@ button {
 .dv-circle-btn:active {background-color: #bababa;}
 .dv-btn-log-in:hover {background-color: var(--form-btn-darker);}
 .dv-btn-log-in:active {background-color: var(--form-btn-darkest);}
+.dv-tab-btn-2:hover {background-color: #d9d9d9;}
+.dv-tab-btn-2:active {background-color: #bdbdbd;}
 
 .dv-btn-border-diamond:hover {
     background-color: var(--diamond);

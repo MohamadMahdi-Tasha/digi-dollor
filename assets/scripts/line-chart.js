@@ -11,13 +11,7 @@ const line_chart = new Chart(ctx_2, {
     options: {
         responsive: true,
         plugins: {
-            legend: {
-                position: 'top',
-            },
-            title: {
-                display: true,
-                text: 'Chart.js Line Chart'
-            }
+            legend: {display: false,},
         }
     },
 });
