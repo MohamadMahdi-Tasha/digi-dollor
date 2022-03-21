@@ -1029,6 +1029,21 @@ textarea {resize: none;}
 }
 
 /*Dashboard Page*/
+.dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
+.dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
+.dv-dashboard-nav-btn:active {background-color: #4f6287;}
+.dv-dashboard-nav-btn.active:hover {background-color: #d4d4d4;}
+.dv-dashboard-nav-btn.active:active {background-color: #b8b8b8;}
+.dv-dashboard-nav-btn > svg {margin-bottom: 1rem;}
+.dv-dashboard-nav::-webkit-scrollbar {display: none;}
+.dv-switch > input[type='checkbox']:checked {background: linear-gradient(to right, #0A1931, #153365);}
+.dv-switch > input[type='checkbox']:checked ~ .dv-slider {left: 5.3rem;}
+.dv-switch > input[type='checkbox']:checked ~ .dv-time {left: 3rem;}
+.dv-switch > input[type='checkbox']:checked ~ .dv-time:before {content: 'شب';}
+.dv-time:before {content: 'روز';}
+.dv-dashboard-header-left-side {justify-content: end;}
+.dv-dashboard-header-left-side > svg {margin-right: 1rem;}
+
 .dv-dashboard-body {
     display: inline-flex;
     width: 100%;
@@ -1036,10 +1051,13 @@ textarea {resize: none;}
 
 .dv-dashboard-nav {
     background-color: #1D2530;
-    min-height: 100vh;
+    height: 100%;
     padding: 2rem;
     text-align: center;
+    position: fixed;
+    overflow: scroll;
 }
+
 
 .dv-dashboard-nav-list {
     list-style: none;
@@ -1066,12 +1084,90 @@ textarea {resize: none;}
     color: var(--indigo);
 }
 
-.dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
-.dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
-.dv-dashboard-nav-btn:active {background-color: #4f6287;}
-.dv-dashboard-nav-btn.active:hover {background-color: #d4d4d4;}
-.dv-dashboard-nav-btn.active:active {background-color: #b8b8b8;}
-.dv-dashboard-nav-btn > svg {margin-bottom: 1rem;}
+.dv-dashboard-main {
+    width: 100%;
+    margin-right: 12rem;
+}
+
+.dv-dashboard-header {
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dv-dashboard-header-right-side,
+.dv-dashboard-header-left-side{
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+}
+
+.dv-dashboard-header-right-side-profile {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.dv-dashboard-header-welcome {
+    color: #878E97;
+    font-size: 12px;
+}
+
+.dv-dashboard-name {
+    display: inline-flex;
+    align-items: center;
+}
+
+.dv-dashboard-name-txt {
+    color: #1C2A3A;
+    margin-left: 1rem;
+    font-size: 15px;
+}
+
+.dv-switch {
+    display: inline-flex;
+}
+
+.dv-switch > input[type='checkbox'] {
+    appearance: none;
+    width: 6rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #325DA6, #4EADD8);
+    border-radius: 2rem;
+    margin: 0 1rem 0 1rem;
+    transition: .3s;
+}
+
+.dv-slider {
+    width: 2rem;
+    height: 2rem;
+    left: 2.6rem;
+    position: absolute;
+    background-image: url("../img/dashboard/img-morning.jpg");
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: .5rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.dv-time {
+    position: absolute;
+    left: 5.5rem;
+    margin-top: .7rem;
+    color: white;
+    transition: .3s;
+}
+
+
+.dv-dashboard-header-left-side > h1:first-of-type {
+    font-size: 15px;
+    color: #1C2A3A;
+}
 
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
