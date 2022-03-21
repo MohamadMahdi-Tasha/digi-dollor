@@ -1056,6 +1056,8 @@ textarea {resize: none;}
 .dv-dashboard-main-td-red {color: red;}
 .dv-dashboard-main-left-side-items-list > li > a > div > div:first-of-type {margin-left: 1rem;justify-content: start;}
 .dv-dashboard-main-left-side-items-list > li > a > div > div:first-of-type > img {margin-left: 1rem;}
+.dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div{display: inline-flex;}
+.dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
