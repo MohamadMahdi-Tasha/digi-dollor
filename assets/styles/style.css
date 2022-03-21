@@ -1262,6 +1262,7 @@ canvas {
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 98%;
 }
 
 .dv-dashboard-main-middle-side-right-side-item1-top,
@@ -1323,9 +1324,19 @@ canvas {
     background-color: white;
     padding: 1.5rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
     color: var(--blue);
 }
+
+.dv-dashboard-main-bottom {
+    width: 100%;
+    padding: 1rem;
+    text-align: end;
+    color: #BCC1C5;
+    font-size: 20px;
+}
+
+.dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 
 .dv-dashboard-main-left-side-items-list > li > a > div > div {
     width: 50%;
