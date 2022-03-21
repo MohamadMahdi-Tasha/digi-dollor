@@ -1169,6 +1169,47 @@ textarea {resize: none;}
     color: #1C2A3A;
 }
 
+.dv-dashboard-main-main {padding: 1rem;}
+.dv-dashboard-main-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.dv-dashboard-main-top-item {
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    border-radius: 1rem;
+}
+
+.dv-dashboard-main-top-item-top-side {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.dv-dashboard-main-top-item-mid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dv-dashboard-main-top-item-money {
+    font-size: 18px;
+    display: inline-flex;
+}
+
+.dv-dashboard-main-top-item-money > :first-child {margin-left: .5rem;}
+.dv-more-details {
+    color: #878E97;
+    font-size: 12px;
+}
+
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
     .dv-sect-2-td-d-inline-flex.w-100 {display: flex;flex-direction: column;}
