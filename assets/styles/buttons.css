@@ -99,6 +99,18 @@ button {
     border-top-color: var(--indigo);
 }
 
+.dv-btn-bg-none-shadow {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    border-radius: .5rem;
+    color: var(--blue);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.dv-btn-bg-none-shadow > svg {margin-left: 1rem;}
+
 /*Active And Hovers*/
 .dv-btn-bg-none:hover {background-color: var(--blue);}
 .dv-btn-bg-none:active {background-color: var(--blue-darker);}
@@ -117,6 +129,8 @@ button {
 .dv-btn-log-in:active {background-color: var(--form-btn-darkest);}
 .dv-tab-btn-2:hover {background-color: #d9d9d9;}
 .dv-tab-btn-2:active {background-color: #bdbdbd;}
+.dv-btn-bg-none-shadow:hover {background-color: #dedede;}
+.dv-btn-bg-none-shadow:active {background-color: #bfbfbf;}
 
 .dv-btn-border-diamond:hover {
     background-color: var(--diamond);
