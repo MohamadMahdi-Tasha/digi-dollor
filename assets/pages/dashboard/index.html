@@ -22,8 +22,10 @@
     <title>دیجی دلار | داشبورد</title>
 </head>
 <body dir="rtl" class="dv-dashboard-body">
+<!--Dark Background Color-->
+<div id="dv-mobile-nav-bg"></div>
 <!--Right Side-->
-<nav class="dv-dashboard-nav">
+<nav id="dv-dashboard-nav" class="dv-dashboard-nav">
     <img src="../../img/img-logo-typeography.png" alt="لوگو دیجی دلار">
     <!--Items-->
     <div>
@@ -175,6 +177,11 @@
     <header class="dv-dashboard-header">
         <!--Right Side-->
         <div class="dv-dashboard-header-right-side">
+            <button id="dv-dashboard-mobile-toggle" class="dv-circle-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
             <img class="dv-dashboard-header-right-side-profile" src="../../img/dashboard/img-profile.png" alt="پروفایل">
             <div>
                 <h6 class="dv-dashboard-header-welcome">خوش آمدی</h6>
@@ -671,7 +678,10 @@
         </div>
     </main>
 </main>
+<!--Linking Our Js Files-->
 <script src="../../scripts/doughnut-chart.js"></script>
 <script src="../../scripts/line-chart.js"></script>
+<script src="../../scripts/dashboard-nav.js"></script>
+<script src="../../scripts/nav_functions.js"></script>
 </body>
 </html>

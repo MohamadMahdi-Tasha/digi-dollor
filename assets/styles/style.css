@@ -984,6 +984,11 @@ textarea {resize: none;}
     align-items: center;
 }
 
+#dv-dashboard-mobile-toggle {
+    margin-left: 1rem;
+    display: none;
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
@@ -1004,6 +1009,8 @@ textarea {resize: none;}
     .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
     .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 2rem;}
     .dv-log-in-form {width: 70%;}
+    .dv-dashboard-main {margin-right: 0 !important;}
+    #dv-dashboard-mobile-toggle {display: flex;}
 
     .dv-contact-us-form {
         width: 100%;
@@ -1025,6 +1032,13 @@ textarea {resize: none;}
         flex-direction: column;
         justify-content: start;
         align-items: center;
+    }
+
+    .dv-dashboard-nav {
+        position: fixed;
+        width: 70%;
+        left: 100%;
+        z-index: 1;
     }
 }
 
@@ -1058,6 +1072,7 @@ textarea {resize: none;}
 .dv-dashboard-main-left-side-items-list > li > a > div > div:first-of-type > img {margin-left: 1rem;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div{display: inline-flex;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
+.dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
@@ -1093,6 +1108,7 @@ textarea {resize: none;}
     text-align: center;
     position: fixed;
     overflow: scroll;
+    transition: .3s;
 }
 
 .dv-dashboard-nav-list {
@@ -1335,8 +1351,6 @@ canvas {
     color: #BCC1C5;
     font-size: 20px;
 }
-
-.dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 
 .dv-dashboard-main-left-side-items-list > li > a > div > div {
     width: 50%;
