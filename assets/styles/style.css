@@ -1432,6 +1432,8 @@ canvas {
     .dv-dashboard-main-middle-side-right-side-item1,
     .dv-dashboard-main-middle-side-right-side-item-col-2,
     .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
+    .dv-dashboard-main-main {padding: .5rem;}
+    .dv-dashboard-main-middle-side {padding: .5rem;}
     .dv-dashboard-main-middle-side-right-side {
         display: flex !important;
         flex-direction: column;
