@@ -206,26 +206,26 @@
     </header>
     <!--Main Side-->
     <main class="dv-dashboard-main-main">
-        <h3>ثبت تیکت</h3>
+        <h3 class="dv-faq-title">ثبت تیکت</h3>
         <!--Top Side-->
         <form action="#">
-            <div>
-                <div>
-                    <label for="title">موضوع تیکت</label>
-                    <input required type="text" placeholder="برای مثال ایراد در کیف پول" id="title">
+            <div class="dv-ticket-top-side">
+                <div class="dv-ticket-top-side-item">
+                    <label class="dv-ticket-top-side-item-label" for="title">موضوع تیکت</label>
+                    <input autocomplete="off" class="dv-ticket-top-side-item-input" required type="text" placeholder="برای مثال ایراد در کیف پول" id="title">
                 </div>
-                <div>
-                    <h3>بخش مرتبط</h3>
-                    <button type="button">
+                <div class="dv-ticket-top-side-item">
+                    <h3 class="dv-ticket-top-side-item-label">بخش مرتبط</h3>
+                    <button class="dv-ticket-top-side-item-btn" type="button">
                         بخش مالی
                         <svg xmlns="http://www.w3.org/2000/svg" width="11.933" height="6.242" viewBox="0 0 11.933 6.242">
                             <path id="Path_2168" data-name="Path 2168" d="M-2555.666,820.644l4.517,3.832,4.6-3.832" transform="translate(2557.075 -819.234)" fill="none" stroke="#1c242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                         </svg>
                     </button>
                 </div>
-                <div>
-                    <h3>میزان اهمیت</h3>
-                    <button type="button">
+                <div class="dv-ticket-top-side-item">
+                    <h3 class="dv-ticket-top-side-item-label">میزان اهمیت</h3>
+                    <button class="dv-ticket-top-side-item-btn" type="button">
                         فوری
                         <svg xmlns="http://www.w3.org/2000/svg" width="11.933" height="6.242" viewBox="0 0 11.933 6.242">
                             <path id="Path_2168" data-name="Path 2168" d="M-2555.666,820.644l4.517,3.832,4.6-3.832" transform="translate(2557.075 -819.234)" fill="none" stroke="#1c242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
@@ -235,16 +235,16 @@
             </div>
             <!--Bottom Side-->
             <div>
-                <h3>متن تیکت</h3>
-                <textarea required name="text" id="text" placeholder="متن خود را در این بخش وارد کنید"></textarea>
-                <div>
-                    <button type="button">
+                <h3 class="dv-faq-title">متن تیکت</h3>
+                <textarea class="dv-ticket-top-side-item-input dv-w-100" required name="text" id="text" placeholder="متن خود را در این بخش وارد کنید"></textarea>
+                <div class="dv-ticket-bottom-btns">
+                    <button type="button" class="dv-btn-bg-white-shadow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20.625" height="33" viewBox="0 0 20.625 33">
                             <path id="paperclip" d="M10.313,33A10.323,10.323,0,0,1,0,22.688V8.25a1.375,1.375,0,0,1,2.75,0V22.688a7.562,7.562,0,1,0,15.125,0V7.562a4.812,4.812,0,0,0-9.625,0v13.75a2.063,2.063,0,0,0,4.125,0V8.25a1.375,1.375,0,0,1,2.75,0V21.313a4.813,4.813,0,0,1-9.625,0V7.562a7.563,7.563,0,0,1,15.125,0V22.688A10.323,10.323,0,0,1,10.312,33Zm0,0" fill="#185adb"/>
                         </svg>
                         فایل خود را بارگزاری کنید (غیر ضروری)
                     </button>
-                    <button type="submit">
+                    <button type="submit" class="dv-btn-bg-blue">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50.585" height="29.046" viewBox="0 0 50.585 29.046">
                             <g id="Group_535" data-name="Group 535" transform="translate(-180.588 -603.977)">
                                 <g id="email" transform="translate(193.041 542.977)">
