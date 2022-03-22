@@ -989,59 +989,6 @@ textarea {resize: none;}
     display: none;
 }
 
-/*Media Query*/
-@media (max-width: 1021px) {
-    .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
-    .dv-header-left-side {width: 100%;}
-    .dv-on-mobile-nav-toggle {display: flex;}
-    .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
-    .dv-sect-1-top-btns-holder > a {width: 50%;}
-    .dv-sect-2-top-btn-holder > button {width: 25%;}
-    .dv-sect-4-media-link {grid-template-columns: repeat(3, 1fr)}
-    .dv-sect-4-blogs-holder {grid-template-columns: repeat(1,1fr);}
-    .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
-    .dv-footer-list-holder {grid-template-columns: repeat(2, 1fr);}
-    .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 50%;}
-    .dv-about-us-sect-2-right-side, .dv-about-us-sect-2-left-side,
-    .dv-about-us-sect-3-right-side, .dv-about-us-sect-3-left-side{width: 100%;}
-    .dv-contact-us-section-1-inner {width: 100%;}
-    .dv-contact-us-section-1-inner {padding: 0;}
-    .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
-    .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 2rem;}
-    .dv-log-in-form {width: 70%;}
-    .dv-dashboard-main {margin-right: 0 !important;}
-    #dv-dashboard-mobile-toggle {display: flex;}
-
-    .dv-contact-us-form {
-        width: 100%;
-        margin: 0;
-    }
-
-    .dv-about-us-sect-3-right-side > img {
-        margin-bottom: 2rem;
-        width: 100%;
-    }
-
-    .dv-about-us-sect-2-left-side > img {
-        margin-top: 2rem;
-        width: 100%;
-    }
-
-    .dv-about-us-sect-2, .dv-about-us-sect-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-    }
-
-    .dv-dashboard-nav {
-        position: fixed;
-        width: 70%;
-        left: 100%;
-        z-index: 1;
-    }
-}
-
 /*Dashboard Page*/
 .dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
 .dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
@@ -1073,6 +1020,7 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div{display: inline-flex;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 .dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
+.dv-dashboard-main-middle-side-right-side-item-col-3::-webkit-scrollbar {display: none;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
@@ -1094,6 +1042,7 @@ textarea {resize: none;}
     padding: 1rem;
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
     border-radius: 1rem;
+    overflow: scroll;
 }
 
 .dv-dashboard-body {
@@ -1109,6 +1058,7 @@ textarea {resize: none;}
     position: fixed;
     overflow: scroll;
     transition: .3s;
+    left: auto !important;
 }
 
 .dv-dashboard-nav-list {
@@ -1359,6 +1309,79 @@ canvas {
     align-items: center;
 }
 
+/*Media Query*/
+@media (max-width: 1021px) {
+    .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
+    .dv-header-left-side {width: 100%;}
+    .dv-on-mobile-nav-toggle {display: flex;}
+    .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
+    .dv-sect-1-top-btns-holder > a {width: 50%;}
+    .dv-sect-2-top-btn-holder > button {width: 25%;}
+    .dv-sect-4-media-link {grid-template-columns: repeat(3, 1fr)}
+    .dv-sect-4-blogs-holder {grid-template-columns: repeat(1,1fr);}
+    .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
+    .dv-footer-list-holder {grid-template-columns: repeat(2, 1fr);}
+    .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 50%;}
+    .dv-about-us-sect-2-right-side, .dv-about-us-sect-2-left-side,
+    .dv-about-us-sect-3-right-side, .dv-about-us-sect-3-left-side{width: 100%;}
+    .dv-contact-us-section-1-inner {width: 100%;}
+    .dv-contact-us-section-1-inner {padding: 0;}
+    .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
+    .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 2rem;}
+    .dv-log-in-form {width: 70%;}
+    .dv-dashboard-main {margin-right: 0 !important;}
+    #dv-dashboard-mobile-toggle {display: flex;}
+    .dv-dashboard-main-top {grid-template-columns: repeat(2, 1fr) !important;}
+    .dv-dashboard-main-bottom > h3{text-align: center;}
+    .dv-dashboard-main-middle-side-right-side {grid-template-columns: repeat(2, 1fr) !important;}
+    .dv-dashboard-main-middle-side-right-side-item-1 {width: auto !important;}
+    .dv-dashboard-main-middle-side-right-side-item-col-2 {grid-column: span 1 !important;}
+    .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
+
+    .dv-dashboard-main-middle-side > :last-child {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .dv-dashboard-main-middle-side > :first-child {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .dv-dashboard-main-middle-side {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dv-contact-us-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dv-about-us-sect-3-right-side > img {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .dv-about-us-sect-2-left-side > img {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .dv-about-us-sect-2, .dv-about-us-sect-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .dv-dashboard-nav {
+        width: 70%;
+        left: 100% !important;
+        z-index: 1;
+    }
+}
+
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
     .dv-sect-2-td-d-inline-flex.w-100 {display: flex;flex-direction: column;}
@@ -1403,6 +1426,22 @@ canvas {
     .dv-main-inner-holder {width: 100%;}
     .dv-body-log-in {padding: 0;}
     .dv-log-in-mid {width: 100%;}
+    .dv-dashboard-main-top {grid-template-columns: repeat(1, 1fr) !important;}
+    .dv-dashboard-header-left-side > :first-child,
+    .dv-dashboard-header-left-side > :nth-child(2) {display: none;}
+    .dv-dashboard-main-middle-side-right-side-item1,
+    .dv-dashboard-main-middle-side-right-side-item-col-2,
+    .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
+    .dv-dashboard-main-middle-side-right-side {
+        display: flex !important;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .dv-dashboard-main-middle-side {
+        padding-right: 1rem;
+        width: 100%;
+    }
 
     .dv-log-in-form {
         width: 100%;
