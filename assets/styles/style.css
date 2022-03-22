@@ -1398,7 +1398,7 @@ canvas {
     .dv-dashboard-main-middle-side-right-side-item-1 {width: auto !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-2 {grid-column: span 1 !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
-
+    .dv-dashboard-main-main.support {padding: 1rem !important;}
     .dv-dashboard-main-middle-side > :last-child {
         width: 100%;
         padding-right: 0;
