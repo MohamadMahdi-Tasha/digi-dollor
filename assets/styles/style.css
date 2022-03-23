@@ -1031,6 +1031,7 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 .dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 .dv-dashboard-main-middle-side-right-side-item-col-3::-webkit-scrollbar {display: none;}
+.dv-dashboard-main-main.dashboard {padding: 1rem;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
