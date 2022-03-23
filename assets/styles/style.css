@@ -1590,6 +1590,14 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-dashboard-main-left-side-items-list > li > a > div{background-color: var(--mid-darker-indigo);color: #d0d0d0;}
 .dv-dashboard-main.dark .dv-dashboard-header-left-side > h1 {color: #d0d0d0;}
 .dv-dashboard-main.dark .dv-dashboard-header-left-side > svg > path{fill: #d0d0d0;}
+.dv-dashboard-main.dark .dv-faq-title{color: white;}
+.dv-dashboard-main.dark .dv-faq-section{background-color: var(--mid-darker-indigo);}
+.dv-dashboard-main.dark .dv-faq-paragraph {color: #d0d0d0;}
+.dv-dashboard-main.dark .dv-open-able-item {border-top-color: var(--indigo);border-bottom-color: var(--indigo);}
+.dv-dashboard-main.dark .dv-open-able-items {border-top-color: var(--indigo);}
+.dv-dashboard-main.dark .dv-open-able-item > button{color: #d0d0d0;}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow{background-color: var(--mid-darker-indigo);color: white;}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow > svg > g > g > path {fill: white}
 
 /*Media Query*/
 @media (max-width: 1021px) {

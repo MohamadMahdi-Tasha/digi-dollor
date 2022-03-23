@@ -316,7 +316,7 @@
     </div>
 </nav>
 <!--Main Side-->
-<main class="dv-dashboard-main">
+<main class="dv-dashboard-main" id="dv-dashboard-main" data-theme="light">
     <header class="dv-dashboard-header">
         <!--Right Side-->
         <div class="dv-dashboard-header-right-side">
@@ -343,7 +343,7 @@
                 <path id="Path_355" data-name="Path 355" d="M11.811,1.059H10.593V.424a.424.424,0,1,0-.847,0v.636H3.813V.424a.424.424,0,0,0-.847,0v.636H1.748A1.75,1.75,0,0,0,0,2.807v9a1.75,1.75,0,0,0,1.748,1.748H11.811a1.75,1.75,0,0,0,1.748-1.748v-9A1.75,1.75,0,0,0,11.811,1.059Zm.9,10.751a.9.9,0,0,1-.9.9H1.748a.9.9,0,0,1-.9-.9V4.793A.132.132,0,0,1,.98,4.661h11.6a.132.132,0,0,1,.132.132Z" fill="#1c2a3a"/>
             </svg>
             <label class="dv-switch">
-                <input type="checkbox">
+                <input type="checkbox" id="dv-switch-toggle">
                 <span class="dv-slider"></span>
                 <span class="dv-time"></span>
             </label>
@@ -440,5 +440,6 @@
 <!--Linking Our Js Files-->
 <script src="../../scripts/dashboard-nav.js"></script>
 <script src="../../scripts/nav_functions.js"></script>
+<script src="../../scripts/dark_mode.js"></script>
 </body>
 </html>
