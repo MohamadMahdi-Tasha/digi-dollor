@@ -1499,11 +1499,16 @@ textarea.dv-ticket-top-side-item-input {
 /*Mobile Nav*/
 .dv-mobile-nav-link-item > button:active {background-color: var(--darkest-indigo);}
 .dv-mobile-nav-links > li > a > button:active {background-color: var(--blue-darker);}
-.dv-mobile-nav-links {background-color: var(--blue);}
+
+.dv-mobile-nav-links {
+    background-color: var(--blue);
+    list-style: none;
+}
 
 .dv-mobile-nav-link-item {
     height: 3.9rem;
     overflow: hidden;
+    transition: .3s;
 }
 
 .dv-mobile-nav-link-item > button{
