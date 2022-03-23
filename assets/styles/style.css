@@ -1481,6 +1481,38 @@ textarea.dv-ticket-top-side-item-input {
     width: 100%;
 }
 
+/*Header Drop Downs*/
+.dv-header-hover-links > li > a > button:hover {background-color: var(--blue-darker);}
+.dv-header-hover-links > li > a > button:active {background-color: var(--blue-darkest);}
+
+.dv-header-hover-links {
+    position: absolute;
+    list-style: none;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    overflow: hidden;
+    width: 15rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s;
+}
+
+.dv-header-hover-links > li > a > button {
+    border-radius: 0;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+}
+
+.dv-header-links-item > a:hover ~ .dv-header-hover-links,
+.dv-header-hover-links:hover {
+    pointer-events: visible;
+    opacity: 100%;
+}
+
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
