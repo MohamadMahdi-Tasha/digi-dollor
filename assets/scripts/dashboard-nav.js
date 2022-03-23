@@ -1,5 +1,5 @@
 // Variables
-const dashboard_nav = document.getElementById('dv-dashboard-nav');
+const dashboard_nav = document.getElementById('dv-dashboard-nav-mobile');
 const dark_bg = document.getElementById('dv-mobile-nav-bg');
 const dashboard_nav_toggler = document.getElementById('dv-dashboard-mobile-toggle');
 

@@ -1468,6 +1468,9 @@ textarea.dv-ticket-top-side-item-input {
     padding: 1rem;
     overflow: scroll;
     height: 100%;
+    left: 100%;
+    transition: .3s;
+    z-index: 1;
 }
 
 #dv-dashboard-nav-mobile > :first-child {
