@@ -1058,7 +1058,7 @@ textarea {resize: none;}
     position: fixed;
     overflow: scroll;
     transition: .3s;
-    left: auto !important;
+    left: auto;
 }
 
 .dv-dashboard-nav-list {
@@ -1529,7 +1529,7 @@ textarea.dv-ticket-top-side-item-input {
 
     .dv-dashboard-nav {
         width: 70%;
-        left: 100% !important;
+        left: 100%;
         z-index: 1;
     }
 }
