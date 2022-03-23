@@ -550,12 +550,17 @@ footer > :first-child{
 .dv-input:hover {background-color: #E0E1E4;}
 .dv-currency-btn > div > img {margin-left: 1rem;}
 .dv-currency-btn:hover {background-color: #E0E1E4;}
-.dv-currency-btn:focus {border-color: var(--indigo);}
+.dv-currency-btn:focus {background-color: #E0E1E4;}
 .dv-bottom-side-btn:first-of-type {margin-left: 1rem;}
 .dv-bottom-side-btns > button:last-of-type {margin-right: 1rem;}
 .dv-w-100 {width: 100% !important;}
 .dv-w-15 {width: 15%;}
 .dv-rounded-2 {border-radius: 2rem !important;}
+.dv-currency-btn-holder {width: 50%;}
+.dv-currency-btn-list > li > button:hover {background-color: var(--blue-darker);}
+.dv-currency-btn-list > li > button:active {background-color: var(--blue-darkest);}
+.dv-currency-btn-list::-webkit-scrollbar {display: none;}
+.dv-currency-btn:focus ~ .dv-currency-btn-list {height: 15rem;}
 
 .dv-main-top {
     text-align: center;
@@ -631,7 +636,7 @@ footer > :first-child{
 }
 
 .dv-currency-btn {
-    width: 50%;
+    width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -640,6 +645,28 @@ footer > :first-child{
     border: 1px solid #DFDFDF;
     transition: .3s;
     font-size: 16px;
+}
+
+.dv-currency-btn-list {
+    position: absolute;
+    margin-top: -4rem;
+    width: 25%;
+    list-style: none;
+    background-color: var(--indigo);
+    border-radius: .5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    height: 0;
+    transition: .3s;
+    overflow: scroll;
+}
+
+.dv-currency-btn-list > li > button {
+    width: 100%;
+    text-align: right;
+    border-radius: 0;
+    border: none;
+    background-color: var(--blue);
+    color: white;
 }
 
 .dv-currency-btn > div {
@@ -1666,6 +1693,7 @@ textarea.dv-ticket-top-side-item-input {
     .dv-dashboard-main-main {padding: .5rem;}
     .dv-dashboard-main-main.ticket {padding: 2rem !important;}
     .dv-dashboard-main-middle-side {padding: .5rem;}
+    .dv-currency-btn-list {width: 40%;}
     .dv-dashboard-main-middle-side-right-side {
         display: flex !important;
         flex-direction: column;

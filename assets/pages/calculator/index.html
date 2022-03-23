@@ -168,18 +168,26 @@
             <div>
                 <!--Top Side-->
                 <div class="dv-currency">
-                    <!--Right Button Of Main Section-->
-                    <button class="dv-currency-btn" type="button">
-                        <div>
-                            <img src="../../img/calculator/currency/img-bitcoin.png" alt="بیتکوین">
-                            بیتکوین
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
-                            <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
-                        </svg>
-                    </button>
+                    <!--Right Button And It Items Of Main Section-->
+                    <div class="dv-currency-btn-holder">
+                        <button data-value="bitcoin" class="dv-currency-btn" id="dv-currency-btn-1" type="button">
+                            <div>
+                                <img src="../../img/calculator/currency/img-bitcoin.png" alt="بیتکوین">
+                                بیتکوین
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
+                                <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
+                            </svg>
+                        </button>
+                        <ul class="dv-currency-btn-list">
+                            <li><button type="button">MMD</button></li>
+                            <li><button type="button">ALI</button></li>
+                            <li><button type="button">RZA</button></li>
+                            <li><button type="button">JAVAD</button></li>
+                        </ul>
+                    </div>
                     <!--Change Button Of Main Section-->
-                    <button type="button" class="dv-change-btn">
+                    <button type="button" id="dv-change-btn" class="dv-change-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="29.484" viewBox="0 0 31.5 29.484">
                             <g id="Group_547" data-name="Group 547" transform="translate(-663.75 -750.371)">
                                 <path id="Icon_awesome-long-arrow-alt-right" data-name="Icon awesome-long-arrow-alt-right" d="M22.074,15.188H.844A.844.844,0,0,0,0,16.031v3.938a.844.844,0,0,0,.844.844h21.23v3.239a1.688,1.688,0,0,0,2.881,1.193l6.051-6.051a1.687,1.687,0,0,0,0-2.386l-6.051-6.051a1.688,1.688,0,0,0-2.881,1.193Z" transform="translate(663.75 740.113)" fill="#185adb"/>
@@ -187,16 +195,24 @@
                             </g>
                         </svg>
                     </button>
-                    <!--Left Button Of Main Section-->
-                    <button class="dv-currency-btn" type="button">
-                        <div>
-                            <img src="../../img/calculator/currency/img-tether.png" alt="USDT">
-                            USDT
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
-                            <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
-                        </svg>
-                    </button>
+                    <!--Left Button And It Items Of Main Section-->
+                    <div class="dv-currency-btn-holder">
+                        <button data-value="USDT" class="dv-currency-btn" id="dv-currency-btn-2" type="button">
+                            <div>
+                                <img src="../../img/calculator/currency/img-tether.png" alt="USDT">
+                                USDT
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
+                                <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
+                            </svg>
+                        </button>
+                        <ul class="dv-currency-btn-list">
+                            <li><button type="button">MMD</button></li>
+                            <li><button type="button">ALI</button></li>
+                            <li><button type="button">RZA</button></li>
+                            <li><button type="button">JAVAD</button></li>
+                        </ul>
+                    </div>
                 </div>
                 <!--Bottom Side-->
                 <div class="dv-bottom-side-btns">
@@ -211,5 +227,6 @@
 <script src="../../scripts/nav-bar.js"></script>
 <script src="../../scripts/nav_functions.js"></script>
 <script src="../../scripts/nav-links.js"></script>
+<script src="../../scripts/calculator.js"></script>
 </body>
 </html>
