@@ -1058,7 +1058,6 @@ textarea {resize: none;}
     position: fixed;
     overflow: scroll;
     transition: .3s;
-    left: auto;
 }
 
 .dv-dashboard-nav-list {
@@ -1490,6 +1489,7 @@ textarea.dv-ticket-top-side-item-input {
     .dv-dashboard-main-middle-side-right-side-item-col-2 {grid-column: span 1 !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
     .dv-dashboard-main-main.support {padding: 1rem !important;}
+    .dv-dashboard-nav {display: none;}
     .dv-dashboard-main-middle-side > :last-child {
         width: 100%;
         padding-right: 0;
@@ -1525,12 +1525,6 @@ textarea.dv-ticket-top-side-item-input {
         flex-direction: column;
         justify-content: start;
         align-items: center;
-    }
-
-    .dv-dashboard-nav {
-        width: 70%;
-        left: 100%;
-        z-index: 1;
     }
 }
 
