@@ -1369,6 +1369,14 @@ canvas {
 }
 
 /*Ticket Page*/
+.dv-ticket-top-side-item-btn > svg > path {stroke: #B4B7BB;}
+.dv-ticket-top-side-item-input:hover, .dv-ticket-top-side-item-btn:hover {background-color: #E0E1E4;}
+.dv-ticket-bottom-btns > button:last-of-type > svg {margin-left: 1rem;}
+.dv-btn-bg-white-shadow:hover {background-color: #E0E1E4;}
+.dv-btn-bg-white-shadow:active {border-color: var(--indigo);}
+#dv-dashboard-nav-mobile::-webkit-scrollbar {display: none;}
+.dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
+
 .dv-ticket-top-side {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1416,8 +1424,6 @@ canvas {
     color: #B4B7BB;
 }
 
-.dv-ticket-top-side-item-btn > svg > path {stroke: #B4B7BB;}
-.dv-ticket-top-side-item-input:hover, .dv-ticket-top-side-item-btn:hover {background-color: #E0E1E4;}
 .dv-ticket-top-side-item-input:focus, .dv-ticket-top-side-item-btn:focus {
     border-color: var(--indigo);
     background-color: #E0E1E4;
@@ -1441,7 +1447,6 @@ textarea.dv-ticket-top-side-item-input {
     align-items: center;
 }
 
-.dv-ticket-bottom-btns > button:last-of-type > svg {margin-left: 1rem;}
 .dv-btn-bg-white-shadow {
     padding: 1rem;
     background-color: white;
@@ -1455,10 +1460,23 @@ textarea.dv-ticket-top-side-item-input {
     color: #B4B7BB;
 }
 
-.dv-btn-bg-white-shadow:hover {background-color: #E0E1E4;}
-.dv-btn-bg-white-shadow:active {border-color: var(--indigo);}
+#dv-dashboard-nav-mobile {
+    background-color: #1D2530;
+    display: none;
+    position: fixed;
+    width: 70%;
+    padding: 1rem;
+    overflow: scroll;
+    height: 100%;
+}
 
-.dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
+#dv-dashboard-nav-mobile > :first-child {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 /*Media Query*/
 @media (max-width: 1021px) {
@@ -1490,6 +1508,7 @@ textarea.dv-ticket-top-side-item-input {
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
     .dv-dashboard-main-main.support {padding: 1rem !important;}
     .dv-dashboard-nav {display: none;}
+    #dv-dashboard-nav-mobile {display: block;}
     .dv-dashboard-main-middle-side > :last-child {
         width: 100%;
         padding-right: 0;
