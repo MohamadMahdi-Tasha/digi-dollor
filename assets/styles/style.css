@@ -1100,6 +1100,7 @@ textarea {resize: none;}
     width: 100%;
     min-height: 100vh;
     margin-right: 12rem;
+    transition: .3s;
 }
 
 .dv-dashboard-header {
@@ -1394,16 +1395,16 @@ canvas {
     border-radius: .5rem;
     overflow: scroll;
     position: absolute;
-    width: 31rem;
     margin-top: 2.7rem;
     height: 0;
+    width: 30%;
 }
 
 
 .dv-ticket-drop-down > li > button {
     text-align: right;
-    width: 100%;
     border-radius: 0;
+    width: 100%;
 }
 
 .dv-ticket-top-side {
@@ -1721,12 +1722,8 @@ textarea.dv-ticket-top-side-item-input {
     .dv-contact-us-form > div > div {width: 100%;}
     .dv-ticket-top-side {grid-template-columns: repeat(2, 1fr);}
     .dv-ticket-top-side > :last-child{grid-column: span 2}
-
-    .dv-ticket-bottom-btns > button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
+    .dv-ticket-drop-down {width: 45%;}
+    #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 93%;}
 
     .dv-ticket-bottom-btns {
         display: flex;
@@ -1795,4 +1792,5 @@ textarea.dv-ticket-top-side-item-input {
     .dv-sect-4-media-link {grid-template-columns: repeat(2, 1fr)}
     .dv-ticket-top-side {grid-template-columns: repeat(1, 1fr);}
     .dv-ticket-top-side > :last-child {grid-column: span 1}
+    #dv-select-btn-2 ~ .dv-ticket-drop-down,.dv-ticket-drop-down {width: 90%;}
 }
