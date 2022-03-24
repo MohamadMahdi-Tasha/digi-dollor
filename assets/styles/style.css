@@ -1,8 +1,6 @@
 /*Importing Part*/
 @import "../fonts/font-vazir/Vazirmatn-UI-font-face.css";
 @import "../fonts/font-yekan-bakh/Yekan Bakh Regular.css";
-@import "buttons.css";
-
 
 /*Variables*/
 :root {
@@ -1622,6 +1620,156 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-ticket-top-side-item-input {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-ticket-top-side-item-btn {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-ticket-top-side-item-input {color: white;}
+
+/*Buttons*/
+/*Buttons*/
+/*Public Styles*/
+button {
+    border-radius: 2rem;
+    font-size: 16px;
+    padding: 1rem;
+    transition: .3s;
+}
+
+/*Buttons*/
+.dv-btn-bg-none {
+    background-color: unset;
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+.dv-btn-bg-orange {
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+.dv-btn-border-diamond {
+    background-color: unset;
+    border: 1px solid var(--diamond);
+    color: var(--diamond);
+    width: 50%;
+}
+
+.dv-btn-bg-blue {
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+.dv-btn-border-blue {
+    background-color: unset;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    width: 50%;
+}
+
+.dv-tab-btn {
+    width: 5%;
+    padding: 1rem;
+    background-color: #F3F3F3;
+    color: var(--gray);
+    border: none;
+    border-radius: .5rem .5rem 0 0;
+    transition: .3s;
+}
+
+.dv-tab-btn.active{
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.dv-circle-btn {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: unset;
+    transition: .3s;
+}
+
+.dv-btn-log-in {
+    border-radius: .5rem;
+    background-color: var(--form-btn);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+}
+
+.dv-tab-btn-2 {
+    border-radius: 0;
+    background-color: unset;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 1px solid #E8E8E8;
+    color: #1C2A3A;
+    font-size: 12px;
+}
+
+.dv-tab-btn-2.active {
+    border-right-color: #E8E8E8;
+    border-left-color: #E8E8E8;
+    border-bottom: none;
+    border-top-color: var(--indigo);
+}
+
+.dv-btn-bg-none-shadow {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    border-radius: .5rem;
+    color: var(--blue);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.dv-btn-bg-none-shadow > svg {margin-left: 1rem;}
+
+/*Active And Hovers*/
+.dv-btn-bg-none:hover {background-color: var(--blue);}
+.dv-btn-bg-none:active {background-color: var(--blue-darker);}
+.dv-btn-bg-orange:hover {background-color: var(--darker-orange);}
+.dv-btn-bg-orange:active {background-color: var(--darkest-orange);}
+.dv-btn-bg-blue:hover {background-color: var(--blue-darker);}
+.dv-btn-bg-blue:active {background-color: var(--blue-darkest);}
+.dv-btn-border-blue:active {background-color: var(--blue-darkest) !important;}
+.dv-tab-btn:hover {background-color: #d4d4d4;}
+.dv-tab-btn:active {background-color: #b8b8b8;}
+.dv-tab-btn.active:hover {background-color: #dcdcdc;}
+.dv-tab-btn.active:active {background-color: #bbbbbb;}
+.dv-circle-btn:hover {background-color: #DBDBDB;}
+.dv-circle-btn:active {background-color: #bababa;}
+.dv-btn-log-in:hover {background-color: var(--form-btn-darker);}
+.dv-btn-log-in:active {background-color: var(--form-btn-darkest);}
+.dv-tab-btn-2:hover {background-color: #d9d9d9;}
+.dv-tab-btn-2:active {background-color: #bdbdbd;}
+.dv-btn-bg-none-shadow:hover {background-color: #dedede;}
+.dv-btn-bg-none-shadow:active {background-color: #bfbfbf;}
+
+.dv-btn-border-diamond:hover {
+    background-color: var(--diamond);
+    color: white;
+}
+
+.dv-btn-border-diamond:active {
+    background-color: var(--diamond-darker);
+    border-color: var(--diamond-darker);
+}
+
+.dv-btn-border-blue:hover {
+    background-color: var(--blue);
+    color: white;
+}
 
 /*Media Query*/
 @media (max-width: 1021px) {
