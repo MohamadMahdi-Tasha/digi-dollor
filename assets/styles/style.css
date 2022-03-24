@@ -1324,8 +1324,6 @@ canvas {
 .dv-open-able-item > button > svg {margin-left: 1rem;}
 .dv-open-able-item:hover > button,
 .dv-open-able-item:hover > div > p{color: var(--blue) !important;}
-.dv-open-able-item:focus-within {height: 15rem;}
-.dv-open-able-item:focus-within > button > svg{transform: rotate(180deg);}
 .dv-open-able-item > button > svg {transition: .3s;}
 .dv-open-able-item:first-of-type {border-top: 0;}
 .dv-open-able-item:last-of-type {border-bottom: 0;}
