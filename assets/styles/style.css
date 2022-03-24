@@ -1597,6 +1597,8 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-open-able-items {border-top-color: var(--indigo);}
 .dv-dashboard-main.dark .dv-open-able-item > button{color: #d0d0d0;}
 .dv-dashboard-main.dark .dv-btn-bg-none-shadow{background-color: var(--mid-darker-indigo);color: white;}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow:hover{background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow:active{background-color: var(--darkest-indigo);}
 .dv-dashboard-main.dark .dv-btn-bg-none-shadow > svg > g > g > path {fill: white}
 
 /*Media Query*/
