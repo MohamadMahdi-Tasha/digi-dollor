@@ -1386,6 +1386,25 @@ canvas {
 .dv-btn-bg-white-shadow:active {border-color: var(--indigo);}
 #dv-dashboard-nav-mobile::-webkit-scrollbar {display: none;}
 .dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
+.dv-ticket-drop-down::-webkit-scrollbar {display: none;}
+.dv-ticket-top-side-item-btn:focus ~ .dv-ticket-drop-down {height: 30%;}
+
+.dv-ticket-drop-down {
+    transition: .3s;
+    border-radius: .5rem;
+    overflow: scroll;
+    position: absolute;
+    width: 31rem;
+    margin-top: 2.7rem;
+    height: 0;
+}
+
+
+.dv-ticket-drop-down > li > button {
+    text-align: right;
+    width: 100%;
+    border-radius: 0;
+}
 
 .dv-ticket-top-side {
     display: grid;
