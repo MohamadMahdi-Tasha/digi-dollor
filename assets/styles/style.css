@@ -1098,6 +1098,7 @@ textarea {resize: none;}
 
 .dv-dashboard-main {
     width: 100%;
+    min-height: 100vh;
     margin-right: 12rem;
 }
 
@@ -1594,10 +1595,13 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-open-able-item {border-top-color: var(--indigo);border-bottom-color: var(--indigo);}
 .dv-dashboard-main.dark .dv-open-able-items {border-top-color: var(--indigo);}
 .dv-dashboard-main.dark .dv-open-able-item > button{color: #d0d0d0;}
-.dv-dashboard-main.dark .dv-btn-bg-none-shadow{background-color: var(--mid-darker-indigo);color: white;}
-.dv-dashboard-main.dark .dv-btn-bg-none-shadow:hover{background-color: var(--high-dark-indigo);}
-.dv-dashboard-main.dark .dv-btn-bg-none-shadow:active{background-color: var(--darkest-indigo);}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow, .dv-dashboard-main.dark .dv-btn-bg-white-shadow{background-color: var(--mid-darker-indigo);color: white;}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow:hover, .dv-dashboard-main.dark .dv-btn-bg-white-shadow:hover {background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-btn-bg-none-shadow:active, .dv-dashboard-main.dark .dv-btn-bg-white-shadow:active {background-color: var(--darkest-indigo);}
 .dv-dashboard-main.dark .dv-btn-bg-none-shadow > svg > g > g > path {fill: white}
+.dv-dashboard-main.dark .dv-ticket-top-side-item-input {background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-ticket-top-side-item-btn {background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-ticket-top-side-item-input {color: white;}
 
 /*Media Query*/
 @media (max-width: 1021px) {
