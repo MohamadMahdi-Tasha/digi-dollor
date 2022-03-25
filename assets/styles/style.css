@@ -305,13 +305,14 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-table {
     background-color: white;
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: 0 70px 10px rgba(0,0,0,.1);
 }
 
 .dv-sect-2-bottom-see-all {
     background-color: white;
-    border-radius: 0 0 1rem 1rem;
-    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,7 +355,7 @@ th, td {
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1671,10 +1672,11 @@ button {
     width: 5%;
     padding: 1rem;
     background-color: #F3F3F3;
-    color: var(--gray);
     border: none;
     border-radius: .5rem .5rem 0 0;
     transition: .3s;
+    color: #A3A5A8;
+    font-size: 16px;
 }
 
 .dv-tab-btn.active{
