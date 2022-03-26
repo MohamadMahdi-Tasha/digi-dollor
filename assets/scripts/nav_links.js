@@ -24,7 +24,7 @@ function show_links(clicks, list, btn) {
         list.setAttribute('data-list-opened', true);
         btn.style.backgroundColor = 'var(--blue)';
     } else {
-        list.style.height = '3.9rem';
+        list.style.height = '4rem';
         list.setAttribute('data-list-opened', false);
         btn.style.backgroundColor = 'var(--high-dark-indigo)';
     }

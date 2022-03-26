@@ -90,7 +90,7 @@ th {color: #A3A5A8 !important;}
 
 .dv-header-holder {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     position: fixed;
 }
 
@@ -649,7 +649,7 @@ footer > :first-child{
 .dv-currency-btn-list {
     position: absolute;
     margin-top: -4rem;
-    width: 25%;
+    width: 20vw;
     list-style: none;
     background-color: var(--indigo);
     border-radius: .5rem;
@@ -759,7 +759,7 @@ footer > :first-child{
     display: inline-flex;
     align-items: center;
     width: 100%;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .dv-about-us-sect-2-right-side{
@@ -1013,7 +1013,6 @@ textarea {resize: none;}
 .dv-time:before {content: 'روز';}
 .dv-dashboard-header-left-side {justify-content: end;}
 .dv-dashboard-header-left-side > svg {margin-right: 1rem;}
-.dv-dashboard-main-main {padding: 2rem;}
 .dv-dashboard-main-top-item-money > :first-child {margin-left: .5rem;}
 .dv-dashboard-main-middle-side-right-side-item1-bottom {padding: 1rem;}
 .dv-dashboard-main-middle-side-right-side-item1-bottom > :first-child {margin-bottom: 1rem;}
@@ -1030,7 +1029,7 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 .dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 .dv-dashboard-main-middle-side-right-side-item-col-3::-webkit-scrollbar {display: none;}
-.dv-dashboard-main-main.dashboard {padding: 1rem;}
+.dv-dashboard-main-main.dashboard {padding: .5rem !important;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
@@ -1388,6 +1387,7 @@ canvas {
 .dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
 .dv-ticket-drop-down::-webkit-scrollbar {display: none;}
 .dv-ticket-top-side-item-btn:focus ~ .dv-ticket-drop-down {height: 30%;}
+.dv-dashboard-main-main.ticket {padding: 2rem;}
 
 .dv-ticket-drop-down {
     transition: .3s;
@@ -1545,6 +1545,7 @@ textarea.dv-ticket-top-side-item-input {
 /*Mobile Nav*/
 .dv-mobile-nav-link-item > button:active {background-color: var(--darkest-indigo);}
 .dv-mobile-nav-links > li > a > button:active {background-color: var(--blue-darker);}
+#dv-mobile-nav > .dv-mobile-nav-top > a {margin: 0;}
 
 .dv-mobile-nav-links {
     background-color: var(--blue);
@@ -1552,7 +1553,7 @@ textarea.dv-ticket-top-side-item-input {
 }
 
 .dv-mobile-nav-link-item {
-    height: 3.9rem;
+    height: 4rem;
     overflow: hidden;
     transition: .3s;
 }
@@ -1775,6 +1776,7 @@ button {
 
 /*Media Query*/
 @media (max-width: 1021px) {
+    .dv-header-left-side {margin: 0;}
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-header-left-side {width: 100%;}
     .dv-on-mobile-nav-toggle {display: flex;}
@@ -1783,7 +1785,7 @@ button {
     .dv-sect-2-top-btn-holder > button {width: 25%;}
     .dv-sect-4-media-link {grid-template-columns: repeat(3, 1fr)}
     .dv-sect-4-blogs-holder {grid-template-columns: repeat(1,1fr);}
-    .dv-sect-4, .dv-sect-3, .dv-sect-1  {padding: 1.5rem;}
+    .dv-sect-4, .dv-sect-3, .dv-sect-2 ,.dv-sect-1  {padding: 1rem;}
     .dv-footer-list-holder {grid-template-columns: repeat(2, 1fr);}
     .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 50%;}
     .dv-about-us-sect-2-right-side, .dv-about-us-sect-2-left-side,
@@ -1791,7 +1793,7 @@ button {
     .dv-contact-us-section-1-inner {width: 100%;}
     .dv-contact-us-section-1-inner {padding: 0;}
     .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
-    .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 2rem;}
+    .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 1rem;}
     .dv-log-in-form {width: 70%;}
     .dv-dashboard-main {margin-right: 0 !important;}
     #dv-dashboard-mobile-toggle {display: flex;}
@@ -1804,6 +1806,7 @@ button {
     .dv-dashboard-main-main.support {padding: 1rem !important;}
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
+    .dv-dashboard-main-main.ticket {padding: 1rem;}
     .dv-dashboard-main-middle-side > :last-child {
         width: 100%;
         padding-right: 0;
@@ -1854,7 +1857,6 @@ button {
     .dv-footer-bottom-side > p{margin-bottom: 1rem;}
     .dv-media-863-w-50 {width: 50%;}
     .dv-about-us-sect-1-inner {width: 100%;}
-
     .dv-footer-bottom-side {
         display: flex;
         flex-direction: column;
@@ -1874,6 +1876,8 @@ button {
     .dv-ticket-top-side > :last-child{grid-column: span 2}
     .dv-ticket-drop-down {width: 45%;}
     #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 93%;}
+    .dv-main-inner-holder {width: 100%;}
+    .dv-currency-btn-list {width: 40vw;}
 
     .dv-ticket-bottom-btns {
         display: flex;
@@ -1894,7 +1898,6 @@ button {
     .dv-footer-list-holder {grid-template-columns: repeat(1, 1fr);gap: 2rem;}
     .dv-contact-us-section-1-cards-holder {grid-template-columns: repeat(1, 1fr);}
     .dv-contact-section-1-card:nth-of-type(2) {margin: 0 !important;}
-    .dv-main-inner-holder {width: 100%;}
     .dv-body-log-in {padding: 0;}
     .dv-log-in-mid {width: 100%;}
     .dv-dashboard-main-top {grid-template-columns: repeat(1, 1fr) !important;}
@@ -1903,7 +1906,6 @@ button {
     .dv-dashboard-main-middle-side-right-side-item1,
     .dv-dashboard-main-middle-side-right-side-item-col-2,
     .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
-    .dv-dashboard-main-main {padding: .5rem;}
     .dv-dashboard-main-main.ticket {padding: 2rem !important;}
     .dv-dashboard-main-middle-side {padding: .5rem;}
     .dv-currency-btn-list {width: 40%;}
@@ -1943,4 +1945,32 @@ button {
     .dv-ticket-top-side {grid-template-columns: repeat(1, 1fr);}
     .dv-ticket-top-side > :last-child {grid-column: span 1}
     #dv-select-btn-2 ~ .dv-ticket-drop-down,.dv-ticket-drop-down {width: 90%;}
+}
+
+@media (max-width: 358px) {
+    .dv-currency-btn-holder {width: 100%;}
+    .dv-currency-btn-list {width: 80vw;}
+    .dv-currency {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .dv-contact-form-right-side-socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 326px) {  
+    #dv-middle-side-calculation {font-size: 20px;}
+    .dv-dashboard-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dv-dashboard-header > div {width: 100%;}
+    .dv-dashboard-header > div:first-of-type {margin-bottom: 1rem;}
 }
