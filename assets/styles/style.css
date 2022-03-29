@@ -920,6 +920,7 @@ textarea {resize: none;}
 .dv-form-options-right > input[type='checkbox'] {margin-left: 1rem;}
 .dv-form-options-left > a,
 .dv-form-options-right{color: var(--seprator);}
+.dv-log-in-form-login > .dv-form-input:last-of-type {margin-bottom: 2rem}
 
 .dv-body-log-in {
     background-image: url("../img/log-in/img-body-bg.jpg");
@@ -934,12 +935,12 @@ textarea {resize: none;}
 
 .dv-log-in-form {
     border-radius: 1rem;
-    width: 30%;
+    width: 265px;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
     backdrop-filter: blur( 40px );
     -webkit-backdrop-filter: blur( 40px );
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .dv-log-in-top-side {
@@ -1809,7 +1810,6 @@ button {
     .dv-contact-us-section-1-inner {padding: 0;}
     .dv-contact-us-section-1-inner > .dv-title {margin-top: 4rem;}
     .dv-contact-us-section-2,.dv-contact-us-section-1 {padding: 1rem;}
-    .dv-log-in-form {width: 70%;}
     .dv-dashboard-main {margin-right: 0 !important;}
     #dv-dashboard-mobile-toggle {display: flex;}
     .dv-dashboard-main-top {grid-template-columns: repeat(2, 1fr) !important;}
