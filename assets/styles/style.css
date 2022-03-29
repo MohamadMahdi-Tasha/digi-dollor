@@ -735,7 +735,7 @@ footer > :first-child{
 /*About Us Page*/
 .dv-body-about-us {background-color: white;}
 .dv-about-us-sect-3-left-side {width: 50%;}
-.dv-about-us-sect-3-right-side {margin-left: 5rem;}
+.dv-about-us-sect-3-right-side {margin-left: 10rem;}
 
 .dv-title {
     font-size: 22px;
@@ -781,7 +781,7 @@ footer > :first-child{
 }
 
 .dv-about-us-sect-2-right-side{
-    margin-left: 5rem;
+    margin-left: 10rem;
     width: 50%;
 }
 
@@ -791,6 +791,9 @@ footer > :first-child{
     justify-content: center;
     align-items: center;
 }
+
+.dv-about-us-sect-2-left-side > img,
+.dv-about-us-sect-3-right-side > img {width: 100%;}
 
 .dv-about-us-sect-2-right-side-bottom-btn-holder,
 .dv-about-us-sect-3-right-side-bottom-btn-holder{
@@ -1824,6 +1827,7 @@ button {
     .dv-dashboard-main-main.ticket {padding: 1rem;}
     .dv-about-us-sect-2, .dv-about-us-sect-3 {padding: 2rem !important;}
     .dv-about-us-sect-2-right-side, .dv-about-us-sect-3-right-side{margin-left: 0;}
+    .dv-about-us-sect-2-left-side > img {margin-top: 2rem;}
 
     .dv-header-left-side {
         width: 100%;
@@ -1852,11 +1856,6 @@ button {
 
     .dv-about-us-sect-3-right-side > img {
         margin-bottom: 2rem;
-        width: 100%;
-    }
-
-    .dv-about-us-sect-2-left-side > img {
-        margin-top: 2rem;
         width: 100%;
     }
 
