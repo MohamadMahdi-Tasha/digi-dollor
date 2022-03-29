@@ -23,6 +23,7 @@
     --form-btn: #5D6469;
     --form-btn-darker: #4b5155;
     --form-btn-darkest: #393d40;
+    --box-shadow: 0 11px 14px -9px rgba(0,0,0,0.2);
 }
 
 /*Default Styles*/
@@ -116,7 +117,7 @@ th {color: #A3A5A8 !important;}
     width: 100%;
     padding: .5rem;
     position: fixed;
-    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
 }
 
 .dv-header-links {
@@ -194,7 +195,7 @@ th {color: #A3A5A8 !important;}
     width: 70%;
     height: 100%;
     background-color: var(--high-dark-indigo);
-    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     overflow: scroll;
     left: 100%;
     transition: .3s;
@@ -264,7 +265,7 @@ th {color: #A3A5A8 !important;}
 
 .dv-sect-1-bottom-card {
     border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     padding: 1rem;
     background-color: white;
     transition: .3s;
@@ -311,7 +312,7 @@ th {color: #A3A5A8 !important;}
     background-color: white;
     width: 100%;
     border-radius: 2rem 2rem 0 0;
-    box-shadow: 0 70px 10px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
 }
 
 .dv-sect-2-bottom-see-all {
@@ -360,7 +361,7 @@ th, td {
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -435,7 +436,7 @@ th, td {
 .dv-sect-4-blog {
     background-color: white;
     padding: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     border-radius: .5rem;
     transition: .3s;
 }
@@ -576,7 +577,6 @@ footer > :first-child{
     margin-bottom: 4rem;
 }
 
-
 .dv-main {
     width: 100%;
     display: flex;
@@ -621,14 +621,14 @@ footer > :first-child{
     padding: 1rem;
     width: 100%;
     transition: .3s;
-    color: #B0B1B2;
     font-size: 16px;
+    color: var(--indigo);
 }
 
 .dv-input:focus {
     border-color: var(--indigo);
     background-color: #E0E1E4;
-    color: var(--indigo);
+    color: black;
 }
 
 .dv-currency {
@@ -657,7 +657,7 @@ footer > :first-child{
     list-style: none;
     background-color: var(--indigo);
     border-radius: .5rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     height: 0;
     transition: .3s;
     overflow: scroll;
@@ -807,6 +807,12 @@ footer > :first-child{
 .dv-contact-section-1-card:hover .dv-contact-section-1-card-svg > g > path{fill: white;}
 .dv-contact-section-1-card:hover > a,
 .dv-contact-section-1-card:hover > p > a{color: white;}
+.dv-contact-us-form > div > div {width: 50%;}
+.dv-contact-us-form > div > div:last-of-type {margin: 0;}
+textarea {resize: none;}
+.dv-mb-1 {margin-bottom: 1rem;}
+.dv-label.dv-no-mt {margin-top: 0;}
+.dv-contact-us-form-left-side-bottom-btn-holder > button {width: 30%;}
 
 .dv-contact-us-section-1 {
     display:flex;
@@ -828,6 +834,7 @@ footer > :first-child{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-items: center;
 }
 
 .dv-contact-section-1-card {
@@ -839,6 +846,7 @@ footer > :first-child{
     align-items: center;
     justify-content: center;
     transition: .3s;
+    width: 100%;
 }
 
 .dv-contact-section-1-card:hover {
@@ -862,9 +870,9 @@ footer > :first-child{
 .dv-contact-us-form {
     background-color: white;
     width: 90%;
-    padding: 2rem;
-    box-shadow: 0 0 30px rgba(0,0,0,.2);
-    border-radius: .5rem;
+    padding: 2rem 4rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .25rem;
     margin-top: -10rem;
     text-align: center;
 }
@@ -874,10 +882,6 @@ footer > :first-child{
     width: 100%;
 }
 
-.dv-contact-us-form > div > div {width: 50%;}
-.dv-contact-us-form > div > div:last-of-type {margin: 0;}
-textarea {resize: none;}
-.dv-mb-1 {margin-bottom: 1rem;}
 .dv-contact-us-form-left-side-bottom-btn-holder {
     display: flex;
     justify-content: end;
@@ -887,17 +891,18 @@ textarea {resize: none;}
 .dv-label {
     font-size: 16px;
     color: #68696C;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin: 1rem 2rem .75rem 0;
 }
 
-.dv-contact-us-form > div > div:first-of-type,
-.dv-contact-us-form > div > div:last-of-type{
+.dv-contact-us-form > div > div {
     display: flex;
     flex-direction: column;
     justify-content:start;
     align-items: start;
-    margin-left: 2rem;
+}
+
+.dv-contact-us-form > div > div:last-of-type {
+    margin-right: 4rem;
 }
 
 .dv-contact-form-right-side-socials {
@@ -933,7 +938,7 @@ textarea {resize: none;}
     border-radius: 1rem;
     width: 265px;
     background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: var(--box-shadow);
     backdrop-filter: blur( 40px );
     -webkit-backdrop-filter: blur( 40px );
     padding: 1rem;
@@ -1057,14 +1062,14 @@ textarea {resize: none;}
     background-color: white;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
 }
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 {
     grid-column: span 3;
     background-color: white;
     padding: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
     border-radius: 1rem;
     overflow: scroll;
 }
@@ -1201,7 +1206,7 @@ textarea {resize: none;}
 .dv-dashboard-main-top-item {
     padding: 1rem;
     background-color: white;
-    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
     border-radius: 1rem;
 }
 
@@ -1252,7 +1257,7 @@ canvas {
     background-color: white;
     overflow: hidden;
     border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
     width: 98%;
 }
 
@@ -1315,7 +1320,7 @@ canvas {
     background-color: white;
     padding: 1.5rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
     color: var(--blue);
 }
 
@@ -1347,7 +1352,7 @@ canvas {
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     margin-bottom: 2rem;
 }
 
@@ -1443,7 +1448,7 @@ canvas {
     padding: 1rem;
     outline: none;
     background-color: white;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     transition: .3s;
     border: 1px solid transparent;
     border-radius: .5rem;
@@ -1458,7 +1463,7 @@ canvas {
 .dv-ticket-top-side-item-btn {
     padding: 1rem;
     background-color: white;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     border: 1px solid transparent;
     border-radius: .5rem;
     height: 5rem;
@@ -1494,7 +1499,7 @@ textarea.dv-ticket-top-side-item-input {
 .dv-btn-bg-white-shadow {
     padding: 1rem;
     background-color: white;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     border: 1px solid transparent;
     border-radius: .5rem;
     height: 5rem;
@@ -1534,7 +1539,7 @@ textarea.dv-ticket-top-side-item-input {
     list-style: none;
     background-color: var(--blue);
     border-radius: 1rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     overflow: hidden;
     width: 15rem;
     opacity: 0;
@@ -1696,7 +1701,7 @@ button {
 
 .dv-tab-btn.active{
     background-color: white;
-    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    box-shadow: var(--box-shadow);
 }
 
 .dv-circle-btn {
@@ -1742,7 +1747,7 @@ button {
 
 .dv-btn-bg-none-shadow {
     background-color: white;
-    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
     border-radius: .5rem;
     color: var(--blue);
     border: none;
@@ -1888,11 +1893,14 @@ button {
 
 @media (max-width: 707px){
     .dv-contact-us-form > div > div {width: 100%;}
+    .dv-contact-us-form > div > div:last-of-type {margin-right: 0;}
     .dv-ticket-top-side {grid-template-columns: repeat(2, 1fr);}
     .dv-ticket-top-side > :last-child{grid-column: span 2}
     .dv-ticket-drop-down {width: 45%;}
     #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 93%;}
     .dv-currency-btn-list {width: 40vw;}
+    .dv-label.dv-no-mt {margin-top: 1rem;}
+    .dv-contact-us-form {padding: 2rem;}
 
     .dv-ticket-bottom-btns {
         display: flex;
@@ -1981,11 +1989,10 @@ button {
 
 @media (max-width: 326px) {  
     #dv-middle-side-calculation {font-size: 20px;}
+    .dv-dashboard-header > div {width: 100%;}
+    .dv-dashboard-header > div:first-of-type {margin-bottom: 1rem;}
     .dv-dashboard-header {
         display: flex;
         flex-direction: column;
     }
-
-    .dv-dashboard-header > div {width: 100%;}
-    .dv-dashboard-header > div:first-of-type {margin-bottom: 1rem;}
 }
