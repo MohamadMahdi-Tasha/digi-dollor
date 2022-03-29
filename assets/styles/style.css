@@ -567,16 +567,15 @@ footer > :first-child{
 .dv-currency-btn:focus ~ .dv-currency-btn-list {height: 15rem;}
 .dv-main-inner-holder {margin-top: 5%;}
 .dv-no-footer-body {background-color: white !important;}
+.dv-main-top-title {font-size: 22px;}
+.dv-main-top > .dv-main-top-title {margin-bottom: 2rem;}
+.dv-main-top > .dv-main-top-subtitle {margin-bottom: 1rem;}
 
 .dv-main-top {
     text-align: center;
     margin-bottom: 4rem;
 }
 
-.dv-main-top > .dv-main-top-title,
-.dv-main-top > .dv-main-top-subtitle {
-    margin-bottom: 3rem;
-}
 
 .dv-main {
     width: 100%;
@@ -586,13 +585,7 @@ footer > :first-child{
     min-height: 100vh;
 }
 
-.dv-main-top-title {
-    margin-bottom: 1rem;
-    font-size: 22px;
-}
-
 .dv-main-top-subtitle {
-    margin-bottom: 1rem;
     font-size: 18px;
     color: var(--blue);
 }
