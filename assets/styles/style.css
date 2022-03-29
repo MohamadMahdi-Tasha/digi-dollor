@@ -1027,8 +1027,8 @@ textarea {resize: none;}
 .dv-dashboard-nav-btn > svg {margin-bottom: 1rem;}
 .dv-dashboard-nav::-webkit-scrollbar {display: none;}
 .dv-switch > input[type='checkbox']:checked {background: linear-gradient(to right, #0A1931, #153365);}
-.dv-switch > input[type='checkbox']:checked ~ .dv-slider {left: 5.3rem;}
-.dv-switch > input[type='checkbox']:checked ~ .dv-time {left: 3rem;}
+.dv-switch > input[type='checkbox']:checked ~ .dv-slider {left: 7.5rem;}
+.dv-switch > input[type='checkbox']:checked ~ .dv-time {left: 4.5rem;}
 .dv-switch > input[type='checkbox']:checked ~ .dv-time:before {content: 'شب';}
 .dv-time:before {content: 'روز';}
 .dv-dashboard-header-left-side {justify-content: end;}
@@ -1049,7 +1049,7 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 .dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 .dv-dashboard-main-middle-side-right-side-item-col-3::-webkit-scrollbar {display: none;}
-.dv-dashboard-main-main.dashboard {padding: .5rem !important;}
+.dv-dashboard-main-main.dashboard {padding: 2rem !important;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
@@ -1068,8 +1068,8 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-side-right-side-item-col-3 {
     grid-column: span 3;
     background-color: white;
-    padding: 1rem;
     box-shadow: var(--box-shadow);
+    padding: 2rem;
     border-radius: 1rem;
     overflow: scroll;
 }
@@ -1123,7 +1123,7 @@ textarea {resize: none;}
 
 .dv-dashboard-header {
     background-color: white;
-    padding: 1rem;
+    padding: .5rem 3rem;
     width: 100%;
     display: inline-flex;
     align-items: center;
@@ -1173,7 +1173,7 @@ textarea {resize: none;}
 .dv-slider {
     width: 2rem;
     height: 2rem;
-    left: 2.6rem;
+    left: 4.5rem;
     position: absolute;
     background-image: url("../img/dashboard/img-morning.jpg");
     background-size: cover;
@@ -1185,7 +1185,7 @@ textarea {resize: none;}
 
 .dv-time {
     position: absolute;
-    left: 5.5rem;
+    left: 8rem;
     margin-top: .7rem;
     color: white;
     transition: .3s;
@@ -1257,6 +1257,7 @@ canvas {
     background-color: white;
     overflow: hidden;
     border-radius: 1rem;
+    padding: 1rem;
     box-shadow: var(--box-shadow);
     width: 98%;
 }
@@ -1318,7 +1319,7 @@ canvas {
     justify-content: space-between;
     width: 100%;
     background-color: white;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     box-shadow: var(--box-shadow);
     color: var(--blue);
