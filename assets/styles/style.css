@@ -75,8 +75,6 @@ th {color: #A3A5A8 !important;}
 .dv-sect-4-blog-bottom-side-left-side > img {margin-right: 1rem;}
 .dv-sect-4-blog-img {margin-left: 1rem;}
 .dv-sect-4-blog-author {color: #68696C;}
-.dv-sect-4-blog:hover {background-color: #e2e2e2;}
-.dv-sect-4-blog:active {background-color: #bababa;}
 .dv-footer-bottom-side > p > span {color: var(--diamond);}
 .dv-footer-bottom-side > h3 > span {color: var(--orange);}
 .dv-footer-top-side-left-side-btn-holder:first-of-type {margin-left: 1rem;}
@@ -84,6 +82,7 @@ th {color: #A3A5A8 !important;}
 .dv-header > .dv-header-right-side {margin-right: 2rem;}
 .dv-header-left-side > :nth-child(2) {border-right: 2px solid white;}
 .dv-header-left-side-btn-holder:first-of-type > a > button {padding: .5rem;}
+.dv-w-10 {width: 10% !important;}
 
 .dv-header-left-side-btn-holder:first-of-type {
     margin-left: 1rem;
@@ -300,7 +299,8 @@ th {color: #A3A5A8 !important;}
 }
 
 /*Second Section*/
-.dv-sect-2 {padding: 3rem;}
+.dv-sect-2 {padding: 2rem 5rem ;}
+.dv-sect-2 > div:last-of-type {box-shadow: var(--box-shadow);}
 .dv-sect-2-top-btn-holder {
     display: flex;
     justify-content: end;
@@ -313,6 +313,7 @@ th {color: #A3A5A8 !important;}
     width: 100%;
     border-radius: 2rem 2rem 0 0;
     box-shadow: var(--box-shadow);
+    padding: 2rem;
 }
 
 .dv-sect-2-bottom-see-all {
@@ -343,7 +344,7 @@ th, td {
 /*Third Section*/
 .dv-sect-3 {
     text-align: center;
-    padding: 3rem;
+    padding: 5rem 7rem;
 }
 
 .dv-sect-3-title {
@@ -353,7 +354,7 @@ th, td {
 
 .dv-sect-3-cards {
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -370,15 +371,10 @@ th, td {
     transition: .3s;
 }
 
-.dv-sect-3-card:hover {
-    background-color: var(--indigo);
-    color: white;
-}
-
 /*Fourth Section*/
 .dv-sect-4 {
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .dv-sect-4-top-side {
@@ -435,7 +431,7 @@ th, td {
 
 .dv-sect-4-blog {
     background-color: white;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     transition: .3s;
@@ -1646,6 +1642,7 @@ textarea.dv-ticket-top-side-item-input {
 
 /*Buttons*/
 /*Public Styles*/
+.dv-tab-btn.active{background-color: white;}
 button {
     border-radius: 2rem;
     font-size: 16px;
@@ -1698,11 +1695,6 @@ button {
     transition: .3s;
     color: #A3A5A8;
     font-size: 16px;
-}
-
-.dv-tab-btn.active{
-    background-color: white;
-    box-shadow: var(--box-shadow);
 }
 
 .dv-circle-btn {
