@@ -48,8 +48,6 @@ body {
 /*Home Styles*/
 /*Header Section*/
 .dv-header-right-side {width: 60%;}
-.dv-header-left-side-btn-holder {width: 40%;}
-.dv-header-left-side-btn-holder:first-of-type {margin-left: 1rem;}
 .dv-header-links > .dv-header-links-item:first-child,.dv-on-mobile-logo {margin-top: 1rem;}
 .dv-mobile-nav-top > a {margin-left: 5rem;}
 #dv-mobile-nav::-webkit-scrollbar {display: none;}
@@ -82,15 +80,24 @@ th {color: #A3A5A8 !important;}
 .dv-footer-bottom-side > h3 > span {color: var(--orange);}
 .dv-footer-top-side-left-side-btn-holder:first-of-type {margin-left: 1rem;}
 .dv-header-links-item.no-margin{margin: 0 !important;}
+.dv-header > .dv-header-right-side {margin-right: 2rem;}
+.dv-header-left-side > :nth-child(2) {border-right: 2px solid white;}
+.dv-header-left-side-btn-holder:first-of-type > a > button {padding: .5rem;}
+
+.dv-header-left-side-btn-holder:first-of-type {
+    margin-left: 1rem;
+    width: 30%;
+}
 
 .dv-header.rounded {
     border-radius: 1rem;
     position: static;
+    padding: .5rem !important;
 }
 
 .dv-header-holder {
     width: 100%;
-    padding: 1rem;
+    padding: 4vh 6vw;
     position: fixed;
 }
 
@@ -102,7 +109,6 @@ th {color: #A3A5A8 !important;}
     transition: .3s;
     background-color: var(--blue);
 }
-
 
 .dv-header {
     background-color: var(--high-dark-indigo);
@@ -139,13 +145,13 @@ th {color: #A3A5A8 !important;}
     display: inline-flex;
     align-items: center;
     justify-content: end;
-    margin-right: 2rem;
-    margin-left: 2rem;
 }
 
-.dv-header-left-side > :nth-child(2) {
-    border-right: 2px solid white;
-    padding-right: 1rem;
+.dv-header-left-side-btn-holder:last-of-type > a > button {
+    background: unset;
+    color: white;
+    border: none;
+    margin-right: .5rem;
 }
 
 .dv-on-mobile-nav-toggle {
@@ -560,6 +566,10 @@ footer > :first-child{
 .dv-currency-btn-list > li > button:active {background-color: var(--blue-darkest);}
 .dv-currency-btn-list::-webkit-scrollbar {display: none;}
 .dv-currency-btn:focus ~ .dv-currency-btn-list {height: 15rem;}
+.dv-main-inner-holder {
+    margin-top: 5%;
+}
+.dv-no-footer-body {background-color: white !important;}
 
 .dv-main-top {
     text-align: center;
@@ -568,10 +578,10 @@ footer > :first-child{
 }
 
 .dv-main {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     min-height: 100vh;
 }
 
@@ -712,12 +722,13 @@ footer > :first-child{
 /*404 Page*/
 .dv-main-middle-img {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .dv-main-middle-paragraph {
-    font-size: 20px;
-    margin-bottom: 1rem;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    color: #14151A;
 }
 
 /*About Us Page*/
@@ -745,9 +756,9 @@ footer > :first-child{
 }
 
 .dv-about-us-sect-1-inner {
+    margin-top: 10rem;
     width: 50%;
     text-align:  center;
-    margin-top: 10rem;
 }
 
 .dv-about-us-sect-1-cards-holder {
@@ -1624,7 +1635,6 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-ticket-top-side-item-input {color: white;}
 
 /*Buttons*/
-/*Buttons*/
 /*Public Styles*/
 button {
     border-radius: 2rem;
@@ -1776,9 +1786,7 @@ button {
 
 /*Media Query*/
 @media (max-width: 1021px) {
-    .dv-header-left-side {margin: 0;}
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
-    .dv-header-left-side {width: 100%;}
     .dv-on-mobile-nav-toggle {display: flex;}
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
     .dv-sect-1-top-btns-holder > a {width: 50%;}
@@ -1807,6 +1815,12 @@ button {
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
     .dv-dashboard-main-main.ticket {padding: 1rem;}
+
+    .dv-header-left-side {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
     .dv-dashboard-main-middle-side > :last-child {
         width: 100%;
         padding-right: 0;
@@ -1857,6 +1871,7 @@ button {
     .dv-footer-bottom-side > p{margin-bottom: 1rem;}
     .dv-media-863-w-50 {width: 50%;}
     .dv-about-us-sect-1-inner {width: 100%;}
+    .dv-main-inner-holder {width: 100%;}
     .dv-footer-bottom-side {
         display: flex;
         flex-direction: column;
@@ -1876,7 +1891,6 @@ button {
     .dv-ticket-top-side > :last-child{grid-column: span 2}
     .dv-ticket-drop-down {width: 45%;}
     #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 93%;}
-    .dv-main-inner-holder {width: 100%;}
     .dv-currency-btn-list {width: 40vw;}
 
     .dv-ticket-bottom-btns {
