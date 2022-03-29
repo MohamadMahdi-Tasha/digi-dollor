@@ -92,7 +92,6 @@ th {color: #A3A5A8 !important;}
 .dv-header.rounded {
     border-radius: 1rem;
     position: static;
-    padding: .5rem !important;
 }
 
 .dv-header-holder {
@@ -115,7 +114,7 @@ th {color: #A3A5A8 !important;}
     display: inline-flex;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: .5rem;
     position: fixed;
     box-shadow: 0 0 30px rgba(0,0,0,.2);
 }
@@ -566,9 +565,7 @@ footer > :first-child{
 .dv-currency-btn-list > li > button:active {background-color: var(--blue-darkest);}
 .dv-currency-btn-list::-webkit-scrollbar {display: none;}
 .dv-currency-btn:focus ~ .dv-currency-btn-list {height: 15rem;}
-.dv-main-inner-holder {
-    margin-top: 5%;
-}
+.dv-main-inner-holder {margin-top: 5%;}
 .dv-no-footer-body {background-color: white !important;}
 
 .dv-main-top {
@@ -734,7 +731,7 @@ footer > :first-child{
 /*About Us Page*/
 .dv-body-about-us {background-color: white;}
 .dv-about-us-sect-3-left-side {width: 50%;}
-.dv-about-us-sect-3-right-side {margin-left: 1rem;}
+.dv-about-us-sect-3-right-side {margin-left: 5rem;}
 
 .dv-title {
     font-size: 22px;
@@ -748,17 +745,23 @@ footer > :first-child{
 }
 
 .dv-about-us-sect-1 {
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 3rem;
 }
 
 .dv-about-us-sect-1-inner {
-    margin-top: 10rem;
-    width: 50%;
+    width: 60%;
     text-align:  center;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.dv-about-us-sect-1-inner > .dv-title,
+.dv-about-us-sect-1-inner > .dv-paragraph{
+    margin-bottom: 8rem;
 }
 
 .dv-about-us-sect-1-cards-holder {
@@ -770,11 +773,11 @@ footer > :first-child{
     display: inline-flex;
     align-items: center;
     width: 100%;
-    padding: 2rem;
+    padding: 8rem;
 }
 
 .dv-about-us-sect-2-right-side{
-    margin-left: 1rem;
+    margin-left: 5rem;
     width: 50%;
 }
 
@@ -1815,6 +1818,8 @@ button {
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
     .dv-dashboard-main-main.ticket {padding: 1rem;}
+    .dv-about-us-sect-2, .dv-about-us-sect-3 {padding: 2rem !important;}
+    .dv-about-us-sect-2-right-side, .dv-about-us-sect-3-right-side{margin-left: 0;}
 
     .dv-header-left-side {
         width: 100%;
