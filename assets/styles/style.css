@@ -1,6 +1,5 @@
 /*Importing Part*/
 @import "../fonts/font-vazir/Vazirmatn-UI-font-face.css";
-@import "../fonts/font-yekan-bakh/Yekan Bakh Regular.css";
 
 /*Variables*/
 :root {
@@ -1253,7 +1252,6 @@ canvas {
     background-color: white;
     overflow: hidden;
     border-radius: 1rem;
-    padding: 1rem;
     box-shadow: var(--box-shadow);
     width: 98%;
 }
@@ -1409,9 +1407,8 @@ canvas {
     position: absolute;
     margin-top: 2.7rem;
     height: 0;
-    width: 30%;
+    width: 27%;
 }
-
 
 .dv-ticket-drop-down > li > button {
     text-align: right;
@@ -1423,7 +1420,7 @@ canvas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .dv-ticket-top-side-item {
@@ -1785,6 +1782,7 @@ button {
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
+    .dv-dashboard-main-main {padding: 1rem;}
     .dv-on-mobile-nav-toggle {display: flex;}
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
     .dv-sect-1-top-btns-holder > a {width: 50%;}
@@ -1808,10 +1806,8 @@ button {
     .dv-dashboard-main-middle-side-right-side-item-1 {width: auto !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-2 {grid-column: span 1 !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
-    .dv-dashboard-main-main.support {padding: 1rem;}
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
-    .dv-dashboard-main-main.ticket {padding: 1rem;}
     .dv-about-us-sect-2, .dv-about-us-sect-3 {padding: 2rem !important;}
     .dv-about-us-sect-2-right-side, .dv-about-us-sect-3-right-side{margin-left: 0;}
     .dv-about-us-sect-2-left-side > img {margin-top: 2rem;}
@@ -1885,8 +1881,8 @@ button {
     .dv-contact-us-form > div > div:last-of-type {margin-right: 0;}
     .dv-ticket-top-side {grid-template-columns: repeat(2, 1fr);}
     .dv-ticket-top-side > :last-child{grid-column: span 2}
-    .dv-ticket-drop-down {width: 45%;}
-    #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 93%;}
+    .dv-ticket-drop-down {width: 46.5%;}
+    #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 96%;}
     .dv-currency-btn-list {width: 40vw;}
     .dv-label.dv-no-mt {margin-top: 1rem;}
     .dv-contact-us-form {padding: 2rem;}
@@ -1918,7 +1914,6 @@ button {
     .dv-dashboard-main-middle-side-right-side-item1,
     .dv-dashboard-main-middle-side-right-side-item-col-2,
     .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
-    .dv-dashboard-main-main.ticket {padding: 2rem !important;}
     .dv-dashboard-main-middle-side {padding: .5rem;}
     .dv-currency-btn-list {width: 40%;}
     .dv-dashboard-main-middle-side-right-side {
