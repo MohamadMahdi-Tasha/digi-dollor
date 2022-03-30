@@ -29,6 +29,7 @@
 img {pointer-events: none;}
 a {text-decoration: none;}
 button {cursor: pointer;}
+path {transition: .3s;}
 
 body {
     overflow-x: hidden;
@@ -82,6 +83,15 @@ th {color: #A3A5A8 !important;}
 .dv-header-left-side > :nth-child(2) {border-right: 2px solid white;}
 .dv-header-left-side-btn-holder:first-of-type > a > button {padding: .5rem;}
 .dv-w-10 {width: 10% !important;}
+.dv-sect-2 {padding: 2rem 5rem ;}
+.dv-sect-2 > div:last-of-type {box-shadow: var(--box-shadow);}
+.dv-sect-4-tutorials-watched > span {color: var(--blue);}
+.dv-sect-4-media-link > a:hover > svg > g > g > g > path,
+.dv-sect-4-media-link > a:hover > svg > g > path,
+.dv-sect-4-media-link > a:hover > svg > path{fill: #3A465A;}
+.dv-sect-4-media-link > a:active > svg > g > g > g > path,
+.dv-sect-4-media-link > a:active > svg > g > path,
+.dv-sect-4-media-link > a:active > svg > path{fill: #1b2331;}
 
 .dv-header-left-side-btn-holder:first-of-type {
     margin-left: 1rem;
@@ -298,8 +308,6 @@ th {color: #A3A5A8 !important;}
 }
 
 /*Second Section*/
-.dv-sect-2 {padding: 2rem 5rem ;}
-.dv-sect-2 > div:last-of-type {box-shadow: var(--box-shadow);}
 .dv-sect-2-top-btn-holder {
     display: flex;
     justify-content: end;
@@ -408,7 +416,6 @@ th, td {
     align-items: center;
 }
 
-.dv-sect-4-tutorials-watched > span {color: var(--blue);}
 .dv-sect-4-media-link {
     width: 70%;
     display: grid;
@@ -419,7 +426,6 @@ th, td {
     border-bottom: 1.5px solid #D4D4D4;
     margin-bottom: 2rem;
 }
-
 
 .dv-sect-4-blogs-holder {
     display: grid;
@@ -487,7 +493,7 @@ th, td {
 /*Footer*/
 footer > :first-child{
     background-color: var(--darkest-indigo);
-    padding: 3rem;
+    padding: .7rem;
 }
 
 .dv-footer-top-side {
@@ -535,7 +541,7 @@ footer > :first-child{
 
 .dv-footer-bottom-side {
     background-color: var(--mid-darker-indigo);
-    padding: 2rem;
+    padding: 1rem;
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
