@@ -1015,6 +1015,7 @@ textarea {resize: none;}
 }
 
 /*Dashboard Page*/
+.dv-dashboard-main-main {padding: 3rem;}
 .dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
 .dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
 .dv-dashboard-nav-btn:active {background-color: #4f6287;}
@@ -1045,7 +1046,6 @@ textarea {resize: none;}
 .dv-dashboard-main-middle-buy-details-list > li > div > :first-child > div > img{margin-left: 1rem;}
 .dv-dashboard-main-bottom > h3 > span {font-weight: bold;}
 .dv-dashboard-main-middle-side-right-side-item-col-3::-webkit-scrollbar {display: none;}
-.dv-dashboard-main-main.dashboard {padding: 2rem !important;}
 
 .dv-dashboard-main-middle-side-right-side-item-col-3 > :first-child {
     background-color: unset !important;
@@ -1343,7 +1343,6 @@ canvas {
 .dv-open-able-item:hover > div > p{color: var(--blue) !important;}
 .dv-open-able-item > button > svg {transition: .3s;}
 .dv-open-able-item:first-of-type {border-top: none;}
-.dv-dashboard-main-main.support {padding: 2rem;}
 
 .dv-faq-section {
     background-color: white;
@@ -1403,8 +1402,6 @@ canvas {
 .dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
 .dv-ticket-drop-down::-webkit-scrollbar {display: none;}
 .dv-ticket-top-side-item-btn:focus ~ .dv-ticket-drop-down {height: 30%;}
-.dv-dashboard-main-main.ticket {padding: 2rem;}
-
 .dv-ticket-drop-down {
     transition: .3s;
     border-radius: .5rem;
@@ -1811,7 +1808,7 @@ button {
     .dv-dashboard-main-middle-side-right-side-item-1 {width: auto !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-2 {grid-column: span 1 !important;}
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
-    .dv-dashboard-main-main.support {padding: 1rem !important;}
+    .dv-dashboard-main-main.support {padding: 1rem;}
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
     .dv-dashboard-main-main.ticket {padding: 1rem;}
