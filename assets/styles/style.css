@@ -918,7 +918,7 @@ textarea {resize: none;}
 .dv-log-in-mid > a > button:first-of-type {margin-bottom: 1rem;}
 .dv-form-subtitle > a {color: var(--blue);}
 .dv-form-input:hover {background-color: var(--form-btn-darker);}
-.dv-form-input::placeholder {color: white;}
+.dv-form-input::placeholder {color: white;font-size: 10px;}
 .dv-form-options-right > input[type='checkbox'] {margin-left: 1rem;}
 .dv-form-options-left > a,
 .dv-form-options-right{color: var(--seprator);}
@@ -937,7 +937,7 @@ textarea {resize: none;}
 
 .dv-log-in-form {
     border-radius: 1rem;
-    width: 265px;
+    width: 20%;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: var(--box-shadow);
     backdrop-filter: blur( 40px );
@@ -966,7 +966,7 @@ textarea {resize: none;}
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 0 2rem;
     margin-bottom: 1rem;
 }
 
@@ -988,12 +988,12 @@ textarea {resize: none;}
     color: white;
     padding: 1rem;
     border-radius: .5rem;
-    font-size: 16px;
+    font-size: 10px;
     width: 100%;
     outline: none;
     transition: .3s;
     border: 1px solid transparent;
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 .dv-form-input:focus {
@@ -1020,7 +1020,7 @@ textarea {resize: none;}
 }
 
 /*Dashboard Page*/
-.dv-dashboard-main-main {padding: 3rem;}
+.dv-dashboard-main-main {padding: 1rem;}
 .dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
 .dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
 .dv-dashboard-nav-btn:active {background-color: #4f6287;}
@@ -1327,10 +1327,10 @@ canvas {
 
 .dv-dashboard-main-bottom {
     width: 100%;
-    padding: 1rem;
     text-align: end;
     color: #BCC1C5;
     font-size: 20px;
+    padding: 1rem;
 }
 
 .dv-dashboard-main-left-side-items-list > li > a > div > div {
@@ -1717,6 +1717,7 @@ button {
     justify-content: center;
     border: none;
     width: 100%;
+    font-size: 12px;
 }
 
 .dv-tab-btn-2 {
@@ -1788,7 +1789,6 @@ button {
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
-    .dv-dashboard-main-main {padding: 1rem;}
     .dv-on-mobile-nav-toggle {display: flex;}
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
     .dv-sect-1-top-btns-holder > a {width: 50%;}
