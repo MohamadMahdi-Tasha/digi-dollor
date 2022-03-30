@@ -1342,8 +1342,8 @@ canvas {
 .dv-open-able-item:hover > button,
 .dv-open-able-item:hover > div > p{color: var(--blue) !important;}
 .dv-open-able-item > button > svg {transition: .3s;}
-.dv-open-able-item:first-of-type {border-top: 0;}
-.dv-open-able-item:last-of-type {border-bottom: 0;}
+.dv-open-able-item:first-of-type {border-top: none;}
+.dv-dashboard-main-main.support {padding: 2rem;}
 
 .dv-faq-section {
     background-color: white;
@@ -1368,7 +1368,6 @@ canvas {
 
 .dv-open-able-item {
     border-top: 1px solid #E5E1E1;
-    border-bottom: 1px solid #E5E1E1;
     margin-bottom: 1rem;
     overflow: hidden;
     height: 5rem;
