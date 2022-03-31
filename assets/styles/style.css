@@ -1723,6 +1723,15 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-ticket-top-side-item-input {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-ticket-top-side-item-btn {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-ticket-top-side-item-input {color: white;}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list {background-color: var(--mid-darker-indigo);}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list-top-side > div > div{color: white;}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list > li:not(:last-of-type){border-bottom-color: var(--indigo)}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :first-child{color: white;}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :not(:first-child) > a > button{color: #c2c2c2;}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :not(:first-child) > a > button:hover {background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :not(:first-child) > a > button:active {background-color: var(--darkest-indigo);}
+.dv-dashboard-main.dark .dv-name-dashboard-btn:hover {background-color: var(--high-dark-indigo);}
+.dv-dashboard-main.dark .dv-name-dashboard-btn:focus {background-color: var(--darkest-indigo);}
 
 /*Buttons*/
 /*Public Styles*/
