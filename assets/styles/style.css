@@ -106,7 +106,8 @@ th {color: #A3A5A8 !important;}
 .dv-header-holder {
     width: 100%;
     padding: 4vh 6vw;
-    position: fixed;
+    padding-bottom: 0 !important;
+    position: static;
 }
 
 .bg-blue {
@@ -568,7 +569,6 @@ footer > :first-child{
 .dv-currency-btn-list > li > button:active {background-color: var(--blue-darkest);}
 .dv-currency-btn-list::-webkit-scrollbar {display: none;}
 .dv-currency-btn:focus ~ .dv-currency-btn-list {height: 15rem;}
-.dv-main-inner-holder {margin-top: 5%;}
 .dv-no-footer-body {background-color: white !important;}
 .dv-main-top-title {font-size: 22px;}
 .dv-main-top > .dv-main-top-title {margin-bottom: 2rem;}
@@ -584,7 +584,6 @@ footer > :first-child{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .dv-main-top-subtitle {
@@ -1968,6 +1967,7 @@ button {
     .dv-ticket-top-side {grid-template-columns: repeat(1, 1fr);}
     .dv-ticket-top-side > :last-child {grid-column: span 1}
     #dv-select-btn-2 ~ .dv-ticket-drop-down,.dv-ticket-drop-down {width: 90%;}
+    .dv-main-inner-holder > div > a > button {width: auto;}
 }
 
 @media (max-width: 358px) {
