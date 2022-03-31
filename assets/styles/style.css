@@ -128,6 +128,7 @@ th {color: #A3A5A8 !important;}
     padding: .5rem;
     position: fixed;
     box-shadow: var(--box-shadow);
+    z-index: 2;
 }
 
 .dv-header-links {
