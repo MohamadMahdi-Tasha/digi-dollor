@@ -6,6 +6,7 @@
     --indigo: #185ADB;
     --daker-indigo: #0D46A0;
     --mid-darker-indigo: #0C3463;
+    --mid-darker-indigo-rgba: rgba(12, 52, 99, .7);
     --high-dark-indigo: #0A1931;
     --darkest-indigo: #07101E;
     --diamond: #2BC48A;
@@ -87,10 +88,10 @@ th {color: #A3A5A8 !important;}
 .dv-sect-4-tutorials-watched > span {color: var(--blue);}
 .dv-sect-4-media-link > a:hover > svg > g > g > g > path,
 .dv-sect-4-media-link > a:hover > svg > g > path,
-.dv-sect-4-media-link > a:hover > svg > path{fill: #3A465A;}
+.dv-sect-4-media-link > a:hover > svg > path{fill: var(--mid-darker-indigo-rgba);}
 .dv-sect-4-media-link > a:active > svg > g > g > g > path,
 .dv-sect-4-media-link > a:active > svg > g > path,
-.dv-sect-4-media-link > a:active > svg > path{fill: #1b2331;}
+.dv-sect-4-media-link > a:active > svg > path{fill: var(--mid-darker-indigo);}
 .dv-sect-4-top-side > a > button {width: auto;}
 
 .dv-header-left-side-btn-holder:first-of-type {
