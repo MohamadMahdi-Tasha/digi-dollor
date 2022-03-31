@@ -1076,6 +1076,11 @@ textarea {resize: none;}
     overflow: scroll;
 }
 
+.dv-dashboard-main-middle-side-right-side-item-col-3-top-btn-holder {
+    width: 100%;
+    display: inline-flex;
+}
+
 .dv-dashboard-body {
     display: inline-flex;
     width: 100%;
@@ -1723,6 +1728,7 @@ button {
 
 .dv-tab-btn-2 {
     border-radius: 0;
+    white-space: nowrap;
     background-color: unset;
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
