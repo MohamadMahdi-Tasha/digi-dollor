@@ -814,7 +814,7 @@ footer > :first-child{
 textarea {resize: none;}
 .dv-mb-1 {margin-bottom: 1rem;}
 .dv-label.dv-no-mt {margin-top: 0;}
-.dv-contact-us-form-left-side-bottom-btn-holder > button {width: 30%;}
+.dv-contact-us-form-left-side-bottom-btn-holder > button {width: auto;}
 
 .dv-contact-us-section-1 {
     display:flex;
@@ -887,6 +887,7 @@ textarea {resize: none;}
 .dv-contact-us-form-left-side-bottom-btn-holder {
     display: flex;
     justify-content: end;
+    -webkit-justify-content: flex-end;
     width: 100%;
 }
 
