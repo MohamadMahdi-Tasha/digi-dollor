@@ -47,7 +47,6 @@ body {
 
 /*Styles*/
 /*Home Styles*/
-/*Header Section*/
 .dv-header-right-side {width: 60%;}
 .dv-header-links > .dv-header-links-item:first-child,.dv-on-mobile-logo {margin-top: 1rem;}
 .dv-mobile-nav-top > a {margin-left: 5rem;}
@@ -92,6 +91,7 @@ th {color: #A3A5A8 !important;}
 .dv-sect-4-media-link > a:active > svg > g > g > g > path,
 .dv-sect-4-media-link > a:active > svg > g > path,
 .dv-sect-4-media-link > a:active > svg > path{fill: #1b2331;}
+.dv-sect-4-top-side > a > button {width: auto;}
 
 .dv-header-left-side-btn-holder:first-of-type {
     margin-left: 1rem;
@@ -153,6 +153,7 @@ th {color: #A3A5A8 !important;}
     display: inline-flex;
     align-items: center;
     justify-content: end;
+    -webkit-justify-content: flex-end;
 }
 
 .dv-header-left-side-btn-holder:last-of-type > a > button {
