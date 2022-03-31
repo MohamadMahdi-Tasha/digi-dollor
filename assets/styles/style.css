@@ -1986,6 +1986,7 @@ button {
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
+    .dv-video-player > video {width: 80%;}
     .dv-on-mobile-nav-toggle {display: flex;}
     .dv-on-mobile-logo,#dv-mobile-nav-bg, #dv-mobile-nav {display: block;}
     .dv-sect-1-top-btns-holder > a {width: 50%;}
@@ -2102,6 +2103,7 @@ button {
     }
 }
 
+@media (max-width: 677px) {  .dv-video-player > video {width: 100%;}  }
 @media (max-width: 577px) {
     .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 100%;}
     .dv-footer-top-side-right-side > img,
@@ -2159,6 +2161,18 @@ button {
     .dv-ticket-top-side > :last-child {grid-column: span 1}
     #dv-select-btn-2 ~ .dv-ticket-drop-down,.dv-ticket-drop-down {width: 90%;}
     .dv-main-inner-holder > div > a > button {width: auto;}
+    .dv-video-buttons > button {width: 4rem;height: 4rem;}
+    .dv-video-buttons > button:nth-of-type(3) {width: 5rem;height: 5rem;}
+    .dv-volume {width: 3rem;}
+    .dv-video-buttons-holder {margin-top: -12rem;}
+}
+
+@media (max-width: 420px) {
+    .dv-video-buttons > button {width: 3rem;height: 3rem;}
+    .dv-video-buttons > button:nth-of-type(3) {width: 4rem;height: 4rem;}
+    .dv-video-buttons-holder {margin-top: -11rem;}
+    .dv-volume-input {margin-bottom: 2rem;}
+    .dv-volume {width: 2rem;height: 9rem;}
 }
 
 @media (max-width: 358px) {
@@ -2181,7 +2195,7 @@ button {
 @media (max-width: 326px) {  
     #dv-middle-side-calculation {font-size: 20px;}
     .dv-dashboard-header > div {width: 100%;}
-    .dv-dashboard-header > div:first-of-type {margin-bottom: 1rem;}
+    .dv-video-buttons-holder {display: none}
     .dv-name-dashboard-btn-list {
         width: 100%;
         left: 0;
