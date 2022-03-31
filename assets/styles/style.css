@@ -4,9 +4,11 @@
 /*Variables*/
 :root {
     --indigo: #185ADB;
+    --indigo-rgba: rgba(24, 90, 219, .2);
     --daker-indigo: #0D46A0;
     --mid-darker-indigo: #0C3463;
     --mid-darker-indigo-rgba: rgba(12, 52, 99, .7);
+    --mid-darker-indigo-rgba-2: rgba(12, 52, 99, .5);
     --high-dark-indigo: #0A1931;
     --darkest-indigo: #07101E;
     --diamond: #2BC48A;
@@ -1733,6 +1735,105 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :not(:first-child) > a > button:active {background-color: var(--darkest-indigo);}
 .dv-dashboard-main.dark .dv-name-dashboard-btn:hover {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-name-dashboard-btn:focus {background-color: var(--darkest-indigo);}
+
+/*Video Player*/
+.dv-video-player {margin-bottom: 1rem;}
+.dv-video-buttons > button:hover {background:var(--indigo-rgba);}
+.dv-video-buttons > button:active {background:var(--mid-darker-indigo-rgba-2);}
+.dv-video-buttons > button:nth-of-type(3):hover {background-color: var(--daker-indigo);}
+.dv-video-buttons > button:nth-of-type(3):active {background-color: var(--mid-darker-indigo);}
+.dv-video-player > video {
+    width: 50%;
+    border-radius: 2rem;
+    border: 10px solid black;
+}
+
+.dv-video-buttons-holder {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: -12rem;
+    border-radius: 1rem;
+}
+
+.dv-video-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dv-video-buttons > button {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 100%;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: var(--box-shadow);
+    backdrop-filter: blur( 40px );
+    -webkit-backdrop-filter: blur( 40px );
+    margin-right: 1rem;
+    border: none;
+}
+
+.dv-video-buttons > button:nth-of-type(3) {
+    background-color: var(--indigo);
+    box-shadow: 0 0 30px rgba(24, 90, 219, .7);
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+
+.dv-volume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: var(--box-shadow);
+    backdrop-filter: blur( 40px );
+    -webkit-backdrop-filter: blur( 40px );
+    border-radius: 2rem;
+    width: 4rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.dv-volume-input {
+    -webkit-appearance: none;
+    transform: rotate(90deg);
+    height: .5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    background-color: #B8BDBD;
+    border-radius: 1rem;
+}
+
+.dv-volume-input::-webkit-slider-thumb {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.dv-volume-btn {
+    width: 2rem;
+    height: 2rem;
+    padding: .5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: unset;
+    border: none;
+}
 
 /*Buttons*/
 /*Public Styles*/
