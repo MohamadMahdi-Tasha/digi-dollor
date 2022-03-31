@@ -1916,13 +1916,15 @@ button {
     .dv-body-log-in {padding: 0;}
     .dv-log-in-mid {width: 100%;}
     .dv-dashboard-main-top {grid-template-columns: repeat(1, 1fr) !important;}
-    .dv-dashboard-header-left-side > :first-child,
-    .dv-dashboard-header-left-side > :nth-child(2) {display: none;}
     .dv-dashboard-main-middle-side-right-side-item1,
     .dv-dashboard-main-middle-side-right-side-item-col-2,
     .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
     .dv-dashboard-main-middle-side {padding: .5rem;}
     .dv-currency-btn-list {width: 40%;}
+    .dv-dashboard-header-left-side {display: none;}
+    .dv-dashboard-header-right-side {width: 100%;}
+    .dv-dashboard-header {padding: .5rem;}
+    .dv-dashboard-main-main {padding: .5rem;}
     .dv-dashboard-main-middle-side-right-side {
         display: flex !important;
         flex-direction: column;
@@ -1982,8 +1984,4 @@ button {
     #dv-middle-side-calculation {font-size: 20px;}
     .dv-dashboard-header > div {width: 100%;}
     .dv-dashboard-header > div:first-of-type {margin-bottom: 1rem;}
-    .dv-dashboard-header {
-        display: flex;
-        flex-direction: column;
-    }
 }
