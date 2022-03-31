@@ -328,7 +328,7 @@ th {color: #A3A5A8 !important;}
 .dv-sect-2-bottom-see-all {
     background-color: white;
     border-radius: 0 0 2rem 2rem;
-    padding: 2rem;
+    padding-bottom: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
