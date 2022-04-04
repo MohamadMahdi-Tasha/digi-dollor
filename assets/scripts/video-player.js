@@ -15,7 +15,6 @@ let clicks_of_mic = 0;
 let clicks_of_play_btn = 0;
 let clicks_of_video = 0;
 let clicks_of_mute_button = 0;
-let full_screen_times = 0;
 
 let is_full_screen = false;
 let is_mic_on = false;
