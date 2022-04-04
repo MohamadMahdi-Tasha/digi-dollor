@@ -2209,14 +2209,7 @@ button {
     .dv-video-buttons-holder {margin-top: -12rem;}
 }
 
-@media (max-width: 420px) {
-    .dv-video-buttons > button {width: 3rem;height: 3rem;}
-    .dv-video-buttons > button:nth-of-type(3) {width: 4rem;height: 4rem;}
-    .dv-video-buttons-holder {margin-top: -11rem;}
-    .dv-volume-input {margin-bottom: 2rem;}
-    .dv-volume {width: 2rem;height: 9rem;}
-}
-
+@media (max-width: 420px) {  .dv-video-player {display: none;}  }
 @media (max-width: 358px) {
     .dv-currency-btn-holder {width: 100%;}
     .dv-currency-btn-list {width: 80vw;}
