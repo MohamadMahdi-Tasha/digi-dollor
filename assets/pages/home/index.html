@@ -367,25 +367,25 @@
         <!--Video Player-->
         <div class="dv-video-player">
             <!--Video-->
-            <video poster="../../img/home/section-4/tutorial/img-tutorial.jpg"><source src="../../img/home/section-4/tutorial/img-tutorial.jpg"></video>
+            <video loop poster="../../img/home/section-4/tutorial/img-tutorial.jpg" id="dv-video"><source src="../../img/home/section-4/tutorial/vido-toturial.mp4"></video>
             <!--Video Buttons-->
             <div class="dv-video-buttons-holder">
                 <div class="dv-video-buttons">
                     <!--Volume-->
                     <div class="dv-volume">
-                        <input class="dv-volume-input" type="range" min="0" max="100" value="20">
-                        <button class="dv-volume-btn"><img src="../../img/home/section-4/tutorial/icons/img-speaker.svg" alt="قطع صدا"></button>
+                        <input id="dv-volume-input" class="dv-volume-input" type="range" min="0" max="100" value="20">
+                        <button id="dv-mute-btn" class="dv-volume-btn"><i id="dv-mute-icon" class="fa-solid fa-volume-low"></i></button>
                     </div>
                     <!--Settings Button-->
-                    <button><img src="../../img/home/section-4/tutorial/icons/img-settings.svg" alt="تنظیمات"></button>
+                    <button id="dv-settings-btn-video"><i class="fa-solid fa-gear"></i></button>
                     <!--Video Call Button-->
-                    <button><img src="../../img/home/section-4/tutorial/icons/img-camera.svg" alt="شروع مکالمه ویدیوی"></button>
+                    <button id="dv-video-btn-video"><i id="dv-video-call-icon" class="fa-solid fa-video"></i></button>
                     <!--Pause Button-->
-                    <button><img src="../../img/home/section-4/tutorial/icons/img-pause.svg" alt="توقف ویدیو"></button>
+                    <button id="dv-pause-btn-video"><i id="dv-pause-icon" class="fa-solid fa-pause fa-2xl"></i></button>
                     <!--Mute Button-->
-                    <button><img src="../../img/home/section-4/tutorial/icons/img-mute.svg" alt="قطع صدا"></button>
+                    <button id="dv-mic-off-video"><i id="dv-mic-off-icon" class="fa-solid fa-microphone-slash"></i></button>
                     <!--Full Screen Button-->
-                    <button><img src="../../img/home/section-4/tutorial/icons/img-fullscreen.svg" alt="تمام صفحه"></button>
+                    <button id="dv-full-btn-video"><i id="dv-fullscreen-icon" class="fa-solid fa-expand"></i></button>
                 </div>
             </div>
         </div>
@@ -609,5 +609,7 @@
 <script src="../../scripts/nav_functions.js"></script>
 <script src="../../scripts/tab_buttons.js"></script>
 <script src="../../scripts/nav_links.js"></script>
+<script src="../../scripts/video-player.js"></script>
+<script src="https://kit.fontawesome.com/ba3e861e2c.js" crossorigin="anonymous"></script>
 </body>
 </html>

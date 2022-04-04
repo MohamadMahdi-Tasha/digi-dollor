@@ -5,6 +5,7 @@
 :root {
     --indigo: #185ADB;
     --indigo-rgba: rgba(24, 90, 219, .2);
+    --indigo-rgba-4: rgba(24, 90, 219, .4);
     --daker-indigo: #0D46A0;
     --mid-darker-indigo: #0C3463;
     --mid-darker-indigo-rgba: rgba(12, 52, 99, .7);
@@ -46,6 +47,7 @@ body {
     font-family: 'Vazirmatn UI', sans-serif;
     font-weight: normal;
     box-sizing: border-box;
+    outline: none;
 }
 
 /*Styles*/
@@ -602,7 +604,7 @@ footer > :first-child{
 
 .dv-middle-side-laptop {
     background-image: url("../img/calculator/img-laptop.png");
-    min-height: 249px;
+    min-height: 50vh;
     min-width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1742,6 +1744,9 @@ textarea.dv-ticket-top-side-item-input {
 .dv-video-buttons > button:active {background:var(--mid-darker-indigo-rgba-2);}
 .dv-video-buttons > button:nth-of-type(3):hover {background-color: var(--daker-indigo);}
 .dv-video-buttons > button:nth-of-type(3):active {background-color: var(--mid-darker-indigo);}
+.dv-video-buttons > button.active {background: var(--indigo-rgba-4);}
+.dv-video-buttons > button.active:hover {background: rgba(24, 90, 219, .6);}
+.dv-video-buttons > button.active:active {background: rgba(24, 90, 219, .8);}
 .dv-video-player > video {
     width: 50%;
     border-radius: 2rem;
@@ -1777,6 +1782,7 @@ textarea.dv-ticket-top-side-item-input {
     -webkit-backdrop-filter: blur( 40px );
     margin-right: 1rem;
     border: none;
+    color: white;
 }
 
 .dv-video-buttons > button:nth-of-type(3) {
@@ -1833,6 +1839,7 @@ textarea.dv-ticket-top-side-item-input {
     align-items: center;
     background-color: unset;
     border: none;
+    color: white;
 }
 
 /*Buttons*/
