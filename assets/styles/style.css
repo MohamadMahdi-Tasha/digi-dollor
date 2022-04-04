@@ -1854,6 +1854,12 @@ textarea.dv-ticket-top-side-item-input {
     opacity: 100%;
 }
 
+#dv-settings-btn-video > i {transition: .3s;}
+#dv-settings-btn-video:focus > i{
+    transition: .3s;
+    transform: rotate(90deg);
+}
+
 .dv-video-settings {
     position: absolute;
     width: 20%;

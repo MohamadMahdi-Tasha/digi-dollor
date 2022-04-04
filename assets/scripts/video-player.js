@@ -1,7 +1,6 @@
 // Variables
 const volume_input = document.getElementById('dv-volume-input');
 const mute_btn = document.getElementById('dv-mute-btn');
-const settings_btn_video = document.getElementById('dv-settings-btn-video');
 const video_btn_video = document.getElementById('dv-video-btn-video');
 const pause_btn_video = document.getElementById('dv-pause-btn-video');
 const mic_off_btn_video = document.getElementById('dv-mic-off-video');
@@ -10,14 +9,13 @@ const video_src = document.getElementById('dv-video');
 
 const pause_icon = document.getElementById('dv-pause-icon');
 const mute_icon = document.getElementById('dv-mute-icon');
-const fullscreen_icon = document.getElementById('dv-fullscreen-icon');
 const mic_off_icon = document.getElementById('dv-mic-off-icon');
 
-let clicks_of_full_screen = 0;
 let clicks_of_mic = 0;
 let clicks_of_play_btn = 0;
 let clicks_of_video = 0;
 let clicks_of_mute_button = 0;
+let full_screen_times = 0;
 
 let is_full_screen = false;
 let is_mic_on = false;
@@ -30,18 +28,8 @@ video_src.volume = volume_input.value / 100;
 
 // Adding event Listener On Full Screen Button That Listens To Click And Requests Full Screen.
 full_btn_video.addEventListener('click', () => {
-    clicks_of_full_screen ++;
-    if (clicks_of_full_screen % 2 !== 0) {
-        video_src.requestFullscreen();
-        fullscreen_icon.classList.replace('fa-expand', 'fa-compress');
-        video_src.style.border = 'none';
-        is_full_screen = true;
-    } else {
-        document.exitFullscreen();
-        fullscreen_icon.classList.replace('fa-compress', 'fa-expand');
-        video_src.style.border = '10px solid black';
-        is_full_screen = false;
-    }
+    video_src.requestFullscreen();
+    is_full_screen = true;
 })
 
 // Adding event Listener On Mic Button That Listens To Click And Turns Mic On And Off.
