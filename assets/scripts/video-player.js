@@ -107,9 +107,11 @@ mute_btn.addEventListener('click', () => {
         else if (mute_icon.classList.contains('fa-volume-low')) {mute_icon.classList.replace('fa-volume-low', 'fa-volume-xmark');}
         video_src.volume = 0;
         volume_input.value = 0;
+        is_muted = true;
     } else {
         mute_icon.classList.replace('fa-volume-xmark', 'fa-volume-low');
         video_src.volume = 0.2;
         volume_input.value = 20;
+        is_muted = false;
     }
 })

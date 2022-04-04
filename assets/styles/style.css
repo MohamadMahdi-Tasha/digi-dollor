@@ -1740,13 +1740,19 @@ textarea.dv-ticket-top-side-item-input {
 
 /*Video Player*/
 .dv-video-player {margin-bottom: 1rem;}
-.dv-video-buttons > button:hover {background:var(--indigo-rgba);}
-.dv-video-buttons > button:active {background:var(--mid-darker-indigo-rgba-2);}
+.dv-video-buttons > button:hover,#dv-settings-btn-video:hover {background:var(--indigo-rgba);}
+.dv-video-buttons > button:active,#dv-settings-btn-video:active {background:var(--mid-darker-indigo-rgba-2);}
 .dv-video-buttons > button:nth-of-type(3):hover {background-color: var(--daker-indigo);}
 .dv-video-buttons > button:nth-of-type(3):active {background-color: var(--mid-darker-indigo);}
 .dv-video-buttons > button.active {background: var(--indigo-rgba-4);}
 .dv-video-buttons > button.active:hover {background: rgba(24, 90, 219, .6);}
 .dv-video-buttons > button.active:active {background: rgba(24, 90, 219, .8);}
+.dv-video-settings::-webkit-scrollbar {display: none;}
+.dv-setting-vide-player-btn:hover {background-color: var(--daker-indigo);}
+.dv-setting-vide-player-btn:active {background-color: var(--mid-darker-indigo);}
+#dv-settings-btn-video:focus {background: var(--indigo-rgba-4);}
+#dv-settings-btn-video:focus:hover {background: rgba(24, 90, 219, .6);}
+#dv-settings-btn-video:focus:active {background: rgba(24, 90, 219, .8);}
 .dv-video-player > video {
     width: 50%;
     border-radius: 2rem;
@@ -1768,7 +1774,7 @@ textarea.dv-ticket-top-side-item-input {
     align-items: center;
 }
 
-.dv-video-buttons > button {
+.dv-video-buttons > button, #dv-settings-btn-video{
     width: 5rem;
     height: 5rem;
     display: flex;
@@ -1785,7 +1791,7 @@ textarea.dv-ticket-top-side-item-input {
     color: white;
 }
 
-.dv-video-buttons > button:nth-of-type(3) {
+#dv-pause-btn-video {
     background-color: var(--indigo);
     box-shadow: 0 0 30px rgba(24, 90, 219, .7);
     width: 7rem;
@@ -1840,6 +1846,34 @@ textarea.dv-ticket-top-side-item-input {
     background-color: unset;
     border: none;
     color: white;
+}
+
+#dv-settings-btn-video:focus ~ .dv-video-settings,
+.dv-video-settings:active{
+    pointer-events: visible;
+    opacity: 100%;
+}
+
+.dv-video-settings {
+    position: absolute;
+    width: 20%;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    margin-top: 1rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s;
+}
+
+.dv-setting-vide-player-btn {
+    width: 100%;
+    text-align: right;
+    border-radius: 0;
+    background-color: var(--indigo);
+    color: white;
+    border: none;
 }
 
 /*Buttons*/
@@ -2112,6 +2146,7 @@ button {
 
 @media (max-width: 677px) {  .dv-video-player > video {width: 100%;}  }
 @media (max-width: 577px) {
+    .dv-video-settings {width: 50%;margin-top: 2rem;}
     .dv-footer-top-side-left-side, .dv-footer-top-side-right-side {width: 100%;}
     .dv-footer-top-side-right-side > img,
     .dv-footer-top-side{margin-bottom: 1rem;}
