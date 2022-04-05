@@ -1653,6 +1653,8 @@ textarea.dv-ticket-top-side-item-input {
 .dv-mobile-nav-link-item > button:active {background-color: var(--darkest-indigo);}
 .dv-mobile-nav-link-item > .dv-mobile-nav-links > li > a > button{background-color: var(--indigo) !important;}
 .dv-mobile-nav-link-item > .dv-mobile-nav-links > li > a > button:active {background-color: var(--mid-darker-indigo) !important;}
+.dv-mobile-nav-link-item[data-list-opened="true"] > button{background-color: var(--indigo);}
+.dv-mobile-nav-link-item[data-list-opened="true"] > .dv-mobile-nav-links {display: block;}
 
 .dv-mobile-nav-link-item > .dv-mobile-nav-links {
     background-color: var(--high-dark-indigo);
