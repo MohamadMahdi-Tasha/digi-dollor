@@ -543,7 +543,6 @@ footer > :first-child{
 .dv-footer-list > li > a{
     list-style: none;
     color: white !important;
-    font-weight: bold;
     margin-bottom: 1rem;
 }
 
@@ -820,6 +819,7 @@ textarea {resize: none;}
 .dv-mb-1 {margin-bottom: 1rem;}
 .dv-label.dv-no-mt {margin-top: 0;}
 .dv-contact-us-form-left-side-bottom-btn-holder > button {width: auto;}
+.dv-contact-us-section-1-cards-holder > .dv-contact-section-1-card:not(:last-of-type) {margin-left: 1rem;}
 
 .dv-contact-us-section-1 {
     display:flex;
@@ -832,28 +832,29 @@ textarea {resize: none;}
 }
 
 .dv-contact-us-section-1-inner {
-    width: 50%;
+    width: 100%;
     text-align: center;
-    padding: 3rem;
+
 }
 
 .dv-contact-us-section-1-cards-holder {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    justify-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
 }
 
 .dv-contact-section-1-card {
     border-radius: .5rem;
     background-color: white;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: .3s;
-    width: 100%;
+    width: 309px;
+    height: 165px;
 }
 
 .dv-contact-section-1-card:hover {
@@ -880,7 +881,7 @@ textarea {resize: none;}
     padding: 2rem 4rem;
     box-shadow: var(--box-shadow);
     border-radius: .25rem;
-    margin-top: -10rem;
+    margin-top: -8rem;
     text-align: center;
 }
 
@@ -944,7 +945,7 @@ textarea {resize: none;}
 
 .dv-log-in-form {
     border-radius: 1rem;
-    width: 20%;
+    width: 33%;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: var(--box-shadow);
     backdrop-filter: blur( 40px );
@@ -1753,6 +1754,11 @@ textarea.dv-ticket-top-side-item-input {
 #dv-settings-btn-video:focus {background: var(--indigo-rgba-4);}
 #dv-settings-btn-video:focus:hover {background: rgba(24, 90, 219, .6);}
 #dv-settings-btn-video:focus:active {background: rgba(24, 90, 219, .8);}
+#dv-mute-icon, #dv-video-call-icon,
+#dv-mic-off-icon, #dv-fullscreen-icon, .dv-settings-btn-video > i {font-size: 1.5rem;}
+#dv-pause-icon {font-size: 3rem;}
+#dv-pause-btn-video:hover {background-color: var(--daker-indigo);}
+#dv-pause-btn-video:active {background-color: var(--mid-darker-indigo);}
 .dv-video-player > video {
     width: 50%;
     border-radius: 2rem;
@@ -2157,8 +2163,6 @@ button {
     .dv-footer-top-side-right-side > img,
     .dv-footer-top-side{margin-bottom: 1rem;}
     .dv-footer-list-holder {grid-template-columns: repeat(1, 1fr);gap: 2rem;}
-    .dv-contact-us-section-1-cards-holder {grid-template-columns: repeat(1, 1fr);}
-    .dv-contact-section-1-card:nth-of-type(2) {margin: 0 !important;}
     .dv-body-log-in {padding: 0;}
     .dv-log-in-mid {width: 100%;}
     .dv-dashboard-main-top {grid-template-columns: repeat(1, 1fr) !important;}
@@ -2172,6 +2176,18 @@ button {
     .dv-dashboard-header {padding: .5rem;}
     .dv-dashboard-main-main {padding: .5rem;}
     .dv-name-dashboard-btn-list {width: 50%;}
+    .dv-contact-us-section-1-cards-holder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .dv-contact-section-1-card {
+        margin: 0 !important;
+        width: 100%;
+    }
+    
     .dv-dashboard-main-middle-side-right-side {
         display: flex !important;
         flex-direction: column;
