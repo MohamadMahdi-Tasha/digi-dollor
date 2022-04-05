@@ -1651,36 +1651,27 @@ textarea.dv-ticket-top-side-item-input {
 
 /*Mobile Nav*/
 .dv-mobile-nav-link-item > button:active {background-color: var(--darkest-indigo);}
-.dv-mobile-nav-links > li > a > button:active {background-color: var(--blue-darker);}
-#dv-mobile-nav > .dv-mobile-nav-top > a {margin: 0;}
+.dv-mobile-nav-link-item > .dv-mobile-nav-links > li > a > button{background-color: var(--indigo) !important;}
+.dv-mobile-nav-link-item > .dv-mobile-nav-links > li > a > button:active {background-color: var(--mid-darker-indigo) !important;}
 
-.dv-mobile-nav-links {
-    background-color: var(--blue);
-    list-style: none;
+.dv-mobile-nav-link-item > .dv-mobile-nav-links {
+    background-color: var(--high-dark-indigo);
+    display: none;
 }
 
 .dv-mobile-nav-link-item {
-    height: 4rem;
-    overflow: hidden;
-    transition: .3s;
+    background-color: red;
+    height: auto;
 }
 
-.dv-mobile-nav-link-item > button{
+.dv-mobile-nav-link-item > button,
+.dv-mobile-nav-link-item > .dv-mobile-nav-links > li > a > button{
     width: 100%;
+    text-align: right;
     border-radius: 0;
     border: none;
     background-color: var(--high-dark-indigo);
     color: white;
-    text-align: right;
-}
-
-.dv-mobile-nav-links > li > a > button {
-    width: 100%;
-    border-radius: 0;
-    background-color: var(--blue);
-    text-align: right;
-    color: white;
-    border: none;
 }
 
 /*Dashboard Dark Mode*/
