@@ -2187,7 +2187,7 @@ button {
         margin: 0 !important;
         width: 100%;
     }
-    
+
     .dv-dashboard-main-middle-side-right-side {
         display: flex !important;
         flex-direction: column;
@@ -2215,6 +2215,11 @@ button {
         align-items: start;
         justify-content: start;
     }
+}
+
+@media (max-height: 556px) {
+    .dv-contact-us-form {margin-top: 0;}
+    .dv-contact-us-section-1 {min-height: 100vh;}
 }
 
 @media (max-width: 480px) {
@@ -2259,5 +2264,3 @@ button {
         box-shadow: var(--box-shadow);
     }
 }
-
-@media (max-height: 556px) {  .dv-contact-us-form {margin-top: 0;}  }
