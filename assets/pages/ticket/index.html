@@ -427,7 +427,7 @@
             <!--Bottom Side-->
             <div>
                 <h3 class="dv-faq-title">متن تیکت</h3>
-                <textarea class="dv-ticket-top-side-item-input dv-w-100" required name="text" id="text" placeholder="متن خود را در این بخش وارد کنید"></textarea>
+                <div id="dv-editor" ></div>
                 <div class="dv-ticket-bottom-btns">
                     <button type="button" class="dv-btn-bg-white-shadow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20.625" height="33" viewBox="0 0 20.625 33">
@@ -469,5 +469,13 @@
 <script src="../../scripts/nav_functions.js"></script>
 <script src="../../scripts/dark_mode.js"></script>
 <script src="../../scripts/ticket_select.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#dv-editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 </body>
 </html>

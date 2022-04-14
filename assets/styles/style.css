@@ -1543,6 +1543,11 @@ canvas {
     height: 5rem;
 }
 
+.ck-content{
+    margin-bottom: 1rem;
+    height: 15rem;
+}
+
 .dv-ticket-top-side-item-input::placeholder {
     font-size: 14px;
     color: #B4B7BB;
