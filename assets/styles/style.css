@@ -2050,18 +2050,6 @@ button {
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-dashboard-middle-item-1 {width: 100%;}
-    .dv-dashboard-middle-item-1 canvas {
-        width: 30rem !important;
-        height: 30rem !important;
-    }
-
-    .dv-dashboard-middle-item-1-middle-side-top {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-video-player > video {width: 80%;}
     .dv-on-mobile-nav-toggle {display: flex;}
@@ -2128,6 +2116,18 @@ button {
         flex-direction: column;
         justify-content: start;
         align-items: center;
+    }
+
+    .dv-dashboard-middle-item-1 canvas {
+        width: 30rem !important;
+        height: 30rem !important;
+    }
+
+    .dv-dashboard-middle-item-1-middle-side-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
