@@ -1578,13 +1578,19 @@ textarea.dv-ticket-top-side-item-input {
     margin-bottom: 1rem;
 }
 
+.dv-ticket-bottom-btns > button {
+    justify-content: start;
+    width: 25%;
+}
+
 .dv-ticket-bottom-btns > button:last-of-type {
-    width: auto !important;
     display: inline-flex;
+    justify-content: center;
     align-items: center;
 }
 
 .dv-btn-bg-white-shadow {
+    width: auto;
     padding: 1rem;
     background-color: white;
     box-shadow: var(--box-shadow);
@@ -2154,6 +2160,11 @@ button {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .dv-ticket-bottom-btns > button {
+        width: 100%;
+        justify-content: start !important;
     }
 
     .dv-contact-us-form > div{
