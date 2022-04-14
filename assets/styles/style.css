@@ -1290,7 +1290,13 @@ textarea {resize: none;}
     color: #1C2A3A;
 }
 
+/*
+    ****************
+    ****************
+    ****************
+*/
 .dv-more-details {color: #878E97;}
+.dv-dashboard-main-top-item > div:last-of-type {margin-top: -1rem;}
 .dv-dashboard-main-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1334,9 +1340,11 @@ textarea {resize: none;}
     margin-top: -1rem;
 }
 
-.dv-dashboard-main-top-item > div:last-of-type {
-    margin-top: -1rem;
-}
+/*
+    ****************
+    ****************
+    ****************
+*/
 
 .dv-dashboard-main-bottom {
     width: 100%;
