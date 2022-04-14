@@ -1422,8 +1422,8 @@ canvas {
     width: 100%;
     text-align: end;
     color: #BCC1C5;
-    font-size: 20px;
-    padding: 1rem;
+    font-size: 13px;
+    padding: .5rem;
 }
 
 .dv-dashboard-main-left-side-items-list > li > a > div > div {
