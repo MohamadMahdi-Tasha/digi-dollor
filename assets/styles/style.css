@@ -1301,6 +1301,7 @@ textarea {resize: none;}
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .dv-dashboard-main-top-item {
@@ -1338,6 +1339,62 @@ textarea {resize: none;}
 .dv-dashboard-main-top-item-mid > div:last-of-type > img {
     height: 5rem;
     margin-top: -1rem;
+}
+
+.dv-dashboard-main-middle {width: 100%;}
+.dv-dashboard-middle-top {gap: 1rem;}
+.dv-dashboard-buy-info-item > div:first-of-type > img {margin-left: .5rem;}
+.dv-dashboard-buy-info-item:first-of-type {margin-bottom: 1rem;}
+.dv-dashboard-middle-item-1-middle-side-bottom {padding: 1rem;}
+
+.dv-dashboard-middle-item-1 {
+    width: calc(100% / 4);
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.dv-dashboard-middle-item-1-top {
+    padding: 1rem;
+    background-color: #F5F5F5;
+    font-size: 12px;
+    color: #1D2530;
+}
+
+.dv-dashboard-buy-info-item {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dv-dashboard-buy-info-item-title {
+    color: #5A6068;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    color: #5A6068;
+}
+
+.dv-dashboard-buy-info-item > div:first-of-type {
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    white-space: nowrap;
+    font-size: 10px;
+    color: #5A6068;
+}
+
+.dv-dashboard-buy-info-item > div:last-of-type > h6{
+    color: var(--diamond);
+    font-size: 10px;
+    margin-bottom: .25rem;
+    text-align: left;
+}
+
+.dv-dashboard-buy-info-item > div:last-of-type > h4 {
+    font-size: 10px;
+    color: #5A6068;
 }
 
 /*
@@ -1992,6 +2049,19 @@ button {
 
 /*Media Query*/
 @media (max-width: 1021px) {
+    .dv-dashboard-middle-item-1 {width: 100%;}
+    .dv-dashboard-middle-item-1 canvas {
+        width: 30rem !important;
+        height: 30rem !important;
+    }
+
+    .dv-dashboard-middle-item-1-middle-side-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-video-player > video {width: 80%;}
     .dv-on-mobile-nav-toggle {display: flex;}
