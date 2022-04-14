@@ -1029,7 +1029,7 @@ textarea {resize: none;}
 }
 
 /*Dashboard Page*/
-.dv-dashboard-main-main {padding: 1rem;}
+.dv-dashboard-main-main {padding: 2rem;}
 .dv-dashboard-nav-btn.active > svg  path {fill: var(--indigo);}
 .dv-dashboard-nav-btn:hover {background-color: #3b4a66;}
 .dv-dashboard-nav-btn:active {background-color: #4f6287;}
@@ -1293,7 +1293,6 @@ textarea {resize: none;}
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    padding: .5rem;
 }
 
 .dv-dashboard-main-top-item {
@@ -1410,6 +1409,7 @@ canvas {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 10vh;
     background-color: white;
     padding: 1rem;
     border-radius: 1rem;
@@ -2179,7 +2179,7 @@ button {
     .dv-dashboard-header-left-side {display: none;}
     .dv-dashboard-header-right-side {width: 100%;}
     .dv-dashboard-header {padding: .5rem;}
-    .dv-dashboard-main-main {padding: .5rem;}
+    .dv-dashboard-main-main {padding: 1rem;}
     .dv-name-dashboard-btn-list {width: 50%;}
     .dv-contact-us-section-1-cards-holder {
         display: flex;
@@ -2200,8 +2200,8 @@ button {
     }
 
     .dv-dashboard-main-middle-side {
-        padding-right: 1rem;
         width: 100%;
+        margin-top: 2rem;
     }
 
     .dv-footer-top-side {
