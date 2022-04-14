@@ -1298,18 +1298,23 @@ textarea {resize: none;}
 }
 
 .dv-dashboard-main-top-item {
-    background-color: white;
     padding: 1rem;
     border-radius: .5rem;
+    background-color: white;
     box-shadow: var(--box-shadow);
+    height: 116px;
 }
 
 .dv-dashboard-main-top-item-top-side {
     display: inline-flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    color: #1C2A3A;
+}
+
+.dv-dashboard-main-top-item-top-side > button {
+    width: 3rem;
+    height: 3rem;
 }
 
 .dv-dashboard-main-top-item-mid {
@@ -1317,8 +1322,6 @@ textarea {resize: none;}
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    height: 10vh;
-    color: #1C2A3A;
 }
 
 .dv-dashboard-main-top-item-money {
@@ -1326,7 +1329,14 @@ textarea {resize: none;}
     white-space: nowrap;
 }
 
+.dv-dashboard-main-top-item-mid > div:last-of-type > img {
+    height: 5rem;
+    margin-top: -1rem;
+}
 
+.dv-dashboard-main-top-item > div:last-of-type {
+    margin-top: -1rem;
+}
 
 .dv-dashboard-main-bottom {
     width: 100%;
