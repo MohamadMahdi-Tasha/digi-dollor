@@ -1498,6 +1498,7 @@ canvas {
 .dv-btn-bg-white-shadow > svg {margin-left: 1rem;}
 .dv-ticket-drop-down::-webkit-scrollbar {display: none;}
 .dv-ticket-top-side-item-btn:focus ~ .dv-ticket-drop-down {height: 30%;}
+.ck-toolbar {border-top-left-radius: .5rem !important;border-top-right-radius: .5rem !important;}
 .dv-ticket-drop-down {
     transition: .3s;
     border-radius: .5rem;
@@ -1544,8 +1545,10 @@ canvas {
 }
 
 .ck-content{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: 15rem;
+    border-bottom-left-radius: .5rem !important;
+    border-bottom-right-radius: .5rem !important;
 }
 
 .dv-ticket-top-side-item-input::placeholder {
@@ -1743,6 +1746,20 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-name-dashboard-btn-list-2 > :not(:first-child) > a > button:active {background-color: var(--darkest-indigo);}
 .dv-dashboard-main.dark .dv-name-dashboard-btn:hover {background-color: var(--high-dark-indigo);}
 .dv-dashboard-main.dark .dv-name-dashboard-btn:focus {background-color: var(--darkest-indigo);}
+.dv-dashboard-main.dark .ck-content {background-color: var(--high-dark-indigo) !important;}
+.dv-dashboard-main.dark .ck-button__label,
+.dv-dashboard-main.dark .ck-icon,
+.dv-dashboard-main.dark .ck-editor__main{color: white !important;}
+
+.dv-dashboard-main.dark .ck-toolbar {
+    background-color: var(--high-dark-indigo) !important;
+    border-color: var(--indigo) !important;
+}
+
+.dv-dashboard-main.dark .ck.ck-editor__main > .ck-editor__editable:not(.ck-focused){
+    border-color: var(--indigo);
+}
+
 
 /*Video Player*/
 .dv-video-player {margin-bottom: 1rem;}
