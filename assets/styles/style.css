@@ -1290,6 +1290,44 @@ textarea {resize: none;}
     color: #1C2A3A;
 }
 
+.dv-more-details {color: #878E97;}
+.dv-dashboard-main-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.dv-dashboard-main-top-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.dv-dashboard-main-top-item-top-side {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #1C2A3A;
+}
+
+.dv-dashboard-main-top-item-mid {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    color: #1C2A3A;
+}
+
+.dv-dashboard-main-top-item-money {
+    display: inline-flex;
+    white-space: nowrap;
+}
+
+
+
 .dv-dashboard-main-bottom {
     width: 100%;
     text-align: end;
