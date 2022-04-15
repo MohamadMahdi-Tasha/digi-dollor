@@ -555,22 +555,23 @@
                 </div>
             </div>
             <!--Bottom Side-->
-            <div>
+            <div class="dv-dashboard-bottom-item">
                 <!--Top Side-->
-                <div><h3>لیست معاملات</h3></div>
+                <div class="dv-dashboard-bottom-item-top-side"><h3>لیست معاملات</h3></div>
                 <!--Tabs Side-->
                 <div>
-                    <ul>
-                        <li><button>لیست کل معاملات</button></li>
-                        <li><button>لیست آخرین معاملات</button></li>
-                        <li><button>لیست خرید</button></li>
-                        <li><button>لیست فروش</button></li>
+                    <ul class="dv-dashboard-bottom-items-tabs-holder">
+                        <li><button class="dv-tab-btn-2 active" id="dv-tab-btn-2-1">لیست کل معاملات</button></li>
+                        <li><button class="dv-tab-btn-2" id="dv-tab-btn-2-2">لیست آخرین معاملات</button></li>
+                        <li><button class="dv-tab-btn-2" id="dv-tab-btn-2-3">لیست خرید</button></li>
+                        <li><button class="dv-tab-btn-2" id="dv-tab-btn-2-4">لیست فروش</button></li>
                     </ul>
                 </div>
-                <table>
+                <!--Table Side-->
+                <table class="dv-dashboard-tabel">
                     <tr>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 عملیات
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -581,7 +582,7 @@
                             </button>
                         </th>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 نوع ارز
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -592,7 +593,7 @@
                             </button>
                         </th>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 زمان
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -603,7 +604,7 @@
                             </button>
                         </th>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 حجم معامله
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -614,7 +615,7 @@
                             </button>
                         </th>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 قیمت معامله
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -625,7 +626,7 @@
                             </button>
                         </th>
                         <th>
-                            <button>
+                            <button class="dv-dashboard-top-side-tabel-btn">
                                 قیمت معامله
                                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11">
                                     <g id="Group_102" data-name="Group 102" transform="translate(-946 -684)">
@@ -637,36 +638,36 @@
                         </th>
                     </tr>
                     <tr>
-                        <td>خرید</td>
-                        <td>بیتکوین</td>
-                        <td>۱۴۰۰-۰۵-۱۷  ۲۲:۰۰</td>
-                        <td>٠.٠٠٠٢١٥</td>
-                        <td>٣٩٠٠٠ دلار</td>
-                        <td>٣٩٠٠٠ دلار</td>
+                        <td class="dv-dashboard-buy-sell buy">خرید</td>
+                        <td class="dv-dashboard-table-td-defualt">بیتکوین</td>
+                        <td class="dv-dashboard-table-td-defualt">۱۴۰۰-۰۵-۱۷  ۲۲:۰۰</td>
+                        <td class="dv-dashboard-table-td-defualt">٠.٠٠٠٢١٥</td>
+                        <td class="dv-dashboard-table-td-defualt">٣٩٠٠٠ دلار</td>
+                        <td class="dv-dashboard-table-td-default">٣٩٠٠٠ دلار</td>
                     </tr>
                     <tr>
-                        <td>خرید</td>
-                        <td>بیتکوین</td>
-                        <td>۱۴۰۰-۰۵-۱۷  ۲۳:۲۰</td>
-                        <td>٠.٠٠٠٠٠٥</td>
-                        <td>٤٢٠٠٠ دلار</td>
-                        <td>٤٢٠٠٠ دلار</td>
+                        <td class="dv-dashboard-buy-sell buy">خرید</td>
+                        <td class="dv-dashboard-table-td-defualt">بیتکوین</td>
+                        <td class="dv-dashboard-table-td-defualt">۱۴۰۰-۰۵-۱۷  ۲۳:۲۰</td>
+                        <td class="dv-dashboard-table-td-defualt">٠.٠٠٠٠٠٥</td>
+                        <td class="dv-dashboard-table-td-defualt">٤٢٠٠٠ دلار</td>
+                        <td class="dv-dashboard-table-td-default">٤٢٠٠٠ دلار</td>
                     </tr>
                     <tr>
-                        <td>فروش</td>
-                        <td>اتریوم</td>
-                        <td>۱۴۰۰-۰۵-۱۸  ۱۷:۴۳</td>
-                        <td>٠.٠٥٤٨٧٤</td>
-                        <td>٤٥٠٠ دلار</td>
-                        <td>٤٥٠٠ دلار</td>
+                        <td class="dv-dashboard-buy-sell sell">فروش</td>
+                        <td class="dv-dashboard-table-td-defualt">اتریوم</td>
+                        <td class="dv-dashboard-table-td-defualt">۱۴۰۰-۰۵-۱۸  ۱۷:۴۳</td>
+                        <td class="dv-dashboard-table-td-defualt">٠.٠٥٤٨٧٤</td>
+                        <td class="dv-dashboard-table-td-defualt">٤٥٠٠ دلار</td>
+                        <td class="dv-dashboard-table-td-default">٤٥٠٠ دلار</td>
                     </tr>
                     <tr>
-                        <td>خرید</td>
-                        <td>دوج کوین</td>
-                        <td>۱۴۰۰-۰۵-۱۹ ۱۷:۲۸</td>
-                        <td>٠.٠٠٠٥٤٧</td>
-                        <td>٤٣٠٠٠ دلار</td>
-                        <td>٤٣٠٠٠ دلار</td>
+                        <td class="dv-dashboard-buy-sell buy">خرید</td>
+                        <td class="dv-dashboard-table-td-defualt">دوج کوین</td>
+                        <td class="dv-dashboard-table-td-defualt">۱۴۰۰-۰۵-۱۹ ۱۷:۲۸</td>
+                        <td class="dv-dashboard-table-td-defualt">٠.٠٠٠٥٤٧</td>
+                        <td class="dv-dashboard-table-td-defualt">٤٣٠٠٠ دلار</td>
+                        <td class="dv-dashboard-table-td-default">٤٣٠٠٠ دلار</td>
                     </tr>
                 </table>
             </div>

@@ -1297,6 +1297,10 @@ textarea {resize: none;}
 */
 .dv-more-details {color: #878E97;}
 .dv-dashboard-main-top-item > div:last-of-type {margin-top: -1rem;}
+.dv-dashboard-main-middle {width: 100%;}
+.dv-dashboard-buy-info-item > div:first-of-type > img {margin-left: .5rem;}
+.dv-dashboard-buy-info-item:first-of-type {margin-bottom: 1rem;}
+.dv-dashboard-middle-item-1-middle-side-bottom {padding: 1rem;}
 .dv-dashboard-main-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1340,11 +1344,6 @@ textarea {resize: none;}
     height: 5rem;
     margin-top: -1rem;
 }
-
-.dv-dashboard-main-middle {width: 100%;}
-.dv-dashboard-buy-info-item > div:first-of-type > img {margin-left: .5rem;}
-.dv-dashboard-buy-info-item:first-of-type {margin-bottom: 1rem;}
-.dv-dashboard-middle-item-1-middle-side-bottom {padding: 1rem;}
 
 .dv-dashboard-middle-item-1 {
     width: calc(100% / 4);
@@ -1401,6 +1400,7 @@ textarea {resize: none;}
     display: inline-flex;
     width: 100%;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .dv-dashboard-middle-item-2 {
@@ -1447,6 +1447,56 @@ textarea {resize: none;}
     color: #D0D0D0;
     text-align: center;
 }
+
+.dv-dashboard-bottom-item {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    overflow: hidden;
+    width: 79%;
+    padding: 1rem;
+}
+
+.dv-dashboard-bottom-item-top-side {
+    font-size: 14px;
+    color: #1C2A3A;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #CDCDCD;
+    padding: .5rem;
+}
+
+.dv-dashboard-bottom-items-tabs-holder {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+.dv-dashboard-top-side-tabel-btn {
+    background-color: unset;
+    border-radius: 0;
+    border: none;
+    font-size: 12px;
+    color: #707070;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.dv-dashboard-top-side-tabel-btn:hover {background-color: rgba(112, 112, 112, .4);}
+.dv-dashboard-top-side-tabel-btn:active {background-color: rgba(112, 112, 112, .6);}
+.dv-dashboard-top-side-tabel-btn > svg {margin-right: .5rem;}
+.dv-dashboard-table-td-defualt {
+    color: #1C2A3A;
+    font-size: 12px;
+}
+
+.dv-dashboard-tabel {
+    width: 100%;
+}
+.dv-dashboard-buy-sell {font-size: 12px;}
+.dv-dashboard-buy-sell.buy {color: var(--diamond);}
+.dv-dashboard-buy-sell.sell {color: red;}
 
 /*
     ****************
