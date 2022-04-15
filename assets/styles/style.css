@@ -1351,6 +1351,7 @@ textarea {resize: none;}
     background-color: white;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
+    overflow: hidden;
 }
 
 .dv-dashboard-middle-item-1-top {
@@ -2099,7 +2100,8 @@ button {
 
 /*Media Query*/
 @media (max-width: 1021px) {
-    .dv-dashboard-middle-item-1 {width: 100%;}
+    .dv-dashboard-middle-top {display: flex;flex-direction: column;}
+    .dv-dashboard-middle-item-1, .dv-dashboard-middle-item-2{width: 100%;}
     .dv-header-left-side-btn-holder,.dv-header-right-side {display: none;}
     .dv-video-player > video {width: 80%;}
     .dv-on-mobile-nav-toggle {display: flex;}
