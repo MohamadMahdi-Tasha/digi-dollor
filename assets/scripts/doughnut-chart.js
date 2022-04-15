@@ -10,7 +10,7 @@ const ChartData = {
 };
 
 ChartOptions = {
-    responsive: true,
+    responsive: false,
     layout: {padding: {top: 12, left: 12, bottom: 12,},},
     plugins: {legend: {display: false,}},
     title: {
