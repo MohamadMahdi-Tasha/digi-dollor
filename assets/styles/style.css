@@ -2305,7 +2305,7 @@ button {
     .dv-footer-bottom-side > p{margin-bottom: 1rem;}
     .dv-media-863-w-50 {width: 50%;}
     .dv-about-us-sect-1-inner {width: 100%;}
-    .dv-main-inner-holder {width: 100%;}
+    .dv-main-inner-holder {width: 100%;padding: 2rem;}
     .dv-log-in-mid {width: 100%;}
 
     .dv-log-in-form {
