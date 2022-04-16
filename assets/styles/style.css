@@ -203,7 +203,7 @@ th {color: #A3A5A8 !important;}
     left: 100%;
     transition: .3s;
     display: none;
-    z-index: 1;
+    z-index: 99;
 }
 
 #dv-mobile-nav {
@@ -211,12 +211,12 @@ th {color: #A3A5A8 !important;}
     width: 70%;
     height: 100%;
     background-color: var(--high-dark-indigo);
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
     overflow: scroll;
     left: 100%;
     transition: .3s;
     display: none;
-    z-index: 2;
+    z-index: 100;
 }
 
 .dv-mobile-nav-top {
@@ -2212,6 +2212,8 @@ button {
 /*Media Query*/
 @media (max-width: 1021px) {
     .dv-dashboard-middle-top > div{width: 50%;}
+    .dv-about-us-sect-1-inner > .dv-title,
+    .dv-about-us-sect-1-inner > .dv-paragraph{margin-bottom: 3rem;}
     .dv-dashboard-main-middle {display: flex;flex-direction: column;}
     .dv-dashboard-left-side-items-holder {width: 100%;}
     .dv-dashboard-main-middle > div:first-of-type {width: 100%;}
@@ -2244,7 +2246,7 @@ button {
     .dv-dashboard-main-middle-side-right-side-item-col-3 {grid-column: span 2 !important;}
     .dv-dashboard-nav {display: none;}
     #dv-dashboard-nav-mobile {display: block;}
-    .dv-about-us-sect-2, .dv-about-us-sect-3 {padding: 2rem !important;}
+    .dv-about-us-sect-2, .dv-about-us-sect-3 {padding: 1rem !important;}
     .dv-about-us-sect-2-right-side, .dv-about-us-sect-3-right-side{margin-left: 0;}
     .dv-about-us-sect-2-left-side > img {margin-top: 2rem;}
     .dv-name-dashboard-btn-list {width: 40%;}
