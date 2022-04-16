@@ -1895,7 +1895,6 @@ textarea.dv-ticket-top-side-item-input {
 .dv-dashboard-main.dark .dv-dashboard-buy-sell.sell {color: red;}
 .dv-dashboard-main.dark .dv-dashboard-left-side-item {background-color: var(--mid-darker-indigo);}
 
-
 .dv-dashboard-main.dark .ck-toolbar {
     background-color: var(--high-dark-indigo) !important;
     border-color: var(--indigo) !important;
@@ -2462,4 +2461,3 @@ button {
     .dv-dashboard-header > div {width: 100%;}
     .dv-video-buttons-holder {display: none}
 }
-
