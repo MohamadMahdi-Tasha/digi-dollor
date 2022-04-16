@@ -1742,7 +1742,7 @@ textarea.dv-ticket-top-side-item-input {
     height: 100%;
     left: 100%;
     transition: .3s;
-    z-index: 1;
+    z-index: 100;
 }
 
 #dv-dashboard-nav-mobile > :first-child {
@@ -2235,6 +2235,9 @@ button {
     .dv-dashboard-main {margin-right: 0 !important;}
     #dv-dashboard-mobile-toggle {display: flex;}
     .dv-dashboard-main-top {grid-template-columns: repeat(2, 1fr) !important;}
+    .dv-dashboard-main-top-item , .dv-dashboard-bottom-item,
+    .dv-dashboard-middle-item-1, .dv-dashboard-middle-item-2,
+    .dv-dashboard-left-side-item {height: auto;}
     .dv-dashboard-main-bottom > h3{text-align: center;}
     .dv-dashboard-main-middle-side-right-side {grid-template-columns: repeat(2, 1fr) !important;}
     .dv-dashboard-main-middle-side-right-side-item-1 {width: auto !important;}
@@ -2388,6 +2391,13 @@ button {
     .dv-dashboard-main-main {padding: 1rem;}
     .dv-name-dashboard-btn-list {width: 50%;}
 
+    .dv-name-dashboard-btn-list {
+        width: 100%;
+        left: 0;
+        box-shadow: var(--box-shadow);
+        border-radius: 0;
+    }
+
     .dv-contact-form-right-side-socials {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -2450,10 +2460,5 @@ button {
     #dv-middle-side-calculation {font-size: 20px;}
     .dv-dashboard-header > div {width: 100%;}
     .dv-video-buttons-holder {display: none}
-    .dv-name-dashboard-btn-list {
-        width: 100%;
-        left: 0;
-        box-shadow: var(--box-shadow);
-    }
 }
 
