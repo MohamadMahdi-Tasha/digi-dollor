@@ -614,8 +614,7 @@ footer > :first-child{
 }
 
 #dv-middle-side-calculation {
-    overflow-wrap: break-word;
-    max-width: 20ch;
+    width: 10ch;
     margin-bottom: 5rem;
 }
 
@@ -659,9 +658,7 @@ footer > :first-child{
 .dv-currency-btn-list {
     position: absolute;
     margin-top: -4rem;
-    width: 20vw;
     list-style: none;
-    background-color: var(--indigo);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     height: 0;
@@ -670,7 +667,7 @@ footer > :first-child{
 }
 
 .dv-currency-btn-list > li > button {
-    width: 100%;
+    width: 20vw;
     text-align: right;
     border-radius: 0;
     border: none;
@@ -1801,7 +1798,6 @@ textarea.dv-ticket-top-side-item-input {
 }
 
 .dv-mobile-nav-link-item {
-    background-color: red;
     height: auto;
 }
 
@@ -2297,6 +2293,7 @@ button {
 
 @media (max-width: 863px) {
     .dv-sect-1-bottom-cards-holder {grid-template-columns: repeat(1, 1fr);}
+    .dv-currency-btn-list > li > button {width: 40vw;}
     .dv-sect-2-td-d-inline-flex.w-100 {display: flex;flex-direction: column;}
     .dv-sect-2-td-d-inline-flex.w-100 > a {width: 100%;}
     .dv-sect-2-td-d-inline-flex.w-100 > a:first-of-type {margin: 0 0 1rem 0;}
@@ -2307,7 +2304,7 @@ button {
     .dv-footer-bottom-side > p{margin-bottom: 1rem;}
     .dv-media-863-w-50 {width: 50%;}
     .dv-about-us-sect-1-inner {width: 100%;}
-    .dv-main-inner-holder {width: 100%;padding: 2rem;}
+    .dv-main-inner-holder {width: 100%;padding: 1rem;}
     .dv-log-in-mid {width: 100%;}
 
     .dv-log-in-form {
@@ -2340,9 +2337,18 @@ button {
     .dv-ticket-top-side > :last-child{grid-column: span 2}
     .dv-ticket-drop-down {width: 46.5%;}
     #dv-select-btn-2 ~ .dv-ticket-drop-down {width: 96%;}
-    .dv-currency-btn-list {width: 40vw;}
     .dv-label.dv-no-mt {margin-top: 1rem;}
     .dv-contact-us-form {padding: 2rem;}
+    .dv-currency-btn-holder {width: 100%;}
+    .dv-currency-btn-list > li > button {width: 92vw;}
+    .dv-middle-side-laptop {min-height: 40vh;}
+    .dv-currency {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
     .dv-ticket-bottom-btns {
         display: flex;
@@ -2376,7 +2382,6 @@ button {
     .dv-dashboard-main-middle-side-right-side-item-col-2,
     .dv-dashboard-main-middle-side-right-side-item-col-3{width: 100% !important;}
     .dv-dashboard-main-middle-side {padding: .5rem;}
-    .dv-currency-btn-list {width: 40%;}
     .dv-dashboard-header-left-side {display: none;}
     .dv-dashboard-header-right-side {width: 100%;}
     .dv-dashboard-header {padding: .5rem;}
@@ -2430,20 +2435,12 @@ button {
     .dv-video-buttons > button:nth-of-type(3) {width: 5rem;height: 5rem;}
     .dv-volume {width: 3rem;}
     .dv-video-buttons-holder {margin-top: -12rem;}
+    #dv-middle-side-calculation {margin: 0;width: auto;}
+    .dv-middle-side-laptop {background-image: none;min-height: auto;}
 }
 
 @media (max-width: 420px) {  .dv-video-player {display: none;}  }
 @media (max-width: 358px) {
-    .dv-currency-btn-holder {width: 100%;}
-    .dv-currency-btn-list {width: 80vw;}
-    .dv-currency {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
     .dv-contact-form-right-side-socials {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -2460,3 +2457,4 @@ button {
         box-shadow: var(--box-shadow);
     }
 }
+
