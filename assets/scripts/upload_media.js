@@ -15,9 +15,7 @@ function upload_media() {
     // When A File Number Uploaded Files Gets More Than 3 It Shows A Toaster Massage.
     upload_input.addEventListener('change', () => {
         file.push(upload_input.value);
-        if (file.length > 3) {
-            // Show Toaster
-        }
+        if (file.length > 3) {new_toaster('alert', 'خطا!', 'تعداد فایل ها از 3 تا بیشتر نمیتواند باشد.')}
     })
 
     // Clicking On Input
