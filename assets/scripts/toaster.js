@@ -41,4 +41,7 @@ function new_toaster(type, name, details) {
 }
 
 // A Function That Closes Toaster
-function close_toaster(toaster_element) {toaster_element.style.display = 'none';}
+function close_toaster(toaster_element) {
+    toaster_element.style.opacity = '0';
+    toaster_element.style.pointerEvents = 'none';
+}
