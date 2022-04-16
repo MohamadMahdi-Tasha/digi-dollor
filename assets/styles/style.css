@@ -2435,6 +2435,7 @@ button {
     .dv-dashboard-main-main {padding: 1rem;}
     .dv-name-dashboard-btn-list {width: 50%;}
     .dv-ticket-top-side-item-btn {padding: .5rem;}
+    .dv-toaster {width: 100%;}
 
     .dv-name-dashboard-btn-list {
         width: 100%;
