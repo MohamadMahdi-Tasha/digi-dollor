@@ -2293,6 +2293,19 @@ button {
     .dv-about-us-sect-2-right-side, .dv-about-us-sect-3-right-side{margin-left: 0;}
     .dv-about-us-sect-2-left-side > img {margin-top: 2rem;}
     .dv-name-dashboard-btn-list {width: 40%;}
+
+    .dv-contact-section-1-card {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .dv-contact-us-section-1-cards-holder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
     .dv-header-left-side {
         width: 100%;
         margin-left: 1rem;
@@ -2447,18 +2460,6 @@ button {
     .dv-contact-form-right-side-socials {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .dv-contact-us-section-1-cards-holder {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 1rem;
-    }
-
-    .dv-contact-section-1-card {
-        margin: 0 !important;
-        width: 100%;
     }
 
     .dv-dashboard-main-middle-side-right-side {
