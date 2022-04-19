@@ -383,8 +383,14 @@ th, td {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 30rem;
+    height: 284px;
     transition: .3s;
+    font-size: 12px;
+}
+
+.dv-sect-3-card > h3 {
+    color: black;
+    font-size: 16px;
 }
 
 /*Fourth Section*/
