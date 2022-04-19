@@ -23,10 +23,10 @@ let click_item_5 = 0;
 // A Function That Changes Height Of Given Item And Rotates Given Svg
 function open_item(click, item, svg) {
     if (click % 2 !== 0) {
-        item.style.height = '15rem';
+        item.style.height = 'auto';
         svg.style.transform = 'rotate(180deg)';
     } else {
-        item.style.height = '5rem';
+        item.style.height = '4rem';
         svg.style.transform = 'rotate(0deg)';
     }
 }
