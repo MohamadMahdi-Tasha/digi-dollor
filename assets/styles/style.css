@@ -294,6 +294,8 @@ th {color: #A3A5A8 !important;}
     justify-content: end;
     align-items: center;
     margin-bottom: 1rem;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: center;
 }
 
 .dv-sect-1-bottom-card-bottom-side-bottom {
@@ -799,7 +801,6 @@ footer > :first-child{
 
 .dv-about-us-sect-2-left-side > img,
 .dv-about-us-sect-3-right-side > img {width: 100%;}
-
 .dv-about-us-sect-2-right-side-bottom-btn-holder,
 .dv-about-us-sect-3-right-side-bottom-btn-holder{
     width: 100%;
