@@ -627,6 +627,8 @@ footer > :first-child{
 #dv-middle-side-calculation {
     width: 10ch;
     margin-bottom: 5rem;
+    font-size: 30px;
+    color: #14151A;
 }
 
 .dv-input{
@@ -2525,7 +2527,6 @@ button {
 
 @media (max-width: 420px) {  .dv-video-player {display: none;}  }
 @media (max-width: 326px) {  
-    #dv-middle-side-calculation {font-size: 20px;}
     .dv-dashboard-header > div {width: 100%;}
     .dv-video-buttons-holder {display: none}
 }
