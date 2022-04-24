@@ -1264,6 +1264,7 @@ textarea {resize: none;}
 
 .dv-switch > input[type='checkbox'] {
     appearance: none;
+    -webkit-appearance: none;
     width: 6rem;
     padding: 1.5rem;
     cursor: pointer;
