@@ -55,7 +55,6 @@ body {
 /*Home Styles*/
 .dv-header-right-side {width: 60%;}
 .dv-header-links > .dv-header-links-item:first-child,.dv-on-mobile-logo {margin-top: 1rem;}
-.dv-mobile-nav-top > a {margin-left: 5rem;}
 #dv-mobile-nav::-webkit-scrollbar {display: none;}
 .dv-sect-1-top-btns-holder > a {width: 25%;}
 .dv-sect-1-top-btns-holder > :last-child {margin-right: 1rem;}
@@ -222,10 +221,30 @@ th {color: #A3A5A8 !important;}
 
 .dv-mobile-nav-top {
     width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    padding: 1rem;
+}
+
+#dv-mobile-nav-close-btn {
+    color: white;
+    background-color: unset;
+    border: none;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+#dv-mobile-nav-close-btn:active {
+    color: black;
+    background-color: white;
 }
 
 /*First Section*/

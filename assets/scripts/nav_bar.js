@@ -8,3 +8,6 @@ on_mobile_nav_toggle.addEventListener('click', () => show_nav(mobile_nav, mobile
 
 // Adding Event Listener That Listens To Click On Mobile Nav Bar Dark Bg And Closes Nav Bar
 mobile_nav_bg.addEventListener('click', () => close_nav(mobile_nav, mobile_nav_bg));
+
+// Adding Event Listener On Mobile Navs Close Button To Close Nav
+document.getElementById('dv-mobile-nav-close-btn').addEventListener('click', () => close_nav(mobile_nav, mobile_nav_bg));
