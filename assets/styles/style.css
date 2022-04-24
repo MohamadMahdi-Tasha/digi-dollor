@@ -664,6 +664,7 @@ footer > :first-child{
     padding: 1rem;
     border-radius: .5rem;
     border: 1px solid #DFDFDF;
+    background-color: white;
     transition: .3s;
     font-size: 16px;
 }
