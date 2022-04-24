@@ -321,6 +321,8 @@ th {color: #A3A5A8 !important;}
     display: flex;
     justify-content: end;
     align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: flex-end;
     margin-left: 2rem;
 }
 
