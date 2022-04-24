@@ -1940,6 +1940,7 @@ textarea.dv-ticket-top-side-item-input {
 #dv-pause-icon {font-size: 3rem;}
 #dv-pause-btn-video:hover {background-color: var(--daker-indigo);}
 #dv-pause-btn-video:active {background-color: var(--mid-darker-indigo);}
+.dv-video-player > video:fullscreen {border: none !important;}
 .dv-video-player > video {
     width: 50%;
     border-radius: 2rem;
@@ -1971,8 +1972,8 @@ textarea.dv-ticket-top-side-item-input {
     border-radius: 100%;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: var(--box-shadow);
-    backdrop-filter: blur( 40px );
-    -webkit-backdrop-filter: blur( 40px );
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
     margin-right: 1rem;
     border: none;
     color: white;
