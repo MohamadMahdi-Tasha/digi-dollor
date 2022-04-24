@@ -806,6 +806,8 @@ footer > :first-child{
     display: flex;
     justify-content: end;
     align-items: center;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: center;
 }
 
 /*Contact Us Page*/
