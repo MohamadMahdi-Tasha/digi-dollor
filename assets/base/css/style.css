@@ -1,0 +1,24 @@
+/*Importing Font*/
+@import '../fonts/font-vazir/Vazirmatn-UI-font-face.css';
+
+/*Universal Styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Setting Some Styles For Elements*/
+img {pointer-events: none;}
+a {text-decoration: none;}
+button {
+    transition: .3s;
+    cursor: pointer;
+}
+
+/*Styles*/
+body {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Vazirmatn UI", sans-serif;
+}
