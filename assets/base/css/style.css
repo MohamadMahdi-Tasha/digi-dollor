@@ -56,6 +56,7 @@ button {
 .dv-btn-bg-none:hover {background-color: var(--blue);}
 .dv-btn-bg-none:active {background-color: var(--little-darker-blue);}
 header .dv-btn-bg-orange,
+header .dv-btn-bg-blue,
 header .dv-btn-bg-none{width: 131px;}
 .dv-header-list-item {width: 15%;}
 .dv-header-list-item-item {background-color: var(--blue);}
