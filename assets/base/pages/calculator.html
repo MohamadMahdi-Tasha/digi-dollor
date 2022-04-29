@@ -86,7 +86,7 @@
     </ul>
 </nav>
 <!--Header Section-->
-<div class="p-3 fixed-top">
+<div class="p-3 fixed-top d-none">
     <header class="d-inline-flex dv-rounded-1 align-items-center w-100 dv-bg-high-dark-blue p-3 shadow dv-home-header">
         <!--Right Side-->
         <ul class="list-unstyled d-inline-flex align-items-center justify-content-between w-75 dv-mb-minus-zero-one">
@@ -153,61 +153,63 @@
     </header>
 </div>
 <!--Main Content Of Page-->
-<main>
-    <h1>تبدیل و محاسبه رمز ارز</h1>
-    <h2>تبدیل ارز چیست و چه کار خواهد کرد؟</h2>
-    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</p>
-    <!--Laptop-->
-    <div><h1>46,296.65 <span>USDT</span></h1></div>
-    <!--Inputs-->
-    <form action="#">
-        <input type="number" placeholder="مقدار را وارد کنید">
-        <div>
-            <div>
-                <button type="button">
-                    <div>
-                        <img src="../img/calculator/currency/img-bitcoin.png" alt="Bitcoin">
-                        <h3>بیتکوین</h3>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
-                        <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
-                    </svg>
-                </button>
-                <ul>
-                    <li><button type="button">بیتکوین1</button></li>
-                    <li><button type="button">بیتکوین2</button></li>
-                    <li><button type="button">بیتکوین3</button></li>
-                    <li><button type="button">بیتکوین4</button></li>
-                    <li><button type="button">بیتکوین5</button></li>
-                </ul>
-            </div>
-            <!--Switch Btn-->
-            <button><i class="fa-solid fa-right-left"></i></button>
-            <div>
-                <button type="button">
-                    <div>
-                        <img src="../img/calculator/currency/img-tether.png" alt="Tether">
-                        <h3>USDT</h3>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
-                        <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
-                    </svg>
-                </button>
-                <ul>
-                    <li><button type="button">بیتکوین1</button></li>
-                    <li><button type="button">بیتکوین2</button></li>
-                    <li><button type="button">بیتکوین3</button></li>
-                    <li><button type="button">بیتکوین4</button></li>
-                    <li><button type="button">بیتکوین5</button></li>
-                </ul>
+<main class="min-vh-100 d-flex align-items-center justify-content-center p-5">
+    <div class="w-50 text-center">
+        <h1 class="dv-calculator-page-title mb-5">تبدیل و محاسبه رمز ارز</h1>
+        <h2 class="dv-calculator-page-subtitle mb-5 dv-text-blue">تبدیل ارز چیست و چه کار خواهد کرد؟</h2>
+        <p class="dv-calculator-page-paragraph mb-5">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد</p>
+        <!--Laptop-->
+        <div class="dv-calculator-page-laptop d-flex justify-content-center align-items-center mb-5"><h1>46,296.65 <span>USDT</span></h1></div>
+        <!--Inputs-->
+        <form action="#">
+            <input class="w-100 dv-input p-2 mb-3" type="number" placeholder="مقدار را وارد کنید">
+            <div class="d-inline-flex w-100 align-items-center mb-3 justify-content-between">
+                <div class="w-50">
+                    <button class="dv-interactive-btns d-inline-flex w-100 align-items-center justify-content-between bg-white" type="button">
+                        <div class="d-inline-flex align-items-center w-50">
+                            <img src="../img/calculator/currency/img-bitcoin.png" alt="Bitcoin" class="dv-ml-1" width="15px" height="21px">
+                            <h3 class="text-black dv-fs-16px">بیتکوین</h3>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
+                            <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
+                        </svg>
+                    </button>
+                    <ul class="m-0 p-0 list-unstyled dv-bottom-rounded-1 overflow-hidden dv-h-0 overflow-scroll dv-scroll-hidden dv-transition-3 w-100">
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین1</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین2</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین3</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین4</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین5</button></li>
+                    </ul>
+                </div>
+                <!--Switch Btn-->
+                <button type="button" class="dv-bg-none dv-text-blue fa-2xl dv-ml-1 dv-mr-1"><i class="fa-solid fa-right-left"></i></button>
+                <div class="w-50">
+                    <button class="dv-interactive-btns d-inline-flex w-100 align-items-center justify-content-between bg-white" type="button">
+                        <div class="d-inline-flex align-items-center w-50">
+                            <img class="dv-ml-1" src="../img/calculator/currency/img-tether.png" alt="Tether">
+                            <h3 class="text-black dv-fs-16px">بیتگوین</h3>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8.287" height="5.491" viewBox="0 0 8.287 5.491">
+                            <path id="Path_472" data-name="Path 472" d="M4.777.8a.651.651,0,0,1,1,0l3.491,4.19a.651.651,0,0,1-.5,1.067H1.785a.651.651,0,0,1-.5-1.067Z" transform="translate(9.42 6.053) rotate(-180)" fill="#aeaeae" opacity="0.99"/>
+                        </svg>
+                    </button>
+                    <ul class="m-0 p-0 list-unstyled dv-bottom-rounded-1 overflow-hidden dv-h-0 overflow-scroll dv-scroll-hidden dv-transition-3 w-100">
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین1</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین2</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین3</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین4</button></li>
+                        <li><button type="button" class="dv-btn-bg-blue w-100 rounded-0 dv-text-right">بیتکوین5</button></li>
+                    </ul>
+                </div>
             </div>
             <!--Submit Btns-->
-            <div>
-                <button type="submit">تبدیل کنید</button>
-                <button type="button">تازه سازی</button>
+            <div class="d-inline-flex w-100 align-items-center">
+                <button class="rounded-3 w-50 dv-btn-bg-blue dv-ml-1 dv-text-blue">تبدیل کنید</button>
+                <button class="rounded-3 w-50 dv-btn-border-blue dv-text-blue" type="button">تازه سازی</button>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </main>
 <!--Linking Js Files-->
 <script src="https://kit.fontawesome.com/ba3e861e2c.js" crossorigin="anonymous"></script>
