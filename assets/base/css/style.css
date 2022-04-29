@@ -108,6 +108,10 @@ video:fullscreen {border: none;}
 .dv-blogs-paragraph {font-size: 12px;}
 .dv-blogs-link {color: var(--blue);}
 .dv-blog-date, .dv-blogs-link, .dv-blog-author-name {font-size: 11px;}
+.dv-footer-items-title {font-size: 20px;}
+.dv-bg-mid-blue {background-color: var(--mid-blue);}
+.dv-footer-paragraph {font-size: 15px !important;}
+.dv-text-orange {color: var(--orange);}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -266,8 +270,3 @@ video:fullscreen {border: none;}
     box-shadow: 0 15px 30px rgba(0,0,0,.1);
     min-height: 183px;
 }
-
-.dv-footer-items-title {font-size: 20px;}
-.dv-bg-mid-blue {background-color: var(--mid-blue);}
-.dv-footer-paragraph {font-size: 15px !important;}
-.dv-text-orange {color: var(--orange);}
