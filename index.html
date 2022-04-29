@@ -151,7 +151,7 @@
     </div>
 </header>
 <!--First Section-->
-<section class="min-vh-100 dv-home-first-section d-flex align-items-center justify-content-center m-4">
+<section class="dv-home-section-1 min-vh-100 dv-home-first-section d-flex align-items-center justify-content-center m-4">
     <main class="w-75 text-center d-flex flex-column">
             <h1 class="dv-section-1-home-title mb-3">دیجی دلار مرجعی برای خرید مطمئن</h1>
             <h3 class="dv-section-1-home-subtitle mb-5">دیجی دلار بزرگترین پلتفرم خرید و فروش ارزهای دیجیتال</h3>
@@ -238,7 +238,7 @@
         </main>
 </section>
 <!--Second Section-->
-<section class="p-5">
+<section class="dv-home-section-2 p-5">
     <main>
         <!--Top Side Tabs-->
         <div class="d-inline-flex dv-w-95 align-items-center justify-content-end dv-table-top-side-tabs">
@@ -324,7 +324,7 @@
     </main>
 </section>
 <!--Third Section-->
-<section class="p-5">
+<section class="dv-home-section-3 p-5">
     <main class="text-center">
         <h1 class="mb-5 dv-home-sections-title">امکانات دیجی دلار چیست؟</h1>
         <!--Items-->
@@ -353,18 +353,18 @@
     </main>
 </section>
 <!--Fourth Section-->
-<section class="bg-white p-5">
+<section class="dv-home-section-4 bg-white p-5">
     <main class="text-center">
         <h1 class="dv-home-sections-title mb-3">چگونه ارز دیجیتال بخریم؟</h1>
         <p class="dv-home-sections-paragraph">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه</p>
         <a href="#"><button class="dv-btn-bg-blue mb-5">دانلود آموزش</button></a>
         <!--Video Player-->
-        <div class="d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center justify-content-center dv-video">
             <!--Top Side-->
-            <div class="d-flex justify-content-end w-50"><img src="assets/base/img/home/section-4/tutorial/img-top-side-icon.svg" alt="Top Side Icon"></div>
-            <video id="dv-video" class="dv-video-player" width="40%" poster="assets/base/img/home/section-4/tutorial/img-tutorial.jpg"><source src="assets/base/img/home/section-4/tutorial/vido-toturial.mp4" type="video/mp4"></video>
+            <div class="dv-topside-video d-flex justify-content-end w-50"><img src="assets/base/img/home/section-4/tutorial/img-top-side-icon.svg" alt="Top Side Icon"></div>
+            <video loop id="dv-video" class="dv-video-player" width="40%" poster="assets/base/img/home/section-4/tutorial/img-tutorial.jpg"><source src="assets/base/img/home/section-4/tutorial/vido-toturial.mp4" type="video/mp4"></video>
             <!--Video Controls-->
-            <div class="dv-video-controls d-inline-flex align-items-center justify-content-center gap-5 mb-5">
+            <div class="dv-video-controls d-inline-flex align-items-center justify-content-center gap-3">
                 <!--Volume Changer-->
                 <div class="d-flex flex-column align-items-center p-1 dv-bg-blured dv-video-vol-btns">
                     <input id="dv-volume-input" class="dv-vol-input" type="range" step="1" maxlength="100" minlength="0" value="20">
@@ -389,7 +389,7 @@
             نفر آموزش های ما را دانلود کردند
         </h1>
         <!--Bottom Social Links-->
-        <div class="d-flex align-items-center justify-content-center border-bottom mb-5">
+        <div class="dv-social-btns d-flex align-items-center justify-content-center border-bottom mb-5">
             <ul class="w-50 row list-unstyled gap-5">
                 <li class="col dv-social-btn">
                     <a href="#">
@@ -462,8 +462,8 @@
             </ul>
         </div>
         <!--Blogs-->
-        <div class="row gap-5">
-            <div class="col dv-blog-item p-3 bg-white shadow dv-text-right">
+        <div class="dv-blog-section-home">
+            <div class="dv-blog-item p-3 bg-white shadow dv-text-right">
                 <div class="w-100 d-inline-flex align-items-center">
                     <img class="w-50 dv-ml-1" src="assets/base/img/home/section-4/blogs/img-blog-1.png" alt="Blog 1">
                     <div class="w-50">
@@ -492,7 +492,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col dv-blog-item p-3 bg-white shadow dv-text-right">
+            <div class="dv-blog-item p-3 bg-white shadow dv-text-right">
                 <div class="w-100 d-inline-flex align-items-center">
                     <img class="w-50 dv-ml-1" src="assets/base/img/home/section-4/blogs/img-blog-2.png" alt="Blog 2">
                     <div class="w-50">
@@ -521,7 +521,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col dv-blog-item p-3 bg-white shadow dv-text-right">
+            <div class="dv-blog-item p-3 bg-white shadow dv-text-right">
                 <div class="w-100 d-inline-flex align-items-center">
                     <img class="w-50 dv-ml-1" src="assets/base/img/home/section-4/blogs/img-blog-3.png" alt="Blog 3">
                     <div class="w-50">
@@ -564,8 +564,8 @@
         </div>
     </div>
     <!--Main Contents-->
-    <main class="row">
-        <div class="col">
+    <main>
+        <div>
             <h3 class="dv-footer-items-title text-white fw-bold mb-3">امکانات دیجی دلار</h3>
             <ul class="list-unstyled">
                 <li class="mb-2"><a class="text-white" href="#">خرید</a></li>
@@ -574,7 +574,7 @@
                 <li class="mb-2"><a class="text-white" href="#">نرخ آنلاین</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div>
             <h3 class="dv-footer-items-title text-white fw-bold mb-3">چرا اعتماد کنیم؟</h3>
             <ul class="list-unstyled">
                 <li class="mb-2"><a class="text-white" href="#">درباره دییجی دلار</a></li>
@@ -582,7 +582,7 @@
                 <li class="mb-2"><a class="text-white" href="#">شرایط استفاده و احراز</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div>
             <h3 class="dv-footer-items-title text-white fw-bold mb-3">لینک های مهم</h3>
             <ul class="list-unstyled">
                 <li class="mb-2"><a class="text-white" href="#">ثبت نام در سایت</a></li>
@@ -591,7 +591,7 @@
                 <li><a class="text-white" href="#">احراز هویت</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div>
             <h3 class="dv-footer-items-title text-white fw-bold mb-3">تماس با ما</h3>
             <ul class="list-unstyled">
                 <li class="w-75 d-inline-flex align-items-center justify-content-between mb-2">
@@ -621,7 +621,7 @@
     </main>
 </footer>
 <!--Bottom Side-->
-<div class="d-inline-flex w-100 align-items-center justify-content-between dv-bg-mid-blue p-3">
+<div class="dv-footer-bottom-copyright d-inline-flex w-100 align-items-center justify-content-between dv-bg-mid-blue p-3">
     <p class="dv-footer-paragraph text-white">تمامی حقوق این وب سایت متعلق به <span class="dv-text-diamond">دی‌جی دلار</span> است و استفاده بدون ذکر منبع پیگرد قانونی دارد</p>
     <h6 class="text-white dv-footer-paragraph">
         طراحی و توسعه توسط تیم
