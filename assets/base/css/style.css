@@ -138,6 +138,7 @@ video:fullscreen {border: none;}
 .dv-w-20 {width: 20%;}
 .dv-h-0 {height: 0;}
 .dv-interactive-btns:focus ~ ul {height: 20vh;}
+.dv-calculator-main-content > div {margin-top: 15vh !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -426,6 +427,7 @@ footer main {
 
 @media (max-width: 460px) {
     .dv-video {display: none !important;}
+    .dv-calculator-page-laptop {background-image: none;}
     .dv-calculator-main-content > div form > div:first-of-type > div  {width: 100% !important;}
     .dv-calculator-main-content > div form > div:first-of-type {
         display: flex;
