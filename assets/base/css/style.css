@@ -26,6 +26,7 @@
 /*Setting Some Styles For Elements*/
 img {pointer-events: none;}
 a {text-decoration: none;}
+p {margin: 0!important;}
 
 body {
     font-size: 14px;
@@ -33,6 +34,7 @@ body {
     font-family: "Vazirmatn UI", sans-serif;
     color: #14151A;
     background-color: #ECECEC;
+    overflow-x: hidden;
 }
 
 button {
@@ -85,6 +87,27 @@ header .dv-btn-bg-none{width: 131px;}
 .dv-home-section-3-card > img {margin-bottom: 2rem;}
 .dv-home-section-3-card > h1 {font-size: 16px;}
 .dv-rounded-1 {border-radius: 1rem;}
+.dv-vol-input::-webkit-slider-thumb {background-color: white;}
+.dv-w-10 {width: 10%;}
+video:fullscreen {border: none;}
+.dv-bg-blured-btn:hover {background-color: rgba(24, 90, 219, .2);}
+.dv-bg-blured-btn:active {background-color: rgba(24, 90, 219, .5);}
+.dv-bg-blured-btn.active {background-color: rgba(24, 90, 219, .2);}
+.dv-bg-blured-btn.active:hover {background-color: rgba(24, 90, 219, .5);}
+.dv-bg-blured-btn.active:active {background-color: rgba(24, 90, 219, .7);}
+.dv-list-toggler-active:focus {background-color: rgba(24, 90, 219, .5);}
+.dv-video-pause-btn:hover {background-color: var(--little-darker-blue);}
+.dv-video-pause-btn:active {background-color: var(--mid-blue);}
+.dv-social-btn path {transition: .3s;}
+.dv-social-btn:nth-of-type(4) > a:hover > svg path{fill: #3A465A;}
+.dv-social-btn:not(:nth-of-type(4)) > a:hover > svg path{fill: black;}
+.dv-text-right {text-align: right;}
+.dv-blogs-paragraph, .dv-blogs-title,
+.dv-blog-date, .dv-blog-author-name {color: #68696C;}
+.dv-blogs-title {font-size: 18px;}
+.dv-blogs-paragraph {font-size: 12px;}
+.dv-blogs-link {color: var(--blue);}
+.dv-blog-date, .dv-blogs-link, .dv-blog-author-name {font-size: 11px;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -113,15 +136,18 @@ header .dv-btn-bg-none{width: 131px;}
 }
 
 .dv-header-list-item-toggler:hover ~ .dv-header-list-item,
-.dv-header-list-item:hover{
+.dv-header-list-item:hover,
+.dv-list-toggler-active:focus ~ .dv-list-toggler-active-list{
     opacity: 1 !important;
     pointer-events: visible !important;
+    z-index: 100 !important;
 }
 
 .dv-btn-border-diamond {
     border: 1px solid var(--diamond);
     color: var(--diamond);
     border-radius: 2rem;
+    background-color: unset;
 }
 
 .dv-btn-border-diamond:active {
@@ -157,7 +183,6 @@ header .dv-btn-bg-none{width: 131px;}
 .dv-tab-btn {
     width: 94px;
     height: 57px;
-    padding: .5rem;
     background-color: #F3F3F3;
     color: #A3A5A8;
     font-size: 16px;
@@ -171,8 +196,6 @@ header .dv-btn-bg-none{width: 131px;}
 
 .dv-home-section-3-card {
     border-radius: 1rem;
-    display: flex;
-    min-height: 284px;
     box-shadow: 0 15px 30px rgba(0,0,0,.1);
 }
 
@@ -180,3 +203,71 @@ header .dv-btn-bg-none{width: 131px;}
     color: #68696C;
     font-size: 12px;
 }
+
+.dv-home-sections-paragraph {
+    color: #68696C;
+    font-size: 18px;
+}
+
+.dv-video-player {
+    border: 10px solid black;
+    border-radius: 1rem;
+}
+
+.dv-video-controls {
+    width: 40%;
+    border: 10px solid transparent;
+    margin-top: -12rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.dv-bg-blured {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+}
+
+.dv-video-vol-btns {
+    width: 35px;
+    border-radius: 2rem;
+}
+
+.dv-vol-input {
+    accent-color: var(--blue);
+    transform: rotate(90deg);
+    width: 5rem;
+    margin-top: 2rem;
+}
+
+.dv-circle-no-bg-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: unset;
+}
+
+.dv-bg-blured-btn {
+    width: 4rem;
+    height: 4rem;
+}
+
+.dv-video-pause-btn {
+    border-radius: 2rem !important;
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--blue);
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(24, 90, 219, .5);
+    z-index: 99;
+}
+
+.dv-blog-item {
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    min-height: 183px;
+}
+
+.dv-footer-items-title {font-size: 20px;}
+.dv-bg-mid-blue {background-color: var(--mid-blue);}
+.dv-footer-paragraph {font-size: 15px !important;}
+.dv-text-orange {color: var(--orange);}
