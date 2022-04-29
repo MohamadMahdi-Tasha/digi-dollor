@@ -112,6 +112,20 @@ video:fullscreen {border: none;}
 .dv-bg-mid-blue {background-color: var(--mid-blue);}
 .dv-footer-paragraph {font-size: 15px !important;}
 .dv-text-orange {color: var(--orange);}
+.dv-show-on-mobile {display: none;}
+.dv-mobile-nav[data-opened="false"] {left: 100% !important;}
+.dv-mobile-nav[data-opened="true"] {left: 25% !important;}
+.dv-dark-bg[data-opened="false"] {left: 100% !important;}
+.dv-dark-bg[data-opened="true"] {left: 0 !important;}
+.dv-bg-none {background-color: unset;}
+.dv-scroll-hidden::-webkit-scrollbar {display: none;}
+.dv-active-bg-blue:active {background-color: var(--blue);}
+.dv-active-bg-darker-blue:active {background-color: var(--little-darker-blue);}
+.dv-active-bg-blue.active {background-color: var(--blue);}
+.dv-bg-blue {background-color: var(--blue);}
+.dv-btn-border-orange:hover ,.dv-btn-border-orange:active {color: white;}
+.dv-btn-border-orange:hover {background-color: var(--orange);}
+.dv-btn-border-orange:active {background-color: var(--orange-darker);}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -269,4 +283,42 @@ video:fullscreen {border: none;}
 .dv-blog-item {
     box-shadow: 0 15px 30px rgba(0,0,0,.1);
     min-height: 183px;
+}
+
+.dv-mobile-nav {
+    z-index: 1110;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.dv-dark-bg {
+    background-color: rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    z-index: 1100;
+    left: 100%;
+    display: none;
+}
+
+.dv-w-h-3 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.dv-btn-border-orange {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--orange);
+    background-color: unset;
+    color: var(--orange);
+}
+
+/*Media Querys*/
+@media (max-width: 1199px) {
+    .dv-dark-bg {display: block;}
+    .dv-home-header > ul:first-of-type {display: none !important;}
+    .dv-home-header > div {width: 100% !important;}
+    .dv-home-header > div > a:not(:last-of-type), .dv-home-header > div > div {display: none !important;}
+    .dv-show-on-mobile,.dv-mobile-nav {display: block;}
 }
