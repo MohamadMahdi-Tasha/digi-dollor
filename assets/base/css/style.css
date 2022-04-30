@@ -418,8 +418,7 @@ footer main {
 }
 
 @media (max-width: 767px) {
-    footer main {grid-template-columns: repeat(3, 1fr);}
-    footer main > div:last-of-type{grid-column: span 3}
+    footer main {grid-template-columns: repeat(1, 1fr);}
     .dv-home-section-3-card-holder {
         padding: .5rem;
         display: grid !important;
@@ -436,8 +435,6 @@ footer main {
     .dv-social-btns > ul{width: 100% !important;}
     .dv-blog-section-home {grid-template-columns: repeat(1, 1fr);}
     .dv-blog-section-home > div:last-of-type {grid-column: span 1}
-    footer main {grid-template-columns: repeat(2, 1fr);}
-    footer main > div:last-of-type{grid-column: span 1}
 }
 
 @media (max-width: 460px) {
@@ -473,7 +470,6 @@ footer main {
 
 @media (max-width: 299px) {
     .dv-home-first-section > main > div:first-of-type > div > a {margin: 0 !important;}
-    footer main {grid-template-columns: repeat(1, 1fr);}
     .dv-home-first-section > main > div:first-of-type > div {
         display: flex;
         flex-direction: column;
