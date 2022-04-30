@@ -405,6 +405,7 @@ footer main {
     .dv-blog-section-home > div:last-of-type {grid-column: span 2}
     .dv-calculator-main-content {padding: 1rem !important;}
     .dv-calculator-main-content > div{width: 100% !important;}
+    .dv-404-page-bottom-btn {width: 75% !important;}
     .dv-footer-bottom-copyright {
         display: flex;
         flex-direction: column;
