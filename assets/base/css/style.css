@@ -283,8 +283,8 @@ video:fullscreen {border: none;}
 }
 
 .dv-circle-no-bg-btn {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4rem !important;
+    height: 4rem !important;
     background-color: unset;
 }
 
@@ -362,11 +362,15 @@ footer main {
     margin-top: -5rem;
 }
 
-.dv-input, .dv-interactive-btns{
+.dv-input {
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    color: #1A1A1A;
+}
+
+.dv-interactive-btns{
     border: 1px solid #DFDFDF;
     color: #B7B7B7;
-    transition: .3s;
-    height: 41px;
 }
 
 .dv-interactive-btns {
@@ -374,9 +378,14 @@ footer main {
     border-top-left-radius: .5rem;
 }
 
-.dv-input:focus, .dv-interactive-btns:focus{
+.dv-input:focus {
     border-color: var(--blue);
-    color: var(--blue);
+    background-color: #E0E1E4;
+}
+
+.dv-input::selection {
+    background-color: var(--blue);
+    color: white;
 }
 
 .dv-btn-border-blue {
@@ -392,6 +401,35 @@ footer main {
     border-bottom: 10px solid var(--blue);
     margin-right: 2rem;
 }
+
+.dv-sect-1-contact-us {
+    background-image: url('../img/contact-us/img-section-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dv-sect-1-contact-us-card {
+    width: 309px;
+    height: 165px;
+}
+
+.dv-sect-1-contact-us-card path {transition: .3s;}
+.dv-sect-1-contact-us-card:nth-of-type(2) {margin-top: 1.5rem;}
+.dv-sect-1-contact-us-card:hover path{fill: white;}
+.dv-text-defualt-color {color: #14151A !important;}
+.dv-sect-1-contact-us-card:hover {background-color: var(--blue) !important;}
+.dv-sect-1-contact-us-card:hover h6,
+.dv-sect-1-contact-us-card:hover p,
+.dv-sect-1-contact-us-card:hover a{color: white !important;}
+.dv-contact-us-form {margin-top: -7rem;}
+.dv-form-label {color: #68696C;}
+.dv-input, .dv-interactive-btns {height: 41px;transition: .3s;}
+.dv-input::placeholder {color: #B0B1B2;}
+.dv-interactive-btns:focus{border-color: var(--blue);}
+.dv-circle-no-bg-btn:hover {background-color: #ececec;}
+.dv-circle-no-bg-btn:active {background-color: #c7c7c7;}
+textarea {resize: none;}
 
 /*Media Querys*/
 @media (max-width: 1199px) {
