@@ -166,6 +166,7 @@ video:fullscreen {border: none;}
     color: white;
 }
 
+.dv-video-settings-btn:focus > i{transform: rotate(180deg);}
 .dv-header-list-item-toggler:hover ~ .dv-header-list-item,
 .dv-header-list-item:hover,
 .dv-list-toggler-active:focus ~ .dv-list-toggler-active-list{
