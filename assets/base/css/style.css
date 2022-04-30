@@ -444,6 +444,14 @@ footer main {
     .dv-video {display: none !important;}
     .dv-calculator-page-laptop {background-image: none;}
     .dv-calculator-main-content > div form > div:first-of-type > div  {width: 100% !important;}
+    .dv-blog-cards-bottom-side {
+        margin-top: 1rem;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: start !important;
+        gap: .5rem;
+    }
 
     .dv-home-section-3-card-holder {
         grid-template-columns: repeat(1, 1fr) !important;
