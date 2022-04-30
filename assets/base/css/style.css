@@ -377,7 +377,7 @@ footer main {
 }
 
 .dv-btn-border-blue {
-    background-color: white;
+    background-color: unset;
     border: 1px solid var(--blue);
 }
 
