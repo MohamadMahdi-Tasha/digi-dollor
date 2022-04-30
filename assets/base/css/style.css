@@ -439,8 +439,17 @@ footer main {
 
 @media (max-width: 460px) {
     .dv-video {display: none !important;}
-    .dv-calculator-page-laptop {background-image: none;}
+    .dv-calculator-page-laptop > h1 {margin: 0;}
     .dv-calculator-main-content > div form > div:first-of-type > div  {width: 100% !important;}
+    .dv-calculator-page-laptop {
+        background-image: none;
+        min-height: auto;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .dv-blog-cards-bottom-side {
         margin-top: 1rem;
         display: flex !important;
