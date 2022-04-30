@@ -145,6 +145,7 @@ video:fullscreen {border: none;}
 .dv-h-0 {height: 0;}
 .dv-interactive-btns:focus ~ ul {height: 15vh;}
 .dv-calculator-main-content > div {margin-top: 7rem !important;}
+.dv-header-holder {padding: 1.5rem 3rem 1.5rem 3rem;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -482,8 +483,4 @@ footer main {
         flex-direction: column;
         gap: 1rem;
     }
-}
-
-.dv-header-holder {
-    padding: 1.5rem 3rem 1.5rem 3rem;
 }
