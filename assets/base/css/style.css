@@ -483,3 +483,7 @@ footer main {
         gap: 1rem;
     }
 }
+
+.dv-header-holder {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+}
