@@ -441,6 +441,7 @@ footer main {
     .dv-video {display: none !important;}
     .dv-calculator-page-laptop > h1 {margin: 0;}
     .dv-calculator-main-content > div form > div:first-of-type > div  {width: 100% !important;}
+    .dv-home-section-3-card-holder {grid-template-columns: repeat(1, 1fr) !important;}
     .dv-calculator-page-laptop {
         background-image: none;
         min-height: auto;
@@ -459,13 +460,10 @@ footer main {
         gap: .5rem;
     }
 
-    .dv-home-section-3-card-holder {
-        grid-template-columns: repeat(1, 1fr) !important;
-    }
-
     .dv-calculator-main-content > div form > div:first-of-type {
         display: flex;
         flex-direction: column;
+        align-items: center !important;
     }
 
     footer > div:first-of-type {
