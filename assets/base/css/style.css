@@ -176,6 +176,8 @@ video:fullscreen {border: none;}
 
 .dv-video-settings-btn:focus > i{transform: rotate(180deg);}
 .dv-header-list-item-toggler:hover ~ .dv-header-list-item,
+.dv-header-list-item-toggler:hover ~ div > .dv-header-list-item,
+.dv-header-list-item-toggler:hover ~ div,
 .dv-header-list-item:hover,
 .dv-list-toggler-active:focus ~ .dv-list-toggler-active-list{
     opacity: 1 !important;
@@ -381,6 +383,15 @@ footer main {
 .dv-btn-border-blue {
     background-color: unset;
     border: 1px solid var(--blue);
+}
+
+.dv-lis-top-side {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--blue);
+    margin-right: 2rem;
 }
 
 /*Media Querys*/
