@@ -144,7 +144,7 @@ video:fullscreen {border: none;}
 .dv-w-20 {width: 20%;}
 .dv-h-0 {height: 0;}
 .dv-interactive-btns:focus ~ ul {height: 15vh;}
-.dv-calculator-main-content > div {margin-top: 15vh !important;}
+.dv-calculator-main-content > div {margin-top: 7rem !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
