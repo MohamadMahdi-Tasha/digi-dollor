@@ -420,6 +420,12 @@ footer main {
 @media (max-width: 767px) {
     footer main {grid-template-columns: repeat(3, 1fr);}
     footer main > div:last-of-type{grid-column: span 3}
+    .dv-home-section-3-card-holder {
+        padding: .5rem;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap:  1rem !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -438,6 +444,11 @@ footer main {
     .dv-video {display: none !important;}
     .dv-calculator-page-laptop {background-image: none;}
     .dv-calculator-main-content > div form > div:first-of-type > div  {width: 100% !important;}
+
+    .dv-home-section-3-card-holder {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
     .dv-calculator-main-content > div form > div:first-of-type {
         display: flex;
         flex-direction: column;
