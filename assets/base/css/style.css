@@ -28,6 +28,11 @@ img {pointer-events: none;}
 a {text-decoration: none;}
 p {margin: 0!important;}
 
+::selection {
+    background-color: var(--high-dark-blue);
+    color: white;
+}
+
 body {
     font-size: 14px;
     font-weight: normal;
