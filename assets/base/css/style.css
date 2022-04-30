@@ -384,6 +384,7 @@ footer main {
 }
 
 @media (max-width: 991px) {
+    .dv-list-toggler-active-list {width: 50% !important;}
     .dv-home-section-3,.dv-home-section-2, .dv-home-section-1 ,.dv-home-section-4{padding: 1rem !important;}
     .dv-home-first-section > main {width: 100% !important;}
     .dv-home-first-section > main > div:first-of-type > div > a {width: 100% !important;}
