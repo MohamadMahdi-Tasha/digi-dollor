@@ -417,14 +417,13 @@ footer main {
     .dv-calculator-main-content > div{width: 100% !important;}
     .dv-404-page-bottom-btn {width: 75% !important;}
     .dv-about-us-sec1-main {width: 100% !important;}
+    .dv-about-us-section-main > div,
+    .dv-about-us-section-main > img {width: 100% !important;}
 
     .dv-about-us-section-main {
         display: flex;
         flex-direction: column;
     }
-
-    .dv-about-us-section-main > div,
-    .dv-about-us-section-main > img {width: 100% !important;}
 
     .dv-footer-bottom-copyright {
         display: flex;
@@ -458,6 +457,7 @@ footer main {
     .dv-social-btns > ul{width: 100% !important;}
     .dv-blog-section-home {grid-template-columns: repeat(1, 1fr);}
     .dv-blog-section-home > div:last-of-type {grid-column: span 1}
+    .dv-header-holder {padding: 1rem 1.5rem 1rem 1.5rem;}
 }
 
 @media (max-width: 460px) {
