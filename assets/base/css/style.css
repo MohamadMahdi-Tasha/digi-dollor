@@ -177,8 +177,6 @@ video:fullscreen {border: none;}
 
 .dv-video-settings-btn:focus > i{transform: rotate(180deg);}
 .dv-header-list-item-toggler:hover ~ .dv-header-list-item,
-.dv-header-list-item-toggler:hover ~ div > .dv-header-list-item,
-.dv-header-list-item-toggler:hover ~ div,
 .dv-header-list-item:hover,
 .dv-list-toggler-active:focus ~ .dv-list-toggler-active-list{
     opacity: 1 !important;
@@ -418,6 +416,16 @@ footer main {
     .dv-calculator-main-content {padding: 1rem !important;}
     .dv-calculator-main-content > div{width: 100% !important;}
     .dv-404-page-bottom-btn {width: 75% !important;}
+    .dv-about-us-sec1-main {width: 100% !important;}
+
+    .dv-about-us-section-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dv-about-us-section-main > div,
+    .dv-about-us-section-main > img {width: 100% !important;}
+
     .dv-footer-bottom-copyright {
         display: flex;
         flex-direction: column;
