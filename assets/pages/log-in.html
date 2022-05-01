@@ -21,37 +21,40 @@
     <!--Title Of Page-->
     <title>تبدیل و محاسبه رمز ارز | دیجی دلار</title>
 </head>
-<body dir="rtl" class="dv-login-body">
+<body dir="rtl" class="dv-login-body min-vh-100 d-flex align-items-center justify-content-center p-1">
 <!--Structure Of Page Goes Here-->
-<main>
-    <form action="#">
+<main class="w-100 d-flex justify-content-center align-items-center">
+    <form action="#" class="shadow dv-rounded-1 dv-login-blured-main w-25 p-3 text-center d-flex flex-column">
         <!--Top Side Txts-->
-        <h1>وارد شوید</h1>
-        <h3>
+        <h1 class="dv-fs-22-px text-white fw-normal mb-2">وارد شوید</h1>
+        <h3 class="dv-login-subtitle mb-4">
             اگر حساب کاربری ندارید
             <a href="#">ثبت نام</a>
             کنید
         </h3>
         <!--Top Side Btns-->
-        <a href="#"><button type="button"><img src="../base/img/log-in/img-google-logo.svg" alt="Google Logo"></button></a>
-        <a href="#"><button type="button">با شماره وارد شوید</button></a>
+        <a href="#"><button class="dv-blured-bg-btn rounded-3 w-100 mb-3 text-white" type="button">
+            <img src="../base/img/log-in/img-google-logo.svg" alt="Google Logo">
+            با گوگل وارد شوید
+        </button></a>
+        <a href="#"><button class="dv-blured-bg-btn rounded-3 w-100 text-white mb-3" type="button">با شماره وارد شوید</button></a>
         <!--Divider-->
-        <div>
-            <div></div>
-            <h3>ورود با ایمیل</h3>
-            <div></div>
+        <div class="d-inline-flex align-items-center w-100">
+            <div class="w-50 dv-divider-border"></div>
+            <h3 class="text-nowrap dv-ml-1 dv-mr-1 dv-divider-text">ورود با ایمیل</h3>
+            <div class="w-50 dv-divider-border"></div>
         </div>
         <!--Inputs-->
-        <input type="email" placeholder="ایمیل">
-        <input type="password" placeholder="رمز عبور">
-        <button type="submit">ورود</button>
+        <input class="dv-bg-blured-input dv-fs-10-px dv-transition-3 border-0 rounded-3 dv-prl-1 mb-3" type="email" placeholder="ایمیل">
+        <input class="dv-bg-blured-input dv-fs-10-px dv-transition-3 border-0 rounded-3 dv-prl-1 mb-3" type="password" placeholder="رمز عبور">
+        <button class="dv-btn-bg-blue w-100 rounded-3 dv-h-39px mb-3" type="submit">ورود</button>
         <!--Save Your Data Section-->
-        <div>
-            <div>
-                <input id="save-data-chckbox" type="checkbox">
-                <label for="save-data-chckbox">اطلاعات من را ذخیره کن</label>
+        <div class="d-inline-flex w-100">
+            <div class="w-50 d-inline-flex dv-ml-1">
+                <input id="dv-save-data-chckbox" type="checkbox" class="dv-ml-1 dv-accent-color-blue">
+                <label class="dv-fs-10-px" for="dv-save-data-chckbox">اطلاعات من را ذخیره کن</label>
             </div>
-            <a href="#">فراموشی رمز عبور</a>
+            <a class="dv-text-gray-login dv-fs-10-px dv-text-left w-50" href="#">فراموشی رمز عبور</a>
         </div>
     </form>
 </main>

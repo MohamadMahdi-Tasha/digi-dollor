@@ -165,6 +165,21 @@ video:fullscreen {border: none;}
 .dv-circle-no-bg-btn:hover {background-color: #ececec;}
 .dv-circle-no-bg-btn:active {background-color: #c7c7c7;}
 textarea {resize: none;}
+.dv-fs-20-px {font-size: 20px;}
+.dv-login-subtitle > a {color: var(--blue) !important;}
+.dv-login-blured-main {background: rgba( 255, 255, 255, .1 );}
+.dv-h-39px {height: 39px;}
+.dv-fs-10-px {font-size: 10px;}
+.dv-text-gray-login {color: #D9D9D9 !important;}
+.dv-accent-color-blue {accent-color: var(--blue);}
+#dv-save-data-chckbox ~ label {color: #D9D9D9;}
+.dv-text-left {text-align: left;}
+.dv-bg-blured-input::placeholder {color: #D9D9D9;}
+.dv-bg-blured-input:focus {background: rgba( 255, 255, 255, .2 );}
+.dv-divider-border {border-bottom: 1px solid #9B9B9B;}
+.dv-divider-text {font-size: 14px;color: #9B9B9B;}
+.dv-blured-bg-btn:hover {background: rgba( 255, 255, 255, .2 );}
+.dv-blured-bg-btn:active {background: rgba( 255, 255, 255, .25 );}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -438,6 +453,33 @@ footer main {
 .dv-ptb-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.dv-login-body {
+    background-image: url('../img/log-in/img-body-bg.jpg');
+    background-size: cover;
+}
+
+.dv-login-subtitle {
+    font-size: 14px;
+    color: #9C9C9B;
+}
+
+.dv-login-blured-main, .dv-blured-bg-btn{
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+}
+
+.dv-blured-bg-btn {
+    background: rgba( 255, 255, 255, .15 );
+    height: 39px;
+    font-size: 12px;
+}
+
+.dv-bg-blured-input {
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    background: rgba( 255, 255, 255, .15 );
 }
 
 /*Media Querys*/
