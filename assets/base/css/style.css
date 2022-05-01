@@ -497,7 +497,7 @@ footer main {
 }
 
 @media (max-width: 767px) {
-    .dv-footer {padding: 1rem !important;}
+    .dv-footer ,.dv-footer ~ div{padding: 1rem !important;}
     .dv-footer main {grid-template-columns: repeat(1, 1fr);}
     .dv-home-section-3-card-holder {
         padding: .5rem;
