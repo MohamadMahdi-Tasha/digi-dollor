@@ -430,6 +430,16 @@ footer main {
     height: 165px;
 }
 
+.dv-prl-3 {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.dv-ptb-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 /*Media Querys*/
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
 @media (max-width: 1199px) {
