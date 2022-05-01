@@ -516,6 +516,7 @@ footer main {
     textarea.dv-input {height: 15rem !important;}
     .dv-contact-us-form {padding: 1rem !important;}
     .dv-login-body {padding: 0!important;}
+    .dv-contact-us-form > div:first-of-type > div {width: 100% !important;}
     .dv-login-blured-main {
         width: 100% !important;
         min-height: 100vh;
@@ -529,7 +530,6 @@ footer main {
         flex-direction: column !important;
     }
 
-    .dv-contact-us-form > div:first-of-type > div {width: 100% !important;}
     .dv-sect-1-contact-us-cards {
         display: flex;
         flex-direction: column;
