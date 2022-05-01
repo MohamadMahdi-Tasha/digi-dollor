@@ -461,7 +461,7 @@ footer main {
     .dv-contact-us-form {margin: 0;}
     .dv-sect-1-contact-us-cards > div {width: 100% !important;}
     .dv-sect-1-contact-us > main{width: 100% !important;}
-    textarea.dv-input {height: 30rem !important;}
+    textarea.dv-input {height: 15rem !important;}
     .dv-contact-us-form {padding: 1rem !important;}
 
     .dv-contact-us-form > div:first-of-type {
