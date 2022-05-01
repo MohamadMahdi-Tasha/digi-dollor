@@ -515,6 +515,14 @@ footer main {
     .dv-sect-1-contact-us > main{width: 100% !important;}
     textarea.dv-input {height: 15rem !important;}
     .dv-contact-us-form {padding: 1rem !important;}
+    .dv-login-body {padding: 0!important;}
+    .dv-login-blured-main {
+        width: 100% !important;
+        min-height: 100vh;
+        border-radius: 0 !important;
+        justify-content: center;
+        padding: 1rem !important;
+    }
 
     .dv-contact-us-form > div:first-of-type {
         display: flex !important;
