@@ -431,6 +431,7 @@ footer main {
 }
 
 /*Media Querys*/
+@media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
 @media (max-width: 1199px) {
     .dv-dark-bg {display: block;}
     .dv-home-header > ul:first-of-type {display: none !important;}
@@ -496,7 +497,8 @@ footer main {
 }
 
 @media (max-width: 767px) {
-    footer main {grid-template-columns: repeat(1, 1fr);}
+    .dv-footer {padding: 1rem !important;}
+    .dv-footer main {grid-template-columns: repeat(1, 1fr);}
     .dv-home-section-3-card-holder {
         padding: .5rem;
         display: grid !important;
@@ -568,5 +570,3 @@ footer main {
         gap: 1rem;
     }
 }
-
-@media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
