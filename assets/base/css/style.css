@@ -560,6 +560,32 @@ footer main {
     border-bottom: none !important;
 }
 
+/*Dark Styles*/
+#dv-dashboard-main[data-theme='dark'] {background-color: var(--high-dark-blue);}
+#dv-dashboard-main[data-theme='dark'] header {background-color: var(--darkest-blue) !important;color: white !important;}
+#dv-dashboard-main[data-theme='dark'] header path{fill: white !important}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn{color: white;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn:hover,
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn:focus{background-color: var(--high-dark-blue);}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul{background-color: var(--high-dark-blue) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li.border-bottom {border-bottom-color: rgba(256, 256, 256, .2) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li:first-of-type h5{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li button{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] main .bg-white {background-color: var(--darkest-blue) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-top-side-item  h5 {color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-top-side-item  path {fill: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-top-side-item  path {fill: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-middle-side-boxed-dashboard:first-of-type > div:first-of-type {background-color: var(--high-dark-blue) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-middle-side-boxed-dashboard:first-of-type > div , h3{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-middle-side-boxed-dashboard:first-of-type > div , h3{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn:hover{background-color: var(--high-dark-blue) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn:active{background-color: var(--mid-blue) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn.border-bottom{border-bottom-color: rgba(256, 256, 256, .2) !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn.active{border-left-color: rgba(256, 256, 256, .2) !important;border-right-color: rgba(256, 256, 256, .2) !important;}
+#dv-dashboard-main[data-theme='dark'] table tr{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] table tr{color: white !important;}
+
 /*Media Querys*/
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
 @media (max-width: 1199px) {
