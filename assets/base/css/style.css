@@ -570,6 +570,7 @@ footer main {
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul{background-color: var(--high-dark-blue) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li.border-bottom {border-bottom-color: rgba(256, 256, 256, .2) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li:first-of-type h5{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul h3{color: white !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-header-btn-list > ul > li button{color: white !important;}
 #dv-dashboard-main[data-theme='dark'] main .bg-white {background-color: var(--darkest-blue) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-top-side-item  h5 {color: white !important;}
