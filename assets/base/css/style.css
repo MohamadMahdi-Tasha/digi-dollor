@@ -184,6 +184,10 @@ textarea {resize: none;}
 .dv-blured-bg-btn:active {background: rgba( 255, 255, 255, .25 );}
 .dv-bg-none {background-color: unset !important;}
 .dv-switch > input:checked {background: linear-gradient(to right, #244c97, #20789c);}
+.dv-switch > input:checked ~ label:before {content: '';}
+.dv-switch > input ~ label:after {content: 'روز';margin-right: -1.5rem;color: white;}
+.dv-switch > input:checked ~ label:after {content: '';}
+.dv-switch > input:checked ~ label:before {content: 'شب';margin-right: 2rem;color: white;}
 .dv-dashboard-top-side-items-more-details {color: #878E97;}
 .dv-switch > input:checked ~ .dv-checkbox-lable {left: 5.5rem;}
 .dv-top-side-item-1-dashboard {background-color: #F5F5F5;}
