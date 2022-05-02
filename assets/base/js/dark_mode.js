@@ -5,13 +5,8 @@ let clicks_dark_mode = 0;
 
 // A Function That Turns On Dark Theme
 function turn_dark() {
-    if (clicks_dark_mode % 2 !== 0) {
-        dashboard_main.setAttribute('data-theme', 'dark');
-        dashboard_main.classList.add('dark');
-    } else {
-        dashboard_main.setAttribute('data-theme', 'light');
-        dashboard_main.classList.remove('dark');
-    }
+    if (clicks_dark_mode % 2 !== 0) {dashboard_main.setAttribute('data-theme', 'dark');}
+    else {dashboard_main.setAttribute('data-theme', 'light');}
 }
 
 // Adding Event Listener On Switch Toggle That Calls 'turn_dark' Function

@@ -59,7 +59,7 @@ button {
 .dv-fs-16px {font-size: 16px;}
 .dv-btn-bg-orange:hover {background-color: var(--orange-darker);}
 .dv-btn-bg-orange:active {background-color: var(--orange-darkest);}
-.dv-btn-bg-none:hover {background-color: var(--blue);}
+.dv-btn-bg-none:hover {background-color: var(--blue);color: white !important;}
 .dv-btn-bg-none:active {background-color: var(--little-darker-blue);}
 header .dv-btn-bg-orange,
 header .dv-btn-bg-blue,
@@ -87,6 +87,7 @@ header .dv-btn-bg-none{width: 131px;}
 .dv-bottom-rounded-1 {border-bottom-right-radius: 1rem;border-bottom-left-radius: 1rem;}
 .dv-text-A3A5A8 {color: #A3A5A8;}
 .dv-prl-1 {padding: 1rem 1rem;}
+.dv-prl-2 {padding-right: 2rem;padding-left: 2rem;padding-top: .5rem;padding-bottom: .5rem;}
 .dv-text-red {color: #F6465D;}
 .dv-text-diamond {color: var(--diamond);}
 .dv-btn-bg-blue:hover {background-color: var(--little-darker-blue);}
@@ -209,8 +210,9 @@ textarea {resize: none;}
 }
 
 .dv-header-list-item-toggler:hover ~ .dv-header-list-item,
-.dv-header-list-item:hover,
-.dv-list-toggler-active:focus ~ .dv-list-toggler-active-list{
+.dv-header-list-item:hover, .dv-dashboard-header-btn-list:active,
+.dv-list-toggler-active:focus ~ .dv-list-toggler-active-list,
+.dv-dashboard-header-btn:focus ~ .dv-dashboard-header-btn-list {
     opacity: 1 !important;
     pointer-events: visible !important;
     z-index: 100 !important;
@@ -425,12 +427,12 @@ footer main {
     border: 1px solid var(--blue);
 }
 
-.dv-lis-top-side {
+.dv-lis-top-side-dashboard, .dv-lis-top-side {
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid var(--blue);
+    border-bottom: 10px solid;
     margin-right: 2rem;
 }
 
@@ -482,6 +484,83 @@ footer main {
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     background: rgba( 255, 255, 255, .15 );
+}
+
+.dv-dashboard-header-btn {
+    background-color: unset;
+    border: 1px solid transparent;
+}
+
+.dv-dashboard-aside-items.active > button {
+    background-color: white ;
+    color: var(--blue) !important;
+}
+
+.dv-switch > input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 67px;
+    height: 29px;
+    cursor: pointer;
+    background: linear-gradient(to right, #3865BB, #52B7E1);
+}
+
+.dv-checkbox-lable {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/dashboard/img-morning.jpg");
+    left: 2.25rem;
+    top: 2.10rem;
+    cursor: pointer;
+}
+
+
+.dv-dashboard-top-side-item {
+    height: 116px;
+    border-radius: 5px;
+}
+
+.dv-switch > input:checked {background: linear-gradient(to right, #244c97, #20789c);}
+.dv-dashboard-top-side-items-middle {margin-top: -2rem;}
+.dv-dashboard-top-side-items-more-details {color: #878E97;}
+.dv-switch > input:checked ~ .dv-checkbox-lable {left: 5.5rem;}
+.dv-top-side-item-1-dashboard {background-color: #F5F5F5;}
+.dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:first-of-type{height: 333px;width: 30%;}
+.dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:last-of-type{width: 70%;height: 333px;}
+.dv-middle-main-dashboard > div:first-of-type{width: 80%;}
+.dv-dashboard-tab-btn:hover {background-color: #ececec;}
+.dv-dashboard-tab-btn:active {background-color: #c7c7c7;}
+.dv-dashboard-left-side-item  {height: 63px;}
+.dv-dashboard-aside {background-color: #1D2530;}
+.dv-dashboard-aside-items > button {background-color: #232C3D;height: 77px;}
+.dv-dashboard-aside-items.active > button:hover {background-color: #d0d0d0;}
+.dv-dashboard-aside-items.active > button:active {background-color: #a0a0a0;}
+.dv-dashboard-aside-items.active > button path{fill: var(--blue);}
+.dv-dashboard-aside-items > button:hover {background-color: #37455f;}
+.dv-dashboard-aside-items > button:active {background-color: #4c5f82;}
+.dv-dashboard-body {background-color: #F4F8FB;}
+.dv-mr-7 {margin-right: 10rem;}
+.dv-fs-12-px {font-size: 12px;}
+.dv-text-878E97 {color: #878E97;}
+.dv-fs-14-px {font-size: 14px;}
+.dv-dashboard-header-btn:hover {background-color: #ececec;}
+.dv-dashboard-header-btn:active {background-color: #c1c1c1;}
+.dv-dashboard-header-btn:focus {border-color: var(--blue);background-color: #ececec;}
+.dv-lis-top-side-dashboard {border-bottom-color: #ececec;}
+.dv-lis-top-side {border-bottom-color: var(--blue);}
+.dv-dashboard-bottom-side-box {height: 53%;}
+
+.dv-dashboard-tab-btn {
+    background-color: unset;
+    width: 120px;
+    height: 37px;
+}
+
+.dv-dashboard-tab-btn.active {
+    border-top: 2px solid var(--blue);
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: none !important;
 }
 
 /*Media Querys*/
