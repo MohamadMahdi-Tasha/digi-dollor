@@ -585,6 +585,7 @@ footer main {
 #dv-dashboard-main[data-theme='dark'] .dv-dashboard-tab-btn.active{border-left-color: rgba(256, 256, 256, .2) !important;border-right-color: rgba(256, 256, 256, .2) !important;}
 #dv-dashboard-main[data-theme='dark'] table tr{color: white !important;}
 #dv-dashboard-main[data-theme='dark'] table tr{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-lis-top-side-dashboard{border-bottom-color: var(--high-dark-blue) !important}
 
 /*Media Querys*/
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
