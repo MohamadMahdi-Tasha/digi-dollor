@@ -595,7 +595,7 @@ footer main {
 }
 
 @media (max-width: 991px) {
-    #dv-dashboard-main > main {padding: 1rem !important}
+    #dv-dashboard-main > main {padding: .5rem !important}
     .dv-home-first-section-items {gap: 1rem !important;}
     .dv-list-toggler-active-list {width: 50% !important;}
     .dv-home-section-3,.dv-home-section-2, .dv-home-section-1 ,.dv-home-section-4, .dv-section {padding: 1rem !important;}
