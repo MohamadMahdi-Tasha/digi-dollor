@@ -3,7 +3,6 @@ const switch_toggle = document.getElementById('dv-switch-toggle');
 const dashboard_main = document.getElementById('dv-dashboard-main');
 const header_menu_theme_toggler = document.getElementById('dv-header-menu-theme-toggler');
 let clicks_dark_mode = 0;
-let clicks_dark_mode_header_menu = 0;
 
 // A Function That Turns On Dark Theme
 function turn_dark(clicks) {
@@ -19,9 +18,9 @@ switch_toggle.addEventListener('click', () => {
 
 // Adding Event Listener On Header Profile Dropdown, Theme Toggler Button That Listens To Click And  Calls 'turn_dark' Function
 header_menu_theme_toggler.addEventListener('click', () => {
-    clicks_dark_mode_header_menu ++;
+    clicks_dark_mode ++;
     const theme_status = document.getElementById('dv-dashboard-main').getAttribute('data-theme');
     if (theme_status === 'dark') {header_menu_theme_toggler.lastElementChild.textContent = 'روشن';}
     else {header_menu_theme_toggler.lastElementChild.textContent = 'تیره';}
-    turn_dark(clicks_dark_mode_header_menu);
+    turn_dark(clicks_dark_mode);
 })

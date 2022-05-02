@@ -542,7 +542,7 @@ footer main {
     background-image: url("../img/dashboard/img-morning.jpg");
     left: 2.25rem;
     top: 2.10rem;
-    cursor: pointer;
+    pointer-events: none;
 }
 
 .dv-dashboard-tab-btn {
