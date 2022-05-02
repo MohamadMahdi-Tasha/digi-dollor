@@ -145,6 +145,7 @@ video:fullscreen {border: none;}
 .dv-w-20 {width: 20%;}
 .dv-h-0 {height: 0;}
 .dv-interactive-btns:focus ~ ul {height: 15vh;}
+.dv-interactive-btns:focus {border-bottom-left-radius: 0 !important;border-bottom-right-radius: 0 !important;}
 .dv-mt-7 {margin-top: 7rem !important;}
 .dv-header-holder {padding: 1.5rem 3rem 1.5rem 3rem;}
 .dv-fs-22-px {font-size: 22px;}
@@ -211,6 +212,7 @@ textarea {resize: none;}
 .dv-lis-top-side {border-bottom-color: var(--blue) !important;}
 .dv-dashboard-bottom-side-box {height: 53%;}
 .dv-dashboard-top-side-item {border-radius: 5px;}
+.dv-interactive-btns {border-radius: .5rem;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -435,11 +437,6 @@ footer main {
 .dv-interactive-btns{
     border: 1px solid #DFDFDF;
     color: #B7B7B7;
-}
-
-.dv-interactive-btns {
-    border-top-right-radius: .5rem;
-    border-top-left-radius: .5rem;
 }
 
 .dv-input:focus {
