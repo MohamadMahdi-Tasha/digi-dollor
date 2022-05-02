@@ -218,6 +218,7 @@ textarea {resize: none;}
 .dv-dashboard-top-side-item {border-radius: 5px;}
 .dv-interactive-btns {border-radius: .5rem;}
 .dv-dashboard-header-btn-list {top: 5.5rem;}
+.dv-bg-dashboard-aside {background-color: #1D2530;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
