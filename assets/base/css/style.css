@@ -21,6 +21,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    font-size: 14px;
 }
 
 /*Setting Some Styles For Elements*/
@@ -34,7 +35,6 @@ p {margin: 0!important;}
 }
 
 body {
-    font-size: 14px;
     font-weight: normal;
     font-family: "Vazirmatn UI", sans-serif;
     color: #14151A;
@@ -189,7 +189,7 @@ textarea {resize: none;}
 .dv-switch > input:checked ~ label:after {content: '';}
 .dv-switch > input:checked ~ label:before {content: 'شب';margin-right: 2rem;color: white;}
 .dv-dashboard-top-side-items-more-details {color: #878E97;}
-.dv-switch > input:checked ~ .dv-checkbox-lable {left: 5.5rem;}
+.dv-switch > input:checked ~ .dv-checkbox-lable {left: 5rem;}
 .dv-top-side-item-1-dashboard {background-color: #F5F5F5;}
 .dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:first-of-type{height: 333px;width: 30%;}
 .dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:last-of-type{width: 70%;height: 333px;}
@@ -205,7 +205,7 @@ textarea {resize: none;}
 .dv-dashboard-aside-items > button:hover {background-color: #37455f;}
 .dv-dashboard-aside-items > button:active {background-color: #4c5f82;}
 .dv-dashboard-body {background-color: #F4F8FB;}
-.dv-mr-7 {margin-right: 10rem;}
+.dv-mr-8 {margin-right: 8rem;}
 .dv-fs-12-px {font-size: 12px;}
 .dv-text-878E97 {color: #878E97;}
 .dv-fs-14-px {font-size: 14px;}
@@ -542,8 +542,8 @@ footer main {
     width: 20px;
     height: 20px;
     background-image: url("../img/dashboard/img-morning.jpg");
-    left: 2.25rem;
-    top: 2.10rem;
+    left: 2.5rem;
+    top: 1.9rem;
     pointer-events: none;
 }
 
