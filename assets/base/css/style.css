@@ -212,11 +212,12 @@ textarea {resize: none;}
 .dv-dashboard-header-btn:hover {background-color: #ececec;}
 .dv-dashboard-header-btn:active {background-color: #c1c1c1;}
 .dv-dashboard-header-btn:focus {border-color: var(--blue);background-color: #ececec;}
-.dv-lis-top-side-dashboard {border-bottom-color: #ececec !important;}
+.dv-lis-top-side-dashboard {border-bottom-color: white !important;}
 .dv-lis-top-side {border-bottom-color: var(--blue) !important;}
 .dv-dashboard-bottom-side-box {height: 53%;}
 .dv-dashboard-top-side-item {border-radius: 5px;}
 .dv-interactive-btns {border-radius: .5rem;}
+.dv-dashboard-header-btn-list {top: 5.5rem;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -253,7 +254,6 @@ textarea {resize: none;}
     z-index: 100 !important;
 }
 
-.dv-dashboard-header-btn-list {margin-top: 31rem;}
 .dv-btn-border-diamond {
     border: 1px solid var(--diamond);
     color: var(--diamond);
@@ -562,12 +562,12 @@ footer main {
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
 @media (max-width: 1199px) {
     .dv-dark-bg {display: block;}
+    .dv-dashboard-header-btn-list {right: 5rem;}
     .dv-home-header > ul:first-of-type {display: none !important;}
     .dv-home-header > div {width: 100% !important;}
     .dv-home-header > div > a:not(:last-of-type), .dv-home-header > div > div {display: none !important;}
     .dv-show-on-mobile,.dv-mobile-nav {display: block;}
     #dv-dashboard-main {margin: 0;}
-    .dv-dashboard-header-btn-list {margin-right: 3rem;}
     aside {display: none;}
     .dv-middle-main-dashboard > div ,
     .dv-middle-main-dashboard > ul{width: 100% !important;}
@@ -679,11 +679,12 @@ footer main {
     #dv-dashboard-main > header > div:last-of-type {display: none !important;}
     .dv-dashboard-header-list-item-show-on-mobile {display: block !important;}
     .dv-dashboard-header-btn-list > .dv-lis-top-side-dashboard {margin-right: 10rem;}
+    .dv-lis-top-side-dashboard {margin-right: 15rem !important;}
     .dv-dashboard-header-btn-list {
-        margin: 0 !important;
         top: 6rem;
+        bottom: 0;
+        right: 0;
         left: 0;
-        width: 100%;
     }
 
     .dv-middle-main-dashboard > div > div {
