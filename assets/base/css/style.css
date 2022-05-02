@@ -207,8 +207,8 @@ textarea {resize: none;}
 .dv-dashboard-header-btn:hover {background-color: #ececec;}
 .dv-dashboard-header-btn:active {background-color: #c1c1c1;}
 .dv-dashboard-header-btn:focus {border-color: var(--blue);background-color: #ececec;}
-.dv-lis-top-side-dashboard {border-bottom-color: #ececec;}
-.dv-lis-top-side {border-bottom-color: var(--blue);}
+.dv-lis-top-side-dashboard {border-bottom-color: #ececec !important;}
+.dv-lis-top-side {border-bottom-color: var(--blue) !important;}
 .dv-dashboard-bottom-side-box {height: 53%;}
 .dv-dashboard-top-side-item {border-radius: 5px;}
 
