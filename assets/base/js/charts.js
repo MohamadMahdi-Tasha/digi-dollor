@@ -36,7 +36,7 @@ const line_chart = new Chart(line_chart_ctx, {
         }]
     },
     options: {
-        responsive: true,
+        responsive: false,
         plugins: {
             legend: {display: false,},
             title: {display: false,},
