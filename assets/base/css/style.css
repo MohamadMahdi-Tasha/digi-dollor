@@ -680,9 +680,9 @@ footer main {
     #dv-dashboard-main > header > div:last-of-type {display: none !important;}
     .dv-dashboard-header-list-item-show-on-mobile {display: block !important;}
     .dv-dashboard-header-btn-list > .dv-lis-top-side-dashboard {margin-right: 10rem;}
-    .dv-lis-top-side-dashboard {margin-right: 15rem !important;}
+    .dv-lis-top-side-dashboard {display:none;}
     .dv-dashboard-header-btn-list {
-        top: 6rem;
+        top: 0;
         bottom: 0;
         right: 0;
         left: 0;
