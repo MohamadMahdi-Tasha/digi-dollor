@@ -515,14 +515,7 @@ footer main {
     cursor: pointer;
 }
 
-
-.dv-dashboard-top-side-item {
-    height: 116px;
-    border-radius: 5px;
-}
-
 .dv-switch > input:checked {background: linear-gradient(to right, #244c97, #20789c);}
-.dv-dashboard-top-side-items-middle {margin-top: -2rem;}
 .dv-dashboard-top-side-items-more-details {color: #878E97;}
 .dv-switch > input:checked ~ .dv-checkbox-lable {left: 5.5rem;}
 .dv-top-side-item-1-dashboard {background-color: #F5F5F5;}
@@ -550,6 +543,7 @@ footer main {
 .dv-lis-top-side-dashboard {border-bottom-color: #ececec;}
 .dv-lis-top-side {border-bottom-color: var(--blue);}
 .dv-dashboard-bottom-side-box {height: 53%;}
+.dv-dashboard-top-side-item {border-radius: 5px;}
 
 .dv-dashboard-tab-btn {
     background-color: unset;
@@ -663,7 +657,6 @@ footer main {
 @media (max-width: 767px) {
     .dv-footer ,.dv-footer ~ div{padding: 1rem !important;}
     .dv-footer main {grid-template-columns: repeat(1, 1fr);}
-    .dv-dashboard-top-side-item {height: auto !important;}
     .dv-home-section-3-card-holder {
         padding: .5rem;
         display: grid !important;
