@@ -180,6 +180,7 @@ textarea {resize: none;}
 .dv-divider-text {font-size: 14px;color: #9B9B9B;}
 .dv-blured-bg-btn:hover {background: rgba( 255, 255, 255, .2 );}
 .dv-blured-bg-btn:active {background: rgba( 255, 255, 255, .25 );}
+.dv-bg-none {background-color: unset !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
