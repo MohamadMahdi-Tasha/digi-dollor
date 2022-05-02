@@ -219,6 +219,7 @@ textarea {resize: none;}
 .dv-interactive-btns {border-radius: .5rem;}
 .dv-dashboard-header-btn-list {top: 5.5rem;}
 .dv-bg-dashboard-aside {background-color: #1D2530;}
+.dv-line-chart-holder {height: 250px;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -660,6 +661,7 @@ footer main {
     .dv-footer ,.dv-footer ~ div{padding: 1rem !important;}
     .dv-footer main {grid-template-columns: repeat(1, 1fr);}
     .dv-dashboard-tab-btn {height: auto !important;}
+    .dv-line-chart-holder{height: auto !important;}
     .dv-home-section-3-card-holder {
         padding: .5rem;
         display: grid !important;
