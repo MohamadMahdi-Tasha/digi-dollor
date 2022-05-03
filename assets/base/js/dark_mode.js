@@ -2,12 +2,18 @@
 const switch_toggle = document.getElementById('dv-switch-toggle');
 const dashboard_main = document.getElementById('dv-dashboard-main');
 const header_menu_theme_toggler = document.getElementById('dv-header-menu-theme-toggler');
+const theme_color_meta = document.getElementById('dv-theme-color-meta');
 let clicks_dark_mode = 0;
 
 // A Function That Turns On Dark Theme
 function turn_dark(clicks) {
-    if (clicks % 2 !== 0) {dashboard_main.setAttribute('data-theme', 'dark');}
-    else {dashboard_main.setAttribute('data-theme', 'light');}
+    if (clicks % 2 !== 0) {
+        dashboard_main.setAttribute('data-theme', 'dark');
+        theme_color_meta.setAttribute('content', '#07101E');
+    } else {
+        dashboard_main.setAttribute('data-theme', 'light');
+        theme_color_meta.setAttribute('content', '#185ADB');
+    }
 }
 
 // Adding Event Listener On Switch Toggle That Calls 'turn_dark' Function
