@@ -583,6 +583,11 @@ select.dv-input {
     cursor: pointer;
 }
 
+.ck-content {
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
 /*Dark Styles*/
 #dv-dashboard-main[data-theme='dark'] {background-color: var(--high-dark-blue);}
 #dv-dashboard-main[data-theme='dark'] header {background-color: var(--darkest-blue) !important;color: white !important;}
