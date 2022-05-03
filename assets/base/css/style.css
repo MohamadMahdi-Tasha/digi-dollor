@@ -648,6 +648,10 @@ select.dv-input {
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-title {color: white !important;}
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-text {color: white !important;}
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-button.swal-button--confirm {background-color: var(--mid-blue);}
+#dv-dashboard-main[data-theme='dark'] .ck-dropdown__panel {background-color: var(--darkest-blue);border-color: rgba(256,256,256,.2)}
+#dv-dashboard-main[data-theme='dark'] .ck-input {background-color: var(--high-dark-blue);color: white;}
+#dv-dashboard-main[data-theme='dark'] .ck-label {background-color: var(--high-dark-blue);}
+#dv-dashboard-main[data-theme='dark'] .ck-labeled-field-view__status {color: #ececec;}
 #dv-dashboard-main[data-theme='dark'] .dv-input{
     background-color: var(--darkest-blue);
     border-color: rgba(256, 256, 256, .2);
