@@ -604,19 +604,15 @@ footer main {
     .dv-middle-main-dashboard > div ,
     .dv-middle-main-dashboard > ul{width: 100% !important;}
     .dv-middle-main-dashboard > div > div > div{width: 100% !important;}
+    
+    .dv-dashboard-left-side-item{
+        height: auto;
+        padding: 1rem !important;
+    }
 
     .dv-middle-main-dashboard {
         display: flex;
         flex-direction: column;
-    }
-
-    .dv-dashboard-left-side-item {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: start !important;
-        justify-content: start !important;
-        gap: 1rem;
-        height: auto;
     }
 }
 
@@ -773,6 +769,14 @@ footer main {
 @media (max-width: 299px) {
     .dv-home-first-section > main > div:first-of-type > div > a {margin: 0 !important;}
     .dv-contact-us-form-icon-btns {grid-template-columns: repeat(2, 1fr);}
+    .dv-dashboard-left-side-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: start !important;
+        gap: 1rem;
+    }
+
     .dv-home-first-section > main > div:first-of-type > div {
         display: flex;
         flex-direction: column;
