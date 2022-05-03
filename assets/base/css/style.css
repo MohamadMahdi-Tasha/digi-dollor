@@ -570,6 +570,19 @@ footer main {
     border-bottom: none !important;
 }
 
+.dv-top-side-ticket {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+select.dv-input {
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
 /*Dark Styles*/
 #dv-dashboard-main[data-theme='dark'] {background-color: var(--high-dark-blue);}
 #dv-dashboard-main[data-theme='dark'] header {background-color: var(--darkest-blue) !important;color: white !important;}
