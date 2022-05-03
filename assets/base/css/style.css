@@ -125,6 +125,7 @@ video:fullscreen {border: none;}
 .dv-mobile-nav[data-opened="false"] {left: 100% !important;}
 .dv-mobile-nav[data-opened="true"] {left: 25% !important;}
 .dv-dark-bg[data-opened="false"] {left: 100% !important;}
+.dv-bg-none-not-important {background-color: unset;}
 .dv-dark-bg[data-opened="true"] {left: 0 !important;}
 .dv-bg-none {background-color: unset;}
 .dv-scroll-hidden::-webkit-scrollbar {display: none;}
@@ -604,7 +605,7 @@ footer main {
     .dv-middle-main-dashboard > div ,
     .dv-middle-main-dashboard > ul{width: 100% !important;}
     .dv-middle-main-dashboard > div > div > div{width: 100% !important;}
-    
+
     .dv-dashboard-left-side-item{
         height: auto;
         padding: 1rem !important;
