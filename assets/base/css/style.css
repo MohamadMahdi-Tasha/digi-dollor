@@ -477,6 +477,7 @@ footer main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .dv-sect-1-contact-us-card {
