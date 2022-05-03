@@ -597,9 +597,11 @@ footer main {
 #dv-dashboard-main[data-theme='dark'] table tr{color: white !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-lis-top-side-dashboard{border-bottom-color: var(--high-dark-blue) !important}
 #dv-dashboard-main[data-theme='dark'] .dv-support-title {color: white;}
-#dv-dashboard-main[data-theme='dark'] .dv-support-title ~ div h1, p{color: white;}
+#dv-dashboard-main[data-theme='dark'] .dv-support-title ~ div > h1{color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-support-title ~ div > p{color: white !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-qa-list > li {border-top-color: rgba(256,256,256,.2) !important}
-#dv-dashboard-main[data-theme='dark'] .dv-qa-list > li > button {color: white;}
+#dv-dashboard-main[data-theme='dark'] .dv-qa-list > li > button {color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .dv-qa-list > li p {color: white !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-bg-white-shadow-btn:hover {background-color: var(--high-dark-blue) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-bg-white-shadow-btn:active {background-color: var(--darkest-blue) !important;}
 
