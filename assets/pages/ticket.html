@@ -431,7 +431,11 @@
 <script src="../plugins/sweetalert/sweetalert.min.js"></script>
 <script src="../base/js/nav.js"></script>
 <script src="../base/js/dark_mode.js"></script>
-<script src="../base/js/text_editor.js"></script>
 <script src="../base/js/upload_media.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector( '.editor' ))
+        .catch(error => {console.error(error);});
+</script>
 </body>
 </html>

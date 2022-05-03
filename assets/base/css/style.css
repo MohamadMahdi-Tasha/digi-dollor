@@ -641,6 +641,12 @@ select.dv-input {
 #dv-dashboard-main[data-theme='dark'] .dv-ticket-page-main > h1:first-of-type{color: white;}
 #dv-dashboard-main[data-theme='dark'] .dv-ticket-page-main > form > h1:first-of-type{color: white;}
 #dv-dashboard-main[data-theme='dark'] ::selection {background-color: var(--blue);}
+#dv-dashboard-main[data-theme='dark'] ~ .swal-overlay > .swal-modal {background-color: var(--darkest-blue);}
+#dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-title {color: white !important;}
+#dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-text {color: white !important;}
+#dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-button.swal-button--confirm {background-color: var(--mid-blue);}
+.swal-button.swal-button--confirm {background-color: var(--blue) ;}
+.swal-text {color: inherit !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-input{
     background-color: var(--darkest-blue);
     border-color: rgba(256, 256, 256, .2);

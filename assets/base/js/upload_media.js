@@ -19,7 +19,7 @@ function upload_media() {
 
         // Clicking On Input
         upload_input.click();
-    } else {swal('خطا!', 'تعداد فایل ها از 3 تا بیشتر نمیتواند باشد.', 'alert')}
+    } else {swal('خطا!', 'تعداد فایل ها از 3 تا بیشتر نمیتواند باشد.')}
 }
 
 // Adding Event Listener To Upload Media Button That Listens To Click And Calls 'upload_media' Function.
