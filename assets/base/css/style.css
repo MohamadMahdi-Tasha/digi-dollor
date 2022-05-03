@@ -231,6 +231,7 @@ textarea {resize: none;}
 .dv-bg-white-shadow-btn:active {background-color: #c7c7c7 !important;}
 .swal-button.swal-button--confirm {background-color: var(--blue);}
 .swal-text {color: inherit !important;}
+.dv-lis-top-side-dashboard ~ ul > li:last-of-type > h5{font-size: 14px !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
