@@ -215,7 +215,9 @@ textarea {resize: none;}
 .dv-lis-top-side-dashboard {border-bottom-color: white !important;}
 .dv-lis-top-side {border-bottom-color: var(--blue) !important;}
 .dv-dashboard-bottom-side-box {height: 53%;}
-.dv-dashboard-top-side-item {border-radius: 5px;}
+.dv-dashboard-top-side-item {border-radius: 5px;height: 116px;}
+.dv-dashboard-top-side-items-middle {margin-top: -1.8rem;}
+.dv-dashboard-top-side-items-middle img {height: 50px;}
 .dv-interactive-btns {border-radius: .5rem;}
 .dv-dashboard-header-btn-list {top: 5.5rem;}
 .dv-bg-dashboard-aside {background-color: #1D2530;}
@@ -646,6 +648,7 @@ footer main {
     .dv-contact-us-form > div:first-of-type > div {width: 100% !important;}
     .dv-login-body {padding: 0!important;}
     #dv-dashboard-main > footer {text-align: center !important;}
+    .dv-dashboard-top-side-item {height: auto;}
     .dv-login-blured-main {
         width: 100% !important;
         min-height: 100vh;
