@@ -205,7 +205,7 @@ textarea {resize: none;}
 .dv-dashboard-aside-items > button:hover {background-color: #37455f;}
 .dv-dashboard-aside-items > button:active {background-color: #4c5f82;}
 .dv-dashboard-body {background-color: #F4F8FB;}
-.dv-mr-8 {margin-right: 8rem;}
+.dv-mr-9 {margin-right: 9rem;}
 .dv-fs-12-px {font-size: 12px;}
 .dv-text-878E97 {color: #878E97;}
 .dv-fs-14-px {font-size: 14px;}
@@ -621,7 +621,7 @@ footer main {
 }
 
 @media (max-width: 991px) {
-    #dv-dashboard-main > main {padding: .5rem !important}
+    #dv-dashboard-main > main {padding: 1rem !important}
     .dv-middle-side-boxed-dashboard {height: auto !important;}
     .dv-home-first-section-items {gap: 1rem !important;}
     .dv-list-toggler-active-list {width: 50% !important;}
