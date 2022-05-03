@@ -54,6 +54,7 @@ button {
 .dv-bg-high-dark-blue {background-color: var(--high-dark-blue);}
 .dv-hover-td-underline:hover {text-decoration: underline;}
 .dv-hover-text-diamond:hover {color: var(--diamond) !important;}
+.dv-hover-text-blue:hover {color: var(--blue) !important;}
 .dv-transition-3 {transition: .3s;}
 .dv-mb-minus-zero-one {margin-bottom: -.01rem;}
 .dv-fs-16px {font-size: 16px;}
@@ -223,6 +224,10 @@ textarea {resize: none;}
 .dv-dashboard-header-btn-list {top: 5.5rem;}
 .dv-bg-dashboard-aside {background-color: #1D2530;}
 .dv-line-chart-holder {height: 250px;}
+.dv-qa-list button svg {transition: .3s;}
+.dv-qa-list button[aria-expanded="true"] svg{transform: rotate(180deg);}
+.dv-bg-white-shadow-btn:hover {background-color: #ececec !important;}
+.dv-bg-white-shadow-btn:active {background-color: #c7c7c7 !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
