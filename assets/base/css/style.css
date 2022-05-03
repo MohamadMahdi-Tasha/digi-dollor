@@ -621,6 +621,14 @@ select.dv-input {
 #dv-dashboard-main[data-theme='dark'] .dv-bg-white-shadow-btn:hover {background-color: var(--high-dark-blue) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-bg-white-shadow-btn:active {background-color: var(--darkest-blue) !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-qa-list button path {stroke: white;}
+#dv-dashboard-main[data-theme='dark'] .dv-ticket-page-main label{color: white;}
+#dv-dashboard-main[data-theme='dark'] .dv-input:hover {background-color: var(--mid-blue);}
+#dv-dashboard-main[data-theme='dark'] .dv-input:focus {background-color: var(--mid-blue);border-color: var(--blue)}
+#dv-dashboard-main[data-theme='dark'] .dv-input{
+    background-color: var(--darkest-blue);
+    border-color: rgba(256, 256, 256, .2);
+    color: white;
+}
 
 /*Media Querys*/
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
