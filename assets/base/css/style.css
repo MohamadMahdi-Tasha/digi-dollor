@@ -229,6 +229,8 @@ textarea {resize: none;}
 .dv-qa-list button[aria-expanded="true"] svg{transform: rotate(180deg);}
 .dv-bg-white-shadow-btn:hover {background-color: #ececec !important;}
 .dv-bg-white-shadow-btn:active {background-color: #c7c7c7 !important;}
+.swal-button.swal-button--confirm {background-color: var(--blue);}
+.swal-text {color: inherit !important;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -645,8 +647,6 @@ select.dv-input {
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-title {color: white !important;}
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-text {color: white !important;}
 #dv-dashboard-main[data-theme='dark'] ~ .swal-overlay .swal-button.swal-button--confirm {background-color: var(--mid-blue);}
-.swal-button.swal-button--confirm {background-color: var(--blue) ;}
-.swal-text {color: inherit !important;}
 #dv-dashboard-main[data-theme='dark'] .dv-input{
     background-color: var(--darkest-blue);
     border-color: rgba(256, 256, 256, .2);
