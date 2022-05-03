@@ -631,6 +631,7 @@ select.dv-input {
 #dv-dashboard-main[data-theme='dark'] .dv-input:focus {background-color: var(--mid-blue);border-color: var(--blue)}
 #dv-dashboard-main[data-theme='dark'] .ck-content {background-color: var(--darkest-blue);border-color: rgba(256, 256, 256, .2);color: white;}
 #dv-dashboard-main[data-theme='dark'] .ck-toolbar {background-color: var(--high-dark-blue) !important;border-color: rgba(256, 256, 256, .2);color: white !important;}
+#dv-dashboard-main[data-theme='dark'] .ck-content:focus {border-color: var(--blue)}
 #dv-dashboard-main[data-theme='dark'] .ck-toolbar button:hover{background-color: var(--mid-blue);}
 #dv-dashboard-main[data-theme='dark'] .ck-toolbar button span{color: white;}
 #dv-dashboard-main[data-theme='dark'] .ck-toolbar svg{color: white;}
