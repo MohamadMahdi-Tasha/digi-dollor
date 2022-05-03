@@ -652,6 +652,7 @@ footer main {
     .dv-login-body {padding: 0!important;}
     #dv-dashboard-main > footer {text-align: center !important;}
     .dv-dashboard-top-side-item {height: auto;}
+    li > .collapse {padding: 1rem;}
     .dv-login-blured-main {
         width: 100% !important;
         min-height: 100vh;
