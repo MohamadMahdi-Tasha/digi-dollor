@@ -581,10 +581,9 @@ select.dv-input {
 
 .dv-ticket-page-main input,
 .dv-ticket-page-main select{height: 62px;}
-.dv-ticket-page-main select{
-    appearance: auto;
-}
+.dv-ticket-page-main select{appearance: auto;}
 .dv-text-71777F {color: #71777F;}
+.dv-home-third-section-cars-holder {display: grid;grid-template-columns: repeat(4, 1fr);}
 
 /*Dark Styles*/
 #dv-dashboard-main[data-theme='dark'] {background-color: var(--high-dark-blue);}
@@ -683,6 +682,7 @@ select.dv-input {
 
 @media (max-width: 991px) {
     #dv-dashboard-main > main {padding: 1rem !important}
+    .dv-home-third-section-cars-holder {grid-template-columns: repeat(2, 1fr);gap: 1rem !important;}
     .dv-header-holder {padding: 1rem;}
     .dv-middle-side-boxed-dashboard {height: auto !important;}
     .dv-home-first-section-items {gap: 1rem !important;}
@@ -775,6 +775,7 @@ select.dv-input {
     #dv-dashboard-main > header > div:last-of-type {display: none !important;}
     .dv-dashboard-header-list-item-show-on-mobile {display: block !important;}
     .dv-dashboard-header-btn-list > .dv-lis-top-side-dashboard {margin-right: 10rem;}
+    .dv-home-third-section-cars-holder {grid-template-columns: repeat(1, 1fr);}
     .dv-lis-top-side-dashboard {display:none;}
     .dv-top-side-ticket {grid-template-columns: repeat(1, 1fr);}
 
