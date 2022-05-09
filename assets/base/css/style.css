@@ -95,8 +95,6 @@ header .dv-btn-bg-none{width: 131px;}
 .dv-btn-bg-blue:hover {background-color: var(--little-darker-blue);}
 .dv-btn-bg-blue:active {background-color: var(--mid-blue);}
 .dv-table-hover tr:not(:first-of-type):hover {background-color: #ececec;}
-.dv-home-section-3-card > img {margin-bottom: 2rem;}
-.dv-home-section-3-card > h1 {font-size: 16px;}
 .dv-rounded-1 {border-radius: 1rem;}
 .dv-vol-input::-webkit-slider-thumb {background-color: white;}
 .dv-w-10 {width: 10%;}
@@ -232,6 +230,7 @@ textarea {resize: none;}
 .swal-button.swal-button--confirm {background-color: var(--blue);}
 .swal-text {color: inherit !important;}
 .dv-lis-top-side-dashboard ~ ul > li:last-of-type > h5{font-size: 14px !important;}
+.dv-home-section-3-card p {color: #68696C;}
 
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
@@ -282,9 +281,8 @@ textarea {resize: none;}
 }
 
 .dv-home-section-1-card {
-    box-shadow: 0 15px 30px rgba(0,0,0,.1);
-    border: 1px solid #f5f5f5;
     border-radius: 1rem;
+    height: 145px;
     color: #14151A !important;
 }
 
@@ -317,16 +315,6 @@ textarea {resize: none;}
     background-color: var(--blue);
     color: white;
     border-radius: 2rem;
-}
-
-.dv-home-section-3-card {
-    border-radius: 1rem;
-    box-shadow: 0 15px 30px rgba(0,0,0,.1);
-}
-
-.dv-home-section-3-card > p {
-    color: #68696C;
-    font-size: 12px;
 }
 
 .dv-home-sections-paragraph {
