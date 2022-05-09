@@ -148,7 +148,7 @@ video:fullscreen {border: none;}
 .dv-interactive-btns:focus ~ ul {height: 15vh;}
 .dv-interactive-btns:focus {border-bottom-left-radius: 0 !important;border-bottom-right-radius: 0 !important;}
 .dv-mt-7 {margin-top: 7rem !important;}
-.dv-header-holder {padding: 1.5rem 3rem 1.5rem 3rem;}
+.dv-header-holder {padding: 2rem 4rem;}
 .dv-fs-22-px {font-size: 22px;}
 .dv-fs-18-px {font-size: 18px;}
 .dv-video-settings-btn:focus > i{transform: rotate(180deg);}
@@ -674,6 +674,7 @@ select.dv-input {
 
 @media (max-width: 991px) {
     #dv-dashboard-main > main {padding: 1rem !important}
+    .dv-header-holder {padding: 1rem;}
     .dv-middle-side-boxed-dashboard {height: auto !important;}
     .dv-home-first-section-items {gap: 1rem !important;}
     .dv-list-toggler-active-list {width: 50% !important;}
@@ -762,7 +763,6 @@ select.dv-input {
     .dv-social-btns > ul{width: 100% !important;}
     .dv-blog-section-home {grid-template-columns: repeat(1, 1fr);}
     .dv-blog-section-home > div:last-of-type {grid-column: span 1}
-    .dv-header-holder {padding: 1rem 1.5rem 1rem 1.5rem;}
     #dv-dashboard-main > header > div:last-of-type {display: none !important;}
     .dv-dashboard-header-list-item-show-on-mobile {display: block !important;}
     .dv-dashboard-header-btn-list > .dv-lis-top-side-dashboard {margin-right: 10rem;}
