@@ -686,7 +686,7 @@ select.dv-input {
 
 @media (max-width: 991px) {
     #dv-dashboard-main > main {padding: 1rem !important}
-    .dv-home-third-section-cars-holder {grid-template-columns: repeat(2, 1fr);gap: 1rem !important;}
+    .dv-home-third-section-cars-holder {grid-template-columns: repeat(2, 1fr);gap: 1rem !important;padding: 0 !important;}
     .dv-header-holder {padding: 1rem;}
     .dv-middle-side-boxed-dashboard {height: auto !important;}
     .dv-home-first-section-items {gap: 1rem !important;}
