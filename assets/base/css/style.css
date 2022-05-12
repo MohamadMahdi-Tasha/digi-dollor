@@ -162,7 +162,8 @@ video:fullscreen {border: none;}
 .dv-sect-1-contact-us-card:hover h6,
 .dv-sect-1-contact-us-card:hover p,
 .dv-sect-1-contact-us-card:hover a{color: white !important;}
-.dv-contact-us-form {margin-top: -7rem;}
+.dv-contact-us-form {margin-top: -10rem;}
+.dv-mr-5 {margin-right: 5rem;}
 .dv-form-label {color: #68696C;}
 .dv-input, .dv-interactive-btns {height: 41px;transition: .3s;}
 .dv-input::placeholder {color: #B0B1B2;}
@@ -234,7 +235,7 @@ textarea {resize: none;}
 .dv-lis-top-side-dashboard ~ ul > li:last-of-type > h5{font-size: 14px !important;}
 .dv-home-section-3-card p {color: #68696C;}
 .dv-pr-2 {padding-right: 2rem;}
-
+.dv-gap-5 {gap: 5rem;}
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
     background-position: bottom;
@@ -686,6 +687,7 @@ select.dv-input {
 
 @media (max-width: 991px) {
     #dv-dashboard-main > main {padding: 1rem !important}
+    .dv-left-side-contact-us-form {margin: 0;}
     .dv-home-third-section-cars-holder {grid-template-columns: repeat(2, 1fr);gap: 1rem !important;padding: 0 !important;}
     .dv-header-holder {padding: 1rem;}
     .dv-middle-side-boxed-dashboard {height: auto !important;}
@@ -707,6 +709,7 @@ select.dv-input {
     .dv-about-us-section-main {gap: 2.5rem;}
     .dv-about-us-section-main > div,
     .dv-about-us-section-main > img {width: 100% !important;}
+    .dv-sect-1-contact-us-cards {gap: 1rem;}
     .dv-sect-1-contact-us-cards > .dv-sect-1-contact-us-card:nth-of-type(2) {margin: 0}
     .dv-contact-us-form {margin: 0;}
     .dv-sect-1-contact-us-cards > div {width: 100% !important;}
@@ -735,7 +738,6 @@ select.dv-input {
         display: flex;
         flex-direction: column;
         width: 100% !important;
-        gap: 1rem !important;
     }
 
     .dv-about-us-section-main {
