@@ -90,8 +90,8 @@ header .dv-btn-bg-none{width: 131px;}
 .dv-top-rounded-1 {border-top-right-radius: 1rem;border-top-left-radius: 1rem;}
 .dv-bottom-rounded-1 {border-bottom-right-radius: 1rem;border-bottom-left-radius: 1rem;}
 .dv-text-A3A5A8 {color: #A3A5A8;}
-.dv-prl-1 {padding: 1rem 1rem;}
-.dv-prl-2 {padding-right: 2rem;padding-left: 2rem;padding-top: .5rem;padding-bottom: .5rem;}
+.dv-prl-1 {padding: .5rem 1rem;}
+.dv-prl-2 {padding: .5rem 2rem;}
 .dv-text-red {color: #F6465D;}
 .dv-text-diamond {color: var(--diamond);}
 .dv-btn-bg-blue:hover {background-color: var(--little-darker-blue);}
@@ -193,7 +193,7 @@ textarea {resize: none;}
 .dv-switch > input:checked ~ label:after {content: '';}
 .dv-switch > input:checked ~ label:before {content: 'شب';margin-right: 2rem;color: white;}
 .dv-dashboard-top-side-items-more-details {color: #878E97;}
-.dv-switch > input:checked ~ .dv-checkbox-lable {left: 5rem;}
+.dv-switch > input:checked ~ .dv-checkbox-lable {left: 4rem;}
 .dv-top-side-item-1-dashboard {background-color: #F5F5F5;}
 .dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:first-of-type{height: 333px;width: 30%;}
 .dv-middle-main-dashboard > div:first-of-type > div:first-of-type > div:last-of-type{width: 70%;height: 333px;}
@@ -547,8 +547,8 @@ footer main {
     width: 20px;
     height: 20px;
     background-image: url("../img/dashboard/img-morning.jpg");
-    left: 2.5rem;
-    top: 1.9rem;
+    left: 1.5rem;
+    top: 1.85rem;
     pointer-events: none;
 }
 
