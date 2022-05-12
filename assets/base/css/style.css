@@ -236,6 +236,9 @@ textarea {resize: none;}
 .dv-home-section-3-card p {color: #68696C;}
 .dv-pr-2 {padding-right: 2rem;}
 .dv-gap-5 {gap: 5rem;}
+.dv-text-71777F {color: #71777F;}
+.dv-home-third-section-cars-holder {display: grid;grid-template-columns: repeat(4, 1fr);}
+
 .dv-home-first-section {
     background-image: url("../img/home/section-1/img-bg.png");
     background-position: bottom;
@@ -519,6 +522,7 @@ footer main {
 }
 
 .dv-bg-blured-input {
+    height: 39px;
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     background: rgba( 255, 255, 255, .15 );
@@ -582,12 +586,6 @@ select.dv-input {
     height: 250px;
     margin-bottom: 1rem;
 }
-
-.dv-ticket-page-main input,
-.dv-ticket-page-main select{height: 62px;}
-.dv-ticket-page-main select{appearance: auto;}
-.dv-text-71777F {color: #71777F;}
-.dv-home-third-section-cars-holder {display: grid;grid-template-columns: repeat(4, 1fr);}
 
 /*Dark Styles*/
 #dv-dashboard-main[data-theme='dark'] {background-color: var(--high-dark-blue);}
@@ -661,6 +659,8 @@ select.dv-input {
 /*Media Querys*/
 @media (max-height: 650px) {  .dv-contact-us-form {margin: 0 !important;}  }
 @media (max-width: 1199px) {
+    #dv-dashboard-main {margin: 0;}
+    aside {display: none;}
     .dv-dark-bg {display: block;}
     .dv-dashboard-header-btn-list {right: 5rem;}
     .dv-home-header > ul:first-of-type {display: none !important;}
@@ -668,11 +668,17 @@ select.dv-input {
     .dv-home-header > div {width: 100% !important;}
     .dv-home-header > div > a:not(:last-of-type), .dv-home-header > div > div {display: none !important;}
     .dv-show-on-mobile,.dv-mobile-nav {display: block;}
-    #dv-dashboard-main {margin: 0;}
-    aside {display: none;}
+    .dv-qa-bottom-btn-holder {width: 100%;}
     .dv-middle-main-dashboard > div ,
     .dv-middle-main-dashboard > ul{width: 100% !important;}
     .dv-middle-main-dashboard > div > div > div{width: 100% !important;}
+
+    .dv-bg-white-shadow-btn{
+        width: 100%;
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+    }
 
     .dv-dashboard-left-side-item{
         height: auto;
@@ -705,7 +711,7 @@ select.dv-input {
     .dv-calculator-main-content > div{width: 100% !important;}
     .dv-404-page-bottom-btn {width: 75% !important;}
     .dv-about-us-sec1-main {width: 100% !important;}
-    .dv-about-us-section-main > div, img {margin: 0 !important;}
+    .dv-about-us-section-main > div, .dv-about-us-section-main > img {margin: 0 !important;}
     .dv-about-us-section-main {gap: 2.5rem;}
     .dv-about-us-section-main > div,
     .dv-about-us-section-main > img {width: 100% !important;}
