@@ -828,15 +828,6 @@ select.dv-input {
         justify-content: center;
     }
 
-    .dv-blog-cards-bottom-side {
-        margin-top: 1rem;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: start !important;
-        justify-content: start !important;
-        gap: .5rem;
-    }
-
     .dv-calculator-main-content > div form > div:first-of-type {
         display: flex;
         flex-direction: column;
